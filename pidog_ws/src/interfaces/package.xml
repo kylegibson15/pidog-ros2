@@ -3,9 +3,9 @@
 <package format="3">
   <name>interfaces</name>
   <version>0.0.0</version>
-  <description>Quadruped Robot Dog</description>
+  <description>TODO: Package description</description>
   <maintainer email="kylegibson15@gmail.com">pidog</maintainer>
-  <license>MIT</license>
+  <license>TODO: License declaration</license>
 
   <buildtool_depend>ament_cmake</buildtool_depend>
 
