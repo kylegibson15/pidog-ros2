@@ -1,4 +1,0 @@
-[0.000000] (-) TimerEvent: {}
-[0.001383] (-) JobUnselected: {'identifier': 'interfaces'}
-[0.001783] (-) JobUnselected: {'identifier': 'vision'}
-[0.005092] (-) EventReactorShutdown: {}
