@@ -1,0 +1,7 @@
+/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+  warnings.warn(
+  File "/home/pidog/pidog-ros2/install/vision/lib/python3.10/site-packages/vision/vision_node.py", line 16
+    self.objectDetectionPublisher = self.create_publisher(String, 'object_detection' 10)
+                                                                  ^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+

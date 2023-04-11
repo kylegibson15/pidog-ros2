@@ -2,7 +2,7 @@ import rclpy
 from rclpy.node import Node
 
 from std_msgs.msg import String
-from custom_interfaces.srv import ComponentStatus
+from interfaces.srv import ComponentStatus
 
 
 class VisionNode(Node):

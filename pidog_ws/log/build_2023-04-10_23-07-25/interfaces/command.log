@@ -1,0 +1,2 @@
+Invoking command in '/home/pidog/pidog-ros2/pidog_ws/build/interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/pidog/pidog-ros2/pidog_ws/build/interfaces -- -j4 -l4
+Invoked command in '/home/pidog/pidog-ros2/pidog_ws/build/interfaces' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/pidog/pidog-ros2/pidog_ws/build/interfaces -- -j4 -l4
