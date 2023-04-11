@@ -1,7 +1,7 @@
 import rclpy
 from rclpy.node import Node
 
-from std_msgs.msgs import String
+from std_msgs.msg import String
 from custom_interfaces.srv import ComponentStatus
 
 

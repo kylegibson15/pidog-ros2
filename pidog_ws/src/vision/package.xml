@@ -4,7 +4,7 @@
   <name>vision</name>
   <version>0.0.1</version>
   <description>package for managing the pi camera</description>
-  <maintainer email="kylegibson15@gmail.com">pidog</maintainer>
+  <maintainer email="kylegibson15@gmail.com">Kyle Gibson</maintainer>
   <license>MIT</license>
 
   <exec_depend>rclpy</exec_depend>
