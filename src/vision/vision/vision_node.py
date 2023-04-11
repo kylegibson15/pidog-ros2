@@ -8,12 +8,13 @@ from interfaces.srv import ComponentStatus
 class VisionNode(Node):
 
     def __init__(self):
-        super.__init__('vision_node')
+        super().__init__('vision_node')
 
         self.cameraSubscriber = self.create_subscription(
             String, 'camera', self.camera_callback, 10)
 
-        self.objectDetectionPublisher = self.create_publisher(String, 'object_detection', 10)
+        self.objectDetectionPublisher = self.create_publisher(
+            String, 'object_detection', 10)
 
         self.componentStatusService = self.create_service(
             ComponentStatus, 'component_status', self.handle_component_status)
