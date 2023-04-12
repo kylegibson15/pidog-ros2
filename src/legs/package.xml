@@ -2,10 +2,12 @@
 <?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
 <package format="3">
   <name>legs</name>
-  <version>0.0.0</version>
-  <description>TODO: Package description</description>
-  <maintainer email="kylegibson15@gmail.com">pidog</maintainer>
-  <license>TODO: License declaration</license>
+  <version>0.0.1</version>
+  <description>legs action server pkg</description>
+  <maintainer email="kylegibson15@gmail.com">Kyle Gibson</maintainer>
+  <license>Kyle Gibson</license>
+
+  <exec_depend>rclpy</exec_depend>
 
   <test_depend>ament_copyright</test_depend>
   <test_depend>ament_flake8</test_depend>
