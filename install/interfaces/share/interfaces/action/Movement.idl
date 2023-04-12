@@ -1,0 +1,18 @@
+// generated from rosidl_adapter/resource/action.idl.em
+// with input from interfaces/action/Movement.action
+// generated code does not contain a copyright notice
+
+
+module interfaces {
+  module action {
+    struct Movement_Goal {
+      string command;
+    };
+    struct Movement_Result {
+      string result;
+    };
+    struct Movement_Feedback {
+      string feedback;
+    };
+  };
+};

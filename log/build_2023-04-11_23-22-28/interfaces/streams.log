@@ -1,0 +1,275 @@
+[0.603s] Invoking command in '/home/pidog/pidog-ros2/build/interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pidog/pidog-ros2/install/vision:/home/pidog/pidog-ros2/install/brain:/opt/ros/humble /usr/bin/cmake --build /home/pidog/pidog-ros2/build/interfaces -- -j4 -l4
+[1.779s] -- Found ament_cmake: 1.3.3 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.780s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[1.780s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.780s] -- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.781s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.444s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[4.163s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[4.573s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.629s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[4.675s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[4.676s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[4.676s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[4.731s] -- Found ament_lint_auto: 0.12.5 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[4.873s] -- Added test 'lint_cmake' to check CMake code style
+[4.881s] -- Added test 'xmllint' to check XML markup files
+[4.911s] -- Configuring done
+[5.088s] -- Generating done
+[5.103s] -- Build files have been written to: /home/pidog/pidog-ros2/build/interfaces
+[5.153s] [  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[5.185s] [  5%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[5.196s] [  5%] Built target ament_cmake_python_copy_interfaces
+[5.828s] running egg_info
+[5.829s] writing interfaces.egg-info/PKG-INFO
+[5.831s] writing dependency_links to interfaces.egg-info/dependency_links.txt
+[5.832s] writing top-level names to interfaces.egg-info/top_level.txt
+[5.836s] reading manifest file 'interfaces.egg-info/SOURCES.txt'
+[5.837s] writing manifest file 'interfaces.egg-info/SOURCES.txt'
+[5.892s] [  5%] Built target ament_cmake_python_build_interfaces_egg
+[6.528s] [35m[1mConsolidate compiler generated dependencies of target interfaces__rosidl_generator_c[0m
+[6.536s] [  5%] Built target interfaces__cpp
+[6.557s] [  7%] [32mBuilding C object CMakeFiles/interfaces__rosidl_generator_c.dir/rosidl_generator_c/interfaces/action/detail/movement__functions.c.o[0m
+[6.557s] [ 10%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[6.563s] [ 12%] [32mBuilding C object CMakeFiles/interfaces__rosidl_generator_c.dir/rosidl_generator_c/interfaces/srv/detail/component_status__functions.c.o[0m
+[6.582s] [ 15%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[7.576s] [35m[1mConsolidate compiler generated dependencies of target interfaces__rosidl_typesupport_cpp[0m
+[7.623s] [ 17%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/interfaces/action/movement__type_support.cpp.o[0m
+[7.644s] [ 20%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[7.673s] [ 23%] [32m[1mLinking C shared library libinterfaces__rosidl_generator_c.so[0m
+[7.924s] [ 23%] Built target interfaces__rosidl_generator_c
+[7.970s] [ 25%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[8.076s] [35m[1mConsolidate compiler generated dependencies of target interfaces__rosidl_typesupport_fastrtps_cpp[0m
+[8.121s] [ 28%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/interfaces/action/detail/dds_fastrtps/movement__type_support.cpp.o[0m
+[9.002s] [35m[1mConsolidate compiler generated dependencies of target interfaces__rosidl_typesupport_introspection_cpp[0m
+[9.058s] [ 30%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/interfaces/action/detail/movement__type_support.cpp.o[0m
+[9.708s] [35m[1mConsolidate compiler generated dependencies of target interfaces__rosidl_typesupport_fastrtps_c[0m
+[9.763s] [ 33%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/interfaces/action/detail/movement__type_support_c.cpp.o[0m
+[10.744s] [ 35%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/interfaces/srv/component_status__type_support.cpp.o[0m
+[10.850s] [ 38%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/interfaces/srv/detail/dds_fastrtps/component_status__type_support.cpp.o[0m
+[11.365s] [ 41%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/interfaces/srv/detail/component_status__type_support_c.cpp.o[0m
+[11.443s] [ 43%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/interfaces/srv/detail/component_status__type_support.cpp.o[0m
+[11.581s] [ 46%] [32m[1mLinking CXX shared library libinterfaces__rosidl_typesupport_cpp.so[0m
+[11.735s] [ 46%] Built target interfaces__rosidl_typesupport_cpp
+[11.775s] [ 48%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[12.076s] [ 51%] [32m[1mLinking CXX shared library libinterfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[12.297s] [ 51%] Built target interfaces__rosidl_typesupport_fastrtps_cpp
+[12.325s] [ 53%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[12.466s] [ 56%] [32m[1mLinking CXX shared library libinterfaces__rosidl_typesupport_fastrtps_c.so[0m
+[12.613s] [ 58%] [32m[1mLinking CXX shared library libinterfaces__rosidl_typesupport_introspection_cpp.so[0m
+[12.677s] [ 58%] Built target interfaces__rosidl_typesupport_fastrtps_c
+[12.871s] [ 58%] Built target interfaces__rosidl_typesupport_introspection_cpp
+[13.185s] [35m[1mConsolidate compiler generated dependencies of target interfaces__rosidl_typesupport_introspection_c[0m
+[13.229s] [ 61%] [32mBuilding C object CMakeFiles/interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/interfaces/action/detail/movement__type_support.c.o[0m
+[13.230s] [ 64%] [32mBuilding C object CMakeFiles/interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/interfaces/srv/detail/component_status__type_support.c.o[0m
+[13.348s] [35m[1mConsolidate compiler generated dependencies of target interfaces__rosidl_typesupport_c[0m
+[13.376s] [ 66%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/interfaces/srv/component_status__type_support.cpp.o[0m
+[13.377s] [ 69%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/interfaces/action/movement__type_support.cpp.o[0m
+[13.400s] [ 71%] [32m[1mLinking C shared library libinterfaces__rosidl_typesupport_introspection_c.so[0m
+[13.481s] [ 71%] Built target interfaces__rosidl_typesupport_introspection_c
+[13.512s] [ 74%] [32m[1mLinking CXX shared library libinterfaces__rosidl_typesupport_c.so[0m
+[13.607s] [ 74%] Built target interfaces__rosidl_typesupport_c
+[13.642s] [ 74%] Built target interfaces
+[13.675s] [ 76%] [34m[1mGenerating Python code for ROS interfaces[0m
+[15.493s] [ 76%] Built target interfaces__py
+[15.509s] [35m[1mConsolidate compiler generated dependencies of target interfaces__rosidl_generator_py[0m
+[15.535s] [ 79%] [32mBuilding C object CMakeFiles/interfaces__rosidl_generator_py.dir/rosidl_generator_py/interfaces/action/_movement_s.c.o[0m
+[15.550s] [ 82%] [32mBuilding C object CMakeFiles/interfaces__rosidl_generator_py.dir/rosidl_generator_py/interfaces/srv/_component_status_s.c.o[0m
+[16.191s] [ 84%] [32m[1mLinking C shared library rosidl_generator_py/interfaces/libinterfaces__rosidl_generator_py.so[0m
+[16.277s] [ 84%] Built target interfaces__rosidl_generator_py
+[16.298s] [35m[1mConsolidate compiler generated dependencies of target interfaces__rosidl_typesupport_fastrtps_c__pyext[0m
+[16.302s] [35m[1mConsolidate compiler generated dependencies of target interfaces__rosidl_typesupport_introspection_c__pyext[0m
+[16.306s] [35m[1mConsolidate compiler generated dependencies of target interfaces__rosidl_typesupport_c__pyext[0m
+[16.330s] [ 87%] [32mBuilding C object CMakeFiles/interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/interfaces/_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[16.333s] [ 89%] [32mBuilding C object CMakeFiles/interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/interfaces/_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[16.348s] [ 92%] [32mBuilding C object CMakeFiles/interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/interfaces/_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
+[16.723s] [ 94%] [32m[1mLinking C shared library rosidl_generator_py/interfaces/interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[16.742s] [ 97%] [32m[1mLinking C shared library rosidl_generator_py/interfaces/interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[16.743s] [100%] [32m[1mLinking C shared library rosidl_generator_py/interfaces/interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[16.821s] [100%] Built target interfaces__rosidl_typesupport_fastrtps_c__pyext
+[16.845s] [100%] Built target interfaces__rosidl_typesupport_introspection_c__pyext
+[16.847s] [100%] Built target interfaces__rosidl_typesupport_c__pyext
+[16.869s] Invoked command in '/home/pidog/pidog-ros2/build/interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pidog/pidog-ros2/install/vision:/home/pidog/pidog-ros2/install/brain:/opt/ros/humble /usr/bin/cmake --build /home/pidog/pidog-ros2/build/interfaces -- -j4 -l4
+[17.147s] Invoking command in '/home/pidog/pidog-ros2/build/interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pidog/pidog-ros2/install/vision:/home/pidog/pidog-ros2/install/brain:/opt/ros/humble /usr/bin/cmake --install /home/pidog/pidog-ros2/build/interfaces
+[17.159s] -- Install configuration: ""
+[17.161s] -- Installing: /home/pidog/pidog-ros2/install/interfaces/share/ament_index/resource_index/rosidl_interfaces/interfaces
+[17.161s] -- Up-to-date: /home/pidog/pidog-ros2/install/interfaces/include/interfaces/interfaces
+[17.161s] -- Up-to-date: /home/pidog/pidog-ros2/install/interfaces/include/interfaces/interfaces/msg
+[17.161s] -- Up-to-date: /home/pidog/pidog-ros2/install/interfaces/include/interfaces/interfaces/msg/rosidl_generator_c__visibility_control.h
+[17.161s] -- Up-to-date: /home/pidog/pidog-ros2/install/interfaces/include/interfaces/interfaces/srv
+[17.161s] -- Installing: /home/pidog/pidog-ros2/install/interfaces/include/interfaces/interfaces/srv/component_status.h
+[17.162s] -- Up-to-date: /home/pidog/pidog-ros2/install/interfaces/include/interfaces/interfaces/srv/detail
+[17.162s] -- Installing: /home/pidog/pidog-ros2/install/interfaces/include/interfaces/interfaces/srv/detail/component_status__functions.h
+[17.164s] -- Installing: /home/pidog/pidog-ros2/install/interfaces/include/interfaces/interfaces/srv/detail/component_status__type_support.h
+[17.165s] -- Installing: /home/pidog/pidog-ros2/install/interfaces/include/interfaces/interfaces/srv/detail/component_status__struct.h
+[17.166s] -- Installing: /home/pidog/pidog-ros2/install/interfaces/include/interfaces/interfaces/srv/detail/component_status__functions.c
+[17.166s] -- Installing: /home/pidog/pidog-ros2/install/interfaces/include/interfaces/interfaces/action
+[17.166s] -- Installing: /home/pidog/pidog-ros2/install/interfaces/include/interfaces/interfaces/action/detail
+[17.167s] -- Installing: /home/pidog/pidog-ros2/install/interfaces/include/interfaces/interfaces/action/detail/movement__type_support.h
+[17.168s] -- Installing: /home/pidog/pidog-ros2/install/interfaces/include/interfaces/interfaces/action/detail/movement__functions.c
+[17.168s] -- Installing: /home/pidog/pidog-ros2/install/interfaces/include/interfaces/interfaces/action/detail/movement__functions.h
+[17.168s] -- Installing: /home/pidog/pidog-ros2/install/interfaces/include/interfaces/interfaces/action/detail/movement__struct.h
+[17.169s] -- Installing: /home/pidog/pidog-ros2/install/interfaces/include/interfaces/interfaces/action/movement.h
+[17.169s] -- Up-to-date: /home/pidog/pidog-ros2/install/interfaces/share/interfaces/environment/library_path.sh
+[17.169s] -- Installing: /home/pidog/pidog-ros2/install/interfaces/share/interfaces/environment/library_path.dsv
+[17.169s] -- Installing: /home/pidog/pidog-ros2/install/interfaces/lib/libinterfaces__rosidl_generator_c.so
+[17.171s] -- Set runtime path of "/home/pidog/pidog-ros2/install/interfaces/lib/libinterfaces__rosidl_generator_c.so" to ""
+[17.172s] -- Up-to-date: /home/pidog/pidog-ros2/install/interfaces/include/interfaces/interfaces
+[17.173s] -- Up-to-date: /home/pidog/pidog-ros2/install/interfaces/include/interfaces/interfaces/msg
+[17.173s] -- Up-to-date: /home/pidog/pidog-ros2/install/interfaces/include/interfaces/interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[17.173s] -- Up-to-date: /home/pidog/pidog-ros2/install/interfaces/include/interfaces/interfaces/srv
+[17.174s] -- Up-to-date: /home/pidog/pidog-ros2/install/interfaces/include/interfaces/interfaces/srv/detail
+[17.175s] -- Installing: /home/pidog/pidog-ros2/install/interfaces/include/interfaces/interfaces/srv/detail/component_status__rosidl_typesupport_fastrtps_c.h
+[17.176s] -- Up-to-date: /home/pidog/pidog-ros2/install/interfaces/include/interfaces/interfaces/action
+[17.176s] -- Up-to-date: /home/pidog/pidog-ros2/install/interfaces/include/interfaces/interfaces/action/detail
+[17.176s] -- Installing: /home/pidog/pidog-ros2/install/interfaces/include/interfaces/interfaces/action/detail/movement__rosidl_typesupport_fastrtps_c.h
+[17.177s] -- Installing: /home/pidog/pidog-ros2/install/interfaces/lib/libinterfaces__rosidl_typesupport_fastrtps_c.so
+[17.177s] -- Set runtime path of "/home/pidog/pidog-ros2/install/interfaces/lib/libinterfaces__rosidl_typesupport_fastrtps_c.so" to ""
+[17.177s] -- Up-to-date: /home/pidog/pidog-ros2/install/interfaces/include/interfaces/interfaces
+[17.177s] -- Up-to-date: /home/pidog/pidog-ros2/install/interfaces/include/interfaces/interfaces/msg
+[17.178s] -- Up-to-date: /home/pidog/pidog-ros2/install/interfaces/include/interfaces/interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[17.179s] -- Up-to-date: /home/pidog/pidog-ros2/install/interfaces/include/interfaces/interfaces/srv
+[17.179s] -- Up-to-date: /home/pidog/pidog-ros2/install/interfaces/include/interfaces/interfaces/srv/detail
+[17.181s] -- Installing: /home/pidog/pidog-ros2/install/interfaces/include/interfaces/interfaces/srv/detail/component_status__rosidl_typesupport_introspection_c.h
+[17.181s] -- Installing: /home/pidog/pidog-ros2/install/interfaces/include/interfaces/interfaces/srv/detail/component_status__type_support.c
+[17.182s] -- Up-to-date: /home/pidog/pidog-ros2/install/interfaces/include/interfaces/interfaces/action
+[17.183s] -- Up-to-date: /home/pidog/pidog-ros2/install/interfaces/include/interfaces/interfaces/action/detail
+[17.184s] -- Installing: /home/pidog/pidog-ros2/install/interfaces/include/interfaces/interfaces/action/detail/movement__rosidl_typesupport_introspection_c.h
+[17.185s] -- Installing: /home/pidog/pidog-ros2/install/interfaces/include/interfaces/interfaces/action/detail/movement__type_support.c
+[17.185s] -- Installing: /home/pidog/pidog-ros2/install/interfaces/lib/libinterfaces__rosidl_typesupport_introspection_c.so
+[17.186s] -- Set runtime path of "/home/pidog/pidog-ros2/install/interfaces/lib/libinterfaces__rosidl_typesupport_introspection_c.so" to ""
+[17.186s] -- Installing: /home/pidog/pidog-ros2/install/interfaces/lib/libinterfaces__rosidl_typesupport_c.so
+[17.186s] -- Set runtime path of "/home/pidog/pidog-ros2/install/interfaces/lib/libinterfaces__rosidl_typesupport_c.so" to ""
+[17.186s] -- Up-to-date: /home/pidog/pidog-ros2/install/interfaces/include/interfaces/interfaces
+[17.186s] -- Up-to-date: /home/pidog/pidog-ros2/install/interfaces/include/interfaces/interfaces/srv
+[17.187s] -- Installing: /home/pidog/pidog-ros2/install/interfaces/include/interfaces/interfaces/srv/component_status.hpp
+[17.187s] -- Up-to-date: /home/pidog/pidog-ros2/install/interfaces/include/interfaces/interfaces/srv/detail
+[17.188s] -- Installing: /home/pidog/pidog-ros2/install/interfaces/include/interfaces/interfaces/srv/detail/component_status__builder.hpp
+[17.188s] -- Installing: /home/pidog/pidog-ros2/install/interfaces/include/interfaces/interfaces/srv/detail/component_status__struct.hpp
+[17.189s] -- Installing: /home/pidog/pidog-ros2/install/interfaces/include/interfaces/interfaces/srv/detail/component_status__traits.hpp
+[17.189s] -- Up-to-date: /home/pidog/pidog-ros2/install/interfaces/include/interfaces/interfaces/action
+[17.190s] -- Installing: /home/pidog/pidog-ros2/install/interfaces/include/interfaces/interfaces/action/movement.hpp
+[17.190s] -- Up-to-date: /home/pidog/pidog-ros2/install/interfaces/include/interfaces/interfaces/action/detail
+[17.190s] -- Installing: /home/pidog/pidog-ros2/install/interfaces/include/interfaces/interfaces/action/detail/movement__builder.hpp
+[17.191s] -- Installing: /home/pidog/pidog-ros2/install/interfaces/include/interfaces/interfaces/action/detail/movement__traits.hpp
+[17.191s] -- Installing: /home/pidog/pidog-ros2/install/interfaces/include/interfaces/interfaces/action/detail/movement__struct.hpp
+[17.192s] -- Up-to-date: /home/pidog/pidog-ros2/install/interfaces/include/interfaces/interfaces
+[17.192s] -- Up-to-date: /home/pidog/pidog-ros2/install/interfaces/include/interfaces/interfaces/msg
+[17.192s] -- Up-to-date: /home/pidog/pidog-ros2/install/interfaces/include/interfaces/interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[17.192s] -- Up-to-date: /home/pidog/pidog-ros2/install/interfaces/include/interfaces/interfaces/srv
+[17.193s] -- Up-to-date: /home/pidog/pidog-ros2/install/interfaces/include/interfaces/interfaces/srv/detail
+[17.193s] -- Up-to-date: /home/pidog/pidog-ros2/install/interfaces/include/interfaces/interfaces/srv/detail/dds_fastrtps
+[17.193s] -- Installing: /home/pidog/pidog-ros2/install/interfaces/include/interfaces/interfaces/srv/detail/component_status__rosidl_typesupport_fastrtps_cpp.hpp
+[17.193s] -- Up-to-date: /home/pidog/pidog-ros2/install/interfaces/include/interfaces/interfaces/action
+[17.194s] -- Up-to-date: /home/pidog/pidog-ros2/install/interfaces/include/interfaces/interfaces/action/detail
+[17.194s] -- Installing: /home/pidog/pidog-ros2/install/interfaces/include/interfaces/interfaces/action/detail/dds_fastrtps
+[17.194s] -- Installing: /home/pidog/pidog-ros2/install/interfaces/include/interfaces/interfaces/action/detail/movement__rosidl_typesupport_fastrtps_cpp.hpp
+[17.194s] -- Installing: /home/pidog/pidog-ros2/install/interfaces/lib/libinterfaces__rosidl_typesupport_fastrtps_cpp.so
+[17.195s] -- Set runtime path of "/home/pidog/pidog-ros2/install/interfaces/lib/libinterfaces__rosidl_typesupport_fastrtps_cpp.so" to ""
+[17.195s] -- Up-to-date: /home/pidog/pidog-ros2/install/interfaces/include/interfaces/interfaces
+[17.195s] -- Up-to-date: /home/pidog/pidog-ros2/install/interfaces/include/interfaces/interfaces/srv
+[17.195s] -- Up-to-date: /home/pidog/pidog-ros2/install/interfaces/include/interfaces/interfaces/srv/detail
+[17.195s] -- Installing: /home/pidog/pidog-ros2/install/interfaces/include/interfaces/interfaces/srv/detail/component_status__type_support.cpp
+[17.202s] -- Installing: /home/pidog/pidog-ros2/install/interfaces/include/interfaces/interfaces/srv/detail/component_status__rosidl_typesupport_introspection_cpp.hpp
+[17.202s] -- Up-to-date: /home/pidog/pidog-ros2/install/interfaces/include/interfaces/interfaces/action
+[17.203s] -- Up-to-date: /home/pidog/pidog-ros2/install/interfaces/include/interfaces/interfaces/action/detail
+[17.203s] -- Installing: /home/pidog/pidog-ros2/install/interfaces/include/interfaces/interfaces/action/detail/movement__type_support.cpp
+[17.203s] -- Installing: /home/pidog/pidog-ros2/install/interfaces/include/interfaces/interfaces/action/detail/movement__rosidl_typesupport_introspection_cpp.hpp
+[17.203s] -- Installing: /home/pidog/pidog-ros2/install/interfaces/lib/libinterfaces__rosidl_typesupport_introspection_cpp.so
+[17.203s] -- Set runtime path of "/home/pidog/pidog-ros2/install/interfaces/lib/libinterfaces__rosidl_typesupport_introspection_cpp.so" to ""
+[17.204s] -- Installing: /home/pidog/pidog-ros2/install/interfaces/lib/libinterfaces__rosidl_typesupport_cpp.so
+[17.204s] -- Set runtime path of "/home/pidog/pidog-ros2/install/interfaces/lib/libinterfaces__rosidl_typesupport_cpp.so" to ""
+[17.204s] -- Up-to-date: /home/pidog/pidog-ros2/install/interfaces/share/interfaces/environment/pythonpath.sh
+[17.204s] -- Installing: /home/pidog/pidog-ros2/install/interfaces/share/interfaces/environment/pythonpath.dsv
+[17.204s] -- Up-to-date: /home/pidog/pidog-ros2/install/interfaces/local/lib/python3.10/dist-packages/interfaces-0.0.0-py3.10.egg-info
+[17.204s] -- Installing: /home/pidog/pidog-ros2/install/interfaces/local/lib/python3.10/dist-packages/interfaces-0.0.0-py3.10.egg-info/top_level.txt
+[17.204s] -- Installing: /home/pidog/pidog-ros2/install/interfaces/local/lib/python3.10/dist-packages/interfaces-0.0.0-py3.10.egg-info/SOURCES.txt
+[17.205s] -- Installing: /home/pidog/pidog-ros2/install/interfaces/local/lib/python3.10/dist-packages/interfaces-0.0.0-py3.10.egg-info/dependency_links.txt
+[17.205s] -- Installing: /home/pidog/pidog-ros2/install/interfaces/local/lib/python3.10/dist-packages/interfaces-0.0.0-py3.10.egg-info/PKG-INFO
+[17.205s] -- Up-to-date: /home/pidog/pidog-ros2/install/interfaces/local/lib/python3.10/dist-packages/interfaces
+[17.205s] -- Installing: /home/pidog/pidog-ros2/install/interfaces/local/lib/python3.10/dist-packages/interfaces/__init__.py
+[17.205s] -- Installing: /home/pidog/pidog-ros2/install/interfaces/local/lib/python3.10/dist-packages/interfaces/_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[17.205s] -- Installing: /home/pidog/pidog-ros2/install/interfaces/local/lib/python3.10/dist-packages/interfaces/interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[17.205s] -- Installing: /home/pidog/pidog-ros2/install/interfaces/local/lib/python3.10/dist-packages/interfaces/_interfaces_s.ep.rosidl_typesupport_c.c
+[17.205s] -- Installing: /home/pidog/pidog-ros2/install/interfaces/local/lib/python3.10/dist-packages/interfaces/interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[17.205s] -- Up-to-date: /home/pidog/pidog-ros2/install/interfaces/local/lib/python3.10/dist-packages/interfaces/srv
+[17.206s] -- Installing: /home/pidog/pidog-ros2/install/interfaces/local/lib/python3.10/dist-packages/interfaces/srv/_component_status_s.c
+[17.206s] -- Installing: /home/pidog/pidog-ros2/install/interfaces/local/lib/python3.10/dist-packages/interfaces/srv/__init__.py
+[17.206s] -- Installing: /home/pidog/pidog-ros2/install/interfaces/local/lib/python3.10/dist-packages/interfaces/srv/_component_status.py
+[17.206s] -- Installing: /home/pidog/pidog-ros2/install/interfaces/local/lib/python3.10/dist-packages/interfaces/_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[17.206s] -- Installing: /home/pidog/pidog-ros2/install/interfaces/local/lib/python3.10/dist-packages/interfaces/interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[17.206s] -- Installing: /home/pidog/pidog-ros2/install/interfaces/local/lib/python3.10/dist-packages/interfaces/action
+[17.206s] -- Installing: /home/pidog/pidog-ros2/install/interfaces/local/lib/python3.10/dist-packages/interfaces/action/__init__.py
+[17.206s] -- Installing: /home/pidog/pidog-ros2/install/interfaces/local/lib/python3.10/dist-packages/interfaces/action/_movement_s.c
+[17.206s] -- Installing: /home/pidog/pidog-ros2/install/interfaces/local/lib/python3.10/dist-packages/interfaces/action/_movement.py
+[17.206s] -- Installing: /home/pidog/pidog-ros2/install/interfaces/local/lib/python3.10/dist-packages/interfaces/libinterfaces__rosidl_generator_py.so
+[17.267s] Listing '/home/pidog/pidog-ros2/install/interfaces/local/lib/python3.10/dist-packages/interfaces'...
+[17.267s] Compiling '/home/pidog/pidog-ros2/install/interfaces/local/lib/python3.10/dist-packages/interfaces/__init__.py'...
+[17.268s] Listing '/home/pidog/pidog-ros2/install/interfaces/local/lib/python3.10/dist-packages/interfaces/action'...
+[17.268s] Compiling '/home/pidog/pidog-ros2/install/interfaces/local/lib/python3.10/dist-packages/interfaces/action/__init__.py'...
+[17.268s] Compiling '/home/pidog/pidog-ros2/install/interfaces/local/lib/python3.10/dist-packages/interfaces/action/_movement.py'...
+[17.268s] Listing '/home/pidog/pidog-ros2/install/interfaces/local/lib/python3.10/dist-packages/interfaces/srv'...
+[17.268s] Compiling '/home/pidog/pidog-ros2/install/interfaces/local/lib/python3.10/dist-packages/interfaces/srv/__init__.py'...
+[17.268s] Compiling '/home/pidog/pidog-ros2/install/interfaces/local/lib/python3.10/dist-packages/interfaces/srv/_component_status.py'...
+[17.274s] -- Installing: /home/pidog/pidog-ros2/install/interfaces/local/lib/python3.10/dist-packages/interfaces/interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[17.275s] -- Set runtime path of "/home/pidog/pidog-ros2/install/interfaces/local/lib/python3.10/dist-packages/interfaces/interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[17.275s] -- Installing: /home/pidog/pidog-ros2/install/interfaces/local/lib/python3.10/dist-packages/interfaces/interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[17.276s] -- Set runtime path of "/home/pidog/pidog-ros2/install/interfaces/local/lib/python3.10/dist-packages/interfaces/interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[17.276s] -- Installing: /home/pidog/pidog-ros2/install/interfaces/local/lib/python3.10/dist-packages/interfaces/interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[17.277s] -- Set runtime path of "/home/pidog/pidog-ros2/install/interfaces/local/lib/python3.10/dist-packages/interfaces/interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[17.277s] -- Installing: /home/pidog/pidog-ros2/install/interfaces/lib/libinterfaces__rosidl_generator_py.so
+[17.278s] -- Set runtime path of "/home/pidog/pidog-ros2/install/interfaces/lib/libinterfaces__rosidl_generator_py.so" to ""
+[17.279s] -- Installing: /home/pidog/pidog-ros2/install/interfaces/share/interfaces/action/Movement.idl
+[17.279s] -- Up-to-date: /home/pidog/pidog-ros2/install/interfaces/share/interfaces/srv/ComponentStatus.idl
+[17.281s] -- Installing: /home/pidog/pidog-ros2/install/interfaces/share/interfaces/action/Movement.action
+[17.281s] -- Up-to-date: /home/pidog/pidog-ros2/install/interfaces/share/interfaces/srv/ComponentStatus.srv
+[17.282s] -- Up-to-date: /home/pidog/pidog-ros2/install/interfaces/share/interfaces/srv/ComponentStatus_Request.msg
+[17.282s] -- Up-to-date: /home/pidog/pidog-ros2/install/interfaces/share/interfaces/srv/ComponentStatus_Response.msg
+[17.283s] -- Installing: /home/pidog/pidog-ros2/install/interfaces/share/ament_index/resource_index/package_run_dependencies/interfaces
+[17.283s] -- Installing: /home/pidog/pidog-ros2/install/interfaces/share/ament_index/resource_index/parent_prefix_path/interfaces
+[17.284s] -- Up-to-date: /home/pidog/pidog-ros2/install/interfaces/share/interfaces/environment/ament_prefix_path.sh
+[17.285s] -- Installing: /home/pidog/pidog-ros2/install/interfaces/share/interfaces/environment/ament_prefix_path.dsv
+[17.285s] -- Up-to-date: /home/pidog/pidog-ros2/install/interfaces/share/interfaces/environment/path.sh
+[17.285s] -- Installing: /home/pidog/pidog-ros2/install/interfaces/share/interfaces/environment/path.dsv
+[17.286s] -- Up-to-date: /home/pidog/pidog-ros2/install/interfaces/share/interfaces/local_setup.bash
+[17.286s] -- Up-to-date: /home/pidog/pidog-ros2/install/interfaces/share/interfaces/local_setup.sh
+[17.286s] -- Up-to-date: /home/pidog/pidog-ros2/install/interfaces/share/interfaces/local_setup.zsh
+[17.287s] -- Installing: /home/pidog/pidog-ros2/install/interfaces/share/interfaces/local_setup.dsv
+[17.287s] -- Installing: /home/pidog/pidog-ros2/install/interfaces/share/interfaces/package.dsv
+[17.297s] -- Up-to-date: /home/pidog/pidog-ros2/install/interfaces/share/ament_index/resource_index/packages/interfaces
+[17.298s] -- Old export file "/home/pidog/pidog-ros2/install/interfaces/share/interfaces/cmake/export_interfaces__rosidl_generator_cExport.cmake" will be replaced.  Removing files [/home/pidog/pidog-ros2/install/interfaces/share/interfaces/cmake/export_interfaces__rosidl_generator_cExport-noconfig.cmake].
+[17.299s] -- Installing: /home/pidog/pidog-ros2/install/interfaces/share/interfaces/cmake/export_interfaces__rosidl_generator_cExport.cmake
+[17.302s] -- Installing: /home/pidog/pidog-ros2/install/interfaces/share/interfaces/cmake/export_interfaces__rosidl_generator_cExport-noconfig.cmake
+[17.302s] -- Old export file "/home/pidog/pidog-ros2/install/interfaces/share/interfaces/cmake/export_interfaces__rosidl_typesupport_fastrtps_cExport.cmake" will be replaced.  Removing files [/home/pidog/pidog-ros2/install/interfaces/share/interfaces/cmake/export_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake].
+[17.303s] -- Installing: /home/pidog/pidog-ros2/install/interfaces/share/interfaces/cmake/export_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[17.308s] -- Installing: /home/pidog/pidog-ros2/install/interfaces/share/interfaces/cmake/export_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[17.308s] -- Old export file "/home/pidog/pidog-ros2/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_introspection_cExport.cmake" will be replaced.  Removing files [/home/pidog/pidog-ros2/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake].
+[17.308s] -- Installing: /home/pidog/pidog-ros2/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_introspection_cExport.cmake
+[17.309s] -- Installing: /home/pidog/pidog-ros2/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[17.310s] -- Old export file "/home/pidog/pidog-ros2/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_cExport.cmake" will be replaced.  Removing files [/home/pidog/pidog-ros2/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_cExport-noconfig.cmake].
+[17.310s] -- Installing: /home/pidog/pidog-ros2/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_cExport.cmake
+[17.311s] -- Installing: /home/pidog/pidog-ros2/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[17.311s] -- Installing: /home/pidog/pidog-ros2/install/interfaces/share/interfaces/cmake/export_interfaces__rosidl_generator_cppExport.cmake
+[17.312s] -- Old export file "/home/pidog/pidog-ros2/install/interfaces/share/interfaces/cmake/export_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake" will be replaced.  Removing files [/home/pidog/pidog-ros2/install/interfaces/share/interfaces/cmake/export_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake].
+[17.313s] -- Installing: /home/pidog/pidog-ros2/install/interfaces/share/interfaces/cmake/export_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[17.314s] -- Installing: /home/pidog/pidog-ros2/install/interfaces/share/interfaces/cmake/export_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[17.314s] -- Old export file "/home/pidog/pidog-ros2/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_introspection_cppExport.cmake" will be replaced.  Removing files [/home/pidog/pidog-ros2/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake].
+[17.314s] -- Installing: /home/pidog/pidog-ros2/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[17.315s] -- Installing: /home/pidog/pidog-ros2/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[17.315s] -- Old export file "/home/pidog/pidog-ros2/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_cppExport.cmake" will be replaced.  Removing files [/home/pidog/pidog-ros2/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_cppExport-noconfig.cmake].
+[17.317s] -- Installing: /home/pidog/pidog-ros2/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_cppExport.cmake
+[17.318s] -- Installing: /home/pidog/pidog-ros2/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[17.318s] -- Old export file "/home/pidog/pidog-ros2/install/interfaces/share/interfaces/cmake/export_interfaces__rosidl_generator_pyExport.cmake" will be replaced.  Removing files [/home/pidog/pidog-ros2/install/interfaces/share/interfaces/cmake/export_interfaces__rosidl_generator_pyExport-noconfig.cmake].
+[17.318s] -- Installing: /home/pidog/pidog-ros2/install/interfaces/share/interfaces/cmake/export_interfaces__rosidl_generator_pyExport.cmake
+[17.320s] -- Installing: /home/pidog/pidog-ros2/install/interfaces/share/interfaces/cmake/export_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[17.321s] -- Installing: /home/pidog/pidog-ros2/install/interfaces/share/interfaces/cmake/rosidl_cmake-extras.cmake
+[17.321s] -- Installing: /home/pidog/pidog-ros2/install/interfaces/share/interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[17.322s] -- Up-to-date: /home/pidog/pidog-ros2/install/interfaces/share/interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[17.323s] -- Up-to-date: /home/pidog/pidog-ros2/install/interfaces/share/interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[17.323s] -- Up-to-date: /home/pidog/pidog-ros2/install/interfaces/share/interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[17.324s] -- Up-to-date: /home/pidog/pidog-ros2/install/interfaces/share/interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[17.324s] -- Up-to-date: /home/pidog/pidog-ros2/install/interfaces/share/interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[17.325s] -- Installing: /home/pidog/pidog-ros2/install/interfaces/share/interfaces/cmake/interfacesConfig.cmake
+[17.325s] -- Up-to-date: /home/pidog/pidog-ros2/install/interfaces/share/interfaces/cmake/interfacesConfig-version.cmake
+[17.326s] -- Installing: /home/pidog/pidog-ros2/install/interfaces/share/interfaces/package.xml
+[17.326s] Invoked command in '/home/pidog/pidog-ros2/build/interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pidog/pidog-ros2/install/vision:/home/pidog/pidog-ros2/install/brain:/opt/ros/humble /usr/bin/cmake --install /home/pidog/pidog-ros2/build/interfaces

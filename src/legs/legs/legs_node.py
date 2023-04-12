@@ -8,7 +8,7 @@ from interfaces.action import Movement
 class LegsActionServer(Node):
 
     def __init__(self):
-        super().__init__('legs_action_server')
+        super().__init__('legs_node')
         self._action_server = ActionServer(
             self,
             Movement,
