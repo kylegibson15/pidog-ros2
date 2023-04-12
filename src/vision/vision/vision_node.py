@@ -22,7 +22,7 @@ class VisionNode(Node):
     def camera_callback(self, message):
         """Identify if object in view"""
         msg = String()
-        if message.data == "trash":
+        if message.data == "object":
             msg.data = "Object Detected"
         else:
             msg.data = "No Object Detected"

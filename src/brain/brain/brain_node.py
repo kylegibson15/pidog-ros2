@@ -14,34 +14,32 @@ class BrainNode(Node):
         self.callback_group = ReentrantCallbackGroup()
 
         self.objectDetectionSubscriber = self.create_subscription(
-                    String,
-                    'object_detection',
-                    self.object_detection_callback,
-                    10,
-                    callback_group = self.callback_group
-                )
+            String,
+            'object_detection',
+            self.object_detection_callback,
+            10,
+            callback_group=self.callback_group
+        )
 
         self.componentStatusServiceTimer = self.create_timer(
-                    5,
-                    self.send_component_status_request,
-                    callback_group = self.callback_group
-                )
+            5,
+            self.send_component_status_request,
+            callback_group=self.callback_group
+        )
 
         self.componentStatusClient = self.create_client(
-                    ComponentStatus,
-                    'component_status'
-                )
+            ComponentStatus,
+            'component_status'
+        )
 
         while not self.componentStatusClient.wait_for_service(timeout_sec=1.0):
             self.get_logger().info('service not available, waiting...')
 
         self.request = ComponentStatus.Request()
 
-
     def object_detection_callback(self, msg):
         self.get_logger().info('I heard: "%s"' % msg.data)
-        message = msg.data
-        if "trash" in message:
+        if "object" in msg.data:
             self.get_logger().info('Sending move request to actuator')
         else:
             self.get_logger().info('Sending no request to actuator')
@@ -60,6 +58,7 @@ def main(args=None):
     rclpy.spin(brainNode, executor)
     brainNode.destroy_node()
     rclpy.shutdown()
+
 
 if __name__ == '__main__':
     main()
