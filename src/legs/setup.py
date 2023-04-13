@@ -1,11 +1,13 @@
-from setuptools import setup
+from setuptools import setup, find_packages
+
+packages = find_packages(exclude=['test'])
 
 package_name = 'legs'
 
 setup(
     name=package_name,
     version='0.0.1',
-    packages=[package_name],
+    packages=[packages],
     data_files=[
         ('share/ament_index/resource_index/packages',
             ['resource/' + package_name]),
