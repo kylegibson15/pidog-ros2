@@ -1,0 +1,9 @@
+[1.035s] Invoking command in '/home/pidog/pidog-ros2/src/legs': PYTHONPATH=/home/pidog/pidog-ros2/build/legs/prefix_override:/home/pidog/pidog-ros2/install/legs/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/legs build --build-base /home/pidog/pidog-ros2/build/legs/build install --record /home/pidog/pidog-ros2/build/legs/install.log --single-version-externally-managed
+[1.451s] running egg_info
+[1.453s] writing ../../build/legs/legs.egg-info/PKG-INFO
+[1.455s] writing dependency_links to ../../build/legs/legs.egg-info/dependency_links.txt
+[1.455s] writing entry points to ../../build/legs/legs.egg-info/entry_points.txt
+[1.455s] writing requirements to ../../build/legs/legs.egg-info/requires.txt
+[1.455s] writing top-level names to ../../build/legs/legs.egg-info/top_level.txt
+[1.458s] error: package directory 'interfaces' does not exist
+[1.491s] Invoked command in '/home/pidog/pidog-ros2/src/legs' returned '1': PYTHONPATH=/home/pidog/pidog-ros2/build/legs/prefix_override:/home/pidog/pidog-ros2/install/legs/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/legs build --build-base /home/pidog/pidog-ros2/build/legs/build install --record /home/pidog/pidog-ros2/build/legs/install.log --single-version-externally-managed

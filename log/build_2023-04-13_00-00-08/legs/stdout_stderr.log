@@ -1,0 +1,8 @@
+WARNING: '../interfaces' not a valid package name; please use only .-separated package names in setup.py
+running egg_info
+writing ../../build/legs/legs.egg-info/PKG-INFO
+writing dependency_links to ../../build/legs/legs.egg-info/dependency_links.txt
+writing entry points to ../../build/legs/legs.egg-info/entry_points.txt
+writing requirements to ../../build/legs/legs.egg-info/requires.txt
+writing top-level names to ../../build/legs/legs.egg-info/top_level.txt
+error: package directory '/interfaces' does not exist

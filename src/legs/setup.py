@@ -7,7 +7,7 @@ package_name = 'legs'
 setup(
     name=package_name,
     version='0.0.1',
-    packages=[packages],
+    packages=[package_name],
     data_files=[
         ('share/ament_index/resource_index/packages',
             ['resource/' + package_name]),
