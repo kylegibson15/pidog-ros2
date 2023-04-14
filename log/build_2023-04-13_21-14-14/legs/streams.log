@@ -1,0 +1,26 @@
+[1.034s] Invoking command in '/home/pidog/pidog-ros2/src/legs': AMENT_PREFIX_PATH=/home/pidog/pidog-ros2/install/interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/pidog/pidog-ros2/install/interfaces LD_LIBRARY_PATH=/home/pidog/pidog-ros2/install/interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/pidog/pidog-ros2/build/legs/prefix_override:/home/pidog/pidog-ros2/install/legs/lib/python3.10/site-packages:/home/pidog/pidog-ros2/install/interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/legs build --build-base /home/pidog/pidog-ros2/build/legs/build install --record /home/pidog/pidog-ros2/build/legs/install.log --single-version-externally-managed
+[1.451s] running egg_info
+[1.452s] writing ../../build/legs/legs.egg-info/PKG-INFO
+[1.454s] writing dependency_links to ../../build/legs/legs.egg-info/dependency_links.txt
+[1.455s] writing entry points to ../../build/legs/legs.egg-info/entry_points.txt
+[1.455s] writing requirements to ../../build/legs/legs.egg-info/requires.txt
+[1.455s] writing top-level names to ../../build/legs/legs.egg-info/top_level.txt
+[1.458s] reading manifest file '../../build/legs/legs.egg-info/SOURCES.txt'
+[1.460s] writing manifest file '../../build/legs/legs.egg-info/SOURCES.txt'
+[1.460s] running build
+[1.461s] running build_py
+[1.461s] copying legs/legs_node.py -> /home/pidog/pidog-ros2/build/legs/build/lib/legs
+[1.461s] running install
+[1.462s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[1.462s]   warnings.warn(
+[1.462s] running install_lib
+[1.463s] copying /home/pidog/pidog-ros2/build/legs/build/lib/legs/legs_node.py -> /home/pidog/pidog-ros2/install/legs/lib/python3.10/site-packages/legs
+[1.464s] byte-compiling /home/pidog/pidog-ros2/install/legs/lib/python3.10/site-packages/legs/legs_node.py to legs_node.cpython-310.pyc
+[1.465s] running install_data
+[1.466s] running install_egg_info
+[1.469s] removing '/home/pidog/pidog-ros2/install/legs/lib/python3.10/site-packages/legs-0.0.1-py3.10.egg-info' (and everything under it)
+[1.469s] Copying ../../build/legs/legs.egg-info to /home/pidog/pidog-ros2/install/legs/lib/python3.10/site-packages/legs-0.0.1-py3.10.egg-info
+[1.471s] running install_scripts
+[1.501s] Installing legs script to /home/pidog/pidog-ros2/install/legs/lib/legs
+[1.502s] writing list of installed files to '/home/pidog/pidog-ros2/build/legs/install.log'
+[1.554s] Invoked command in '/home/pidog/pidog-ros2/src/legs' returned '0': AMENT_PREFIX_PATH=/home/pidog/pidog-ros2/install/interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/pidog/pidog-ros2/install/interfaces LD_LIBRARY_PATH=/home/pidog/pidog-ros2/install/interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/pidog/pidog-ros2/build/legs/prefix_override:/home/pidog/pidog-ros2/install/legs/lib/python3.10/site-packages:/home/pidog/pidog-ros2/install/interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/legs build --build-base /home/pidog/pidog-ros2/build/legs/build install --record /home/pidog/pidog-ros2/build/legs/install.log --single-version-externally-managed

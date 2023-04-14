@@ -7,6 +7,8 @@
   <maintainer email="kylegibson15@gmail.com">Kyle Gibson</maintainer>
   <license>Kyle Gibson</license>
 
+  <depend>interfaces</depend>
+
   <exec_depend>rclpy</exec_depend>
 
   <test_depend>ament_copyright</test_depend>
