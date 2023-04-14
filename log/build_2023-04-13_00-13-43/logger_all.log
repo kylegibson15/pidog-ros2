@@ -1,0 +1,306 @@
+[0.488s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.488s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f71b2f95480>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f71b3757400>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f71b3757400>>)
+[0.540s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.540s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.540s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.540s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.540s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.540s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.540s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/pidog/pidog-ros2'
+[0.541s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.541s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.541s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.541s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.541s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.541s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.541s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.541s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.541s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.559s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.560s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.560s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.560s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.560s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.560s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.560s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.560s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.560s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.560s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.561s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.561s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.561s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.561s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.561s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.561s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.561s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.561s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.561s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.562s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.562s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.562s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.562s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.562s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.562s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.562s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.562s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.562s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.562s] Level 1:colcon.colcon_core.package_identification:_identify(src/brain) by extensions ['ignore', 'ignore_ament_install']
+[0.562s] Level 1:colcon.colcon_core.package_identification:_identify(src/brain) by extension 'ignore'
+[0.562s] Level 1:colcon.colcon_core.package_identification:_identify(src/brain) by extension 'ignore_ament_install'
+[0.563s] Level 1:colcon.colcon_core.package_identification:_identify(src/brain) by extensions ['colcon_pkg']
+[0.563s] Level 1:colcon.colcon_core.package_identification:_identify(src/brain) by extension 'colcon_pkg'
+[0.563s] Level 1:colcon.colcon_core.package_identification:_identify(src/brain) by extensions ['colcon_meta']
+[0.563s] Level 1:colcon.colcon_core.package_identification:_identify(src/brain) by extension 'colcon_meta'
+[0.563s] Level 1:colcon.colcon_core.package_identification:_identify(src/brain) by extensions ['ros']
+[0.563s] Level 1:colcon.colcon_core.package_identification:_identify(src/brain) by extension 'ros'
+[0.566s] DEBUG:colcon.colcon_core.package_identification:Package 'src/brain' with type 'ros.ament_python' and name 'brain'
+[0.566s] Level 1:colcon.colcon_core.package_identification:_identify(src/interfaces) by extensions ['ignore', 'ignore_ament_install']
+[0.566s] Level 1:colcon.colcon_core.package_identification:_identify(src/interfaces) by extension 'ignore'
+[0.567s] Level 1:colcon.colcon_core.package_identification:_identify(src/interfaces) by extension 'ignore_ament_install'
+[0.567s] Level 1:colcon.colcon_core.package_identification:_identify(src/interfaces) by extensions ['colcon_pkg']
+[0.567s] Level 1:colcon.colcon_core.package_identification:_identify(src/interfaces) by extension 'colcon_pkg'
+[0.567s] Level 1:colcon.colcon_core.package_identification:_identify(src/interfaces) by extensions ['colcon_meta']
+[0.567s] Level 1:colcon.colcon_core.package_identification:_identify(src/interfaces) by extension 'colcon_meta'
+[0.567s] Level 1:colcon.colcon_core.package_identification:_identify(src/interfaces) by extensions ['ros']
+[0.567s] Level 1:colcon.colcon_core.package_identification:_identify(src/interfaces) by extension 'ros'
+[0.568s] DEBUG:colcon.colcon_core.package_identification:Package 'src/interfaces' with type 'ros.ament_cmake' and name 'interfaces'
+[0.568s] Level 1:colcon.colcon_core.package_identification:_identify(src/legs) by extensions ['ignore', 'ignore_ament_install']
+[0.568s] Level 1:colcon.colcon_core.package_identification:_identify(src/legs) by extension 'ignore'
+[0.568s] Level 1:colcon.colcon_core.package_identification:_identify(src/legs) by extension 'ignore_ament_install'
+[0.568s] Level 1:colcon.colcon_core.package_identification:_identify(src/legs) by extensions ['colcon_pkg']
+[0.568s] Level 1:colcon.colcon_core.package_identification:_identify(src/legs) by extension 'colcon_pkg'
+[0.569s] Level 1:colcon.colcon_core.package_identification:_identify(src/legs) by extensions ['colcon_meta']
+[0.569s] Level 1:colcon.colcon_core.package_identification:_identify(src/legs) by extension 'colcon_meta'
+[0.569s] Level 1:colcon.colcon_core.package_identification:_identify(src/legs) by extensions ['ros']
+[0.569s] Level 1:colcon.colcon_core.package_identification:_identify(src/legs) by extension 'ros'
+[0.569s] DEBUG:colcon.colcon_core.package_identification:Package 'src/legs' with type 'ros.ament_python' and name 'legs'
+[0.570s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision) by extensions ['ignore', 'ignore_ament_install']
+[0.570s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision) by extension 'ignore'
+[0.570s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision) by extension 'ignore_ament_install'
+[0.570s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision) by extensions ['colcon_pkg']
+[0.570s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision) by extension 'colcon_pkg'
+[0.570s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision) by extensions ['colcon_meta']
+[0.570s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision) by extension 'colcon_meta'
+[0.570s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision) by extensions ['ros']
+[0.570s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision) by extension 'ros'
+[0.571s] DEBUG:colcon.colcon_core.package_identification:Package 'src/vision' with type 'ros.ament_python' and name 'vision'
+[0.571s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.571s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.571s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.571s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.571s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.607s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.607s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.609s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/pidog/pidog-ros2/install/vision' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.609s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/pidog/pidog-ros2/install/legs' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.609s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/pidog/pidog-ros2/install/interfaces' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.610s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/pidog/pidog-ros2/install/brain' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.610s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/pidog/pidog-ros2/install/interfaces' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.612s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 0 installed packages in /home/pidog/pidog-ros2/install
+[0.615s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 288 installed packages in /opt/ros/humble
+[0.618s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.731s] Level 5:colcon.colcon_core.verb:set package 'brain' build argument 'cmake_args' from command line to 'None'
+[0.732s] Level 5:colcon.colcon_core.verb:set package 'brain' build argument 'cmake_target' from command line to 'None'
+[0.732s] Level 5:colcon.colcon_core.verb:set package 'brain' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.732s] Level 5:colcon.colcon_core.verb:set package 'brain' build argument 'cmake_clean_cache' from command line to 'False'
+[0.732s] Level 5:colcon.colcon_core.verb:set package 'brain' build argument 'cmake_clean_first' from command line to 'False'
+[0.732s] Level 5:colcon.colcon_core.verb:set package 'brain' build argument 'cmake_force_configure' from command line to 'False'
+[0.732s] Level 5:colcon.colcon_core.verb:set package 'brain' build argument 'ament_cmake_args' from command line to 'None'
+[0.732s] Level 5:colcon.colcon_core.verb:set package 'brain' build argument 'catkin_cmake_args' from command line to 'None'
+[0.732s] Level 5:colcon.colcon_core.verb:set package 'brain' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.732s] DEBUG:colcon.colcon_core.verb:Building package 'brain' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/pidog/pidog-ros2/build/brain', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/pidog/pidog-ros2/install/brain', 'merge_install': False, 'path': '/home/pidog/pidog-ros2/src/brain', 'symlink_install': False, 'test_result_base': None}
+[0.734s] Level 5:colcon.colcon_core.verb:set package 'interfaces' build argument 'cmake_args' from command line to 'None'
+[0.734s] Level 5:colcon.colcon_core.verb:set package 'interfaces' build argument 'cmake_target' from command line to 'None'
+[0.734s] Level 5:colcon.colcon_core.verb:set package 'interfaces' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.734s] Level 5:colcon.colcon_core.verb:set package 'interfaces' build argument 'cmake_clean_cache' from command line to 'False'
+[0.734s] Level 5:colcon.colcon_core.verb:set package 'interfaces' build argument 'cmake_clean_first' from command line to 'False'
+[0.734s] Level 5:colcon.colcon_core.verb:set package 'interfaces' build argument 'cmake_force_configure' from command line to 'False'
+[0.735s] Level 5:colcon.colcon_core.verb:set package 'interfaces' build argument 'ament_cmake_args' from command line to 'None'
+[0.735s] Level 5:colcon.colcon_core.verb:set package 'interfaces' build argument 'catkin_cmake_args' from command line to 'None'
+[0.735s] Level 5:colcon.colcon_core.verb:set package 'interfaces' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.735s] DEBUG:colcon.colcon_core.verb:Building package 'interfaces' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/pidog/pidog-ros2/build/interfaces', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/pidog/pidog-ros2/install/interfaces', 'merge_install': False, 'path': '/home/pidog/pidog-ros2/src/interfaces', 'symlink_install': False, 'test_result_base': None}
+[0.736s] Level 5:colcon.colcon_core.verb:set package 'legs' build argument 'cmake_args' from command line to 'None'
+[0.736s] Level 5:colcon.colcon_core.verb:set package 'legs' build argument 'cmake_target' from command line to 'None'
+[0.736s] Level 5:colcon.colcon_core.verb:set package 'legs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.736s] Level 5:colcon.colcon_core.verb:set package 'legs' build argument 'cmake_clean_cache' from command line to 'False'
+[0.737s] Level 5:colcon.colcon_core.verb:set package 'legs' build argument 'cmake_clean_first' from command line to 'False'
+[0.737s] Level 5:colcon.colcon_core.verb:set package 'legs' build argument 'cmake_force_configure' from command line to 'False'
+[0.737s] Level 5:colcon.colcon_core.verb:set package 'legs' build argument 'ament_cmake_args' from command line to 'None'
+[0.737s] Level 5:colcon.colcon_core.verb:set package 'legs' build argument 'catkin_cmake_args' from command line to 'None'
+[0.737s] Level 5:colcon.colcon_core.verb:set package 'legs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.737s] DEBUG:colcon.colcon_core.verb:Building package 'legs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/pidog/pidog-ros2/build/legs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/pidog/pidog-ros2/install/legs', 'merge_install': False, 'path': '/home/pidog/pidog-ros2/src/legs', 'symlink_install': False, 'test_result_base': None}
+[0.738s] Level 5:colcon.colcon_core.verb:set package 'vision' build argument 'cmake_args' from command line to 'None'
+[0.738s] Level 5:colcon.colcon_core.verb:set package 'vision' build argument 'cmake_target' from command line to 'None'
+[0.738s] Level 5:colcon.colcon_core.verb:set package 'vision' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.738s] Level 5:colcon.colcon_core.verb:set package 'vision' build argument 'cmake_clean_cache' from command line to 'False'
+[0.738s] Level 5:colcon.colcon_core.verb:set package 'vision' build argument 'cmake_clean_first' from command line to 'False'
+[0.738s] Level 5:colcon.colcon_core.verb:set package 'vision' build argument 'cmake_force_configure' from command line to 'False'
+[0.738s] Level 5:colcon.colcon_core.verb:set package 'vision' build argument 'ament_cmake_args' from command line to 'None'
+[0.739s] Level 5:colcon.colcon_core.verb:set package 'vision' build argument 'catkin_cmake_args' from command line to 'None'
+[0.739s] Level 5:colcon.colcon_core.verb:set package 'vision' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.739s] DEBUG:colcon.colcon_core.verb:Building package 'vision' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/pidog/pidog-ros2/build/vision', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/pidog/pidog-ros2/install/vision', 'merge_install': False, 'path': '/home/pidog/pidog-ros2/src/vision', 'symlink_install': False, 'test_result_base': None}
+[0.740s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.745s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.746s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/pidog/pidog-ros2/src/brain' with build type 'ament_python'
+[0.746s] Level 1:colcon.colcon_core.shell:create_environment_hook('brain', 'ament_prefix_path')
+[0.754s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.754s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pidog/pidog-ros2/install/brain/share/brain/hook/ament_prefix_path.ps1'
+[0.755s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pidog/pidog-ros2/install/brain/share/brain/hook/ament_prefix_path.dsv'
+[0.755s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pidog/pidog-ros2/install/brain/share/brain/hook/ament_prefix_path.sh'
+[0.758s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.758s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.765s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/pidog/pidog-ros2/src/interfaces' with build type 'ament_cmake'
+[0.766s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/pidog/pidog-ros2/src/interfaces'
+[0.769s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.769s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.778s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/pidog/pidog-ros2/src/legs' with build type 'ament_python'
+[0.779s] Level 1:colcon.colcon_core.shell:create_environment_hook('legs', 'ament_prefix_path')
+[0.783s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pidog/pidog-ros2/install/legs/share/legs/hook/ament_prefix_path.ps1'
+[0.785s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pidog/pidog-ros2/install/legs/share/legs/hook/ament_prefix_path.dsv'
+[0.785s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pidog/pidog-ros2/install/legs/share/legs/hook/ament_prefix_path.sh'
+[0.788s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.788s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.801s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/pidog/pidog-ros2/src/vision' with build type 'ament_python'
+[0.801s] Level 1:colcon.colcon_core.shell:create_environment_hook('vision', 'ament_prefix_path')
+[0.804s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pidog/pidog-ros2/install/vision/share/vision/hook/ament_prefix_path.ps1'
+[0.807s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pidog/pidog-ros2/install/vision/share/vision/hook/ament_prefix_path.dsv'
+[0.807s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pidog/pidog-ros2/install/vision/share/vision/hook/ament_prefix_path.sh'
+[0.810s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.810s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.271s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/pidog/pidog-ros2/src/brain'
+[1.274s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.274s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.289s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/pidog/pidog-ros2/build/interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pidog/pidog-ros2/install/vision:/home/pidog/pidog-ros2/install/legs:/home/pidog/pidog-ros2/install/brain:/opt/ros/humble /usr/bin/cmake /home/pidog/pidog-ros2/src/interfaces -DCMAKE_INSTALL_PREFIX=/home/pidog/pidog-ros2/install/interfaces
+[1.842s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/pidog/pidog-ros2/src/legs'
+[1.845s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.845s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.465s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/pidog/pidog-ros2/src/vision'
+[2.470s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.470s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.695s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/pidog/pidog-ros2/src/legs': PYTHONPATH=/home/pidog/pidog-ros2/build/legs/prefix_override:/home/pidog/pidog-ros2/install/legs/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/legs build --build-base /home/pidog/pidog-ros2/build/legs/build install --record /home/pidog/pidog-ros2/build/legs/install.log --single-version-externally-managed
+[3.769s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/pidog/pidog-ros2/src/brain': PYTHONPATH=/home/pidog/pidog-ros2/build/brain/prefix_override:/home/pidog/pidog-ros2/install/brain/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/brain build --build-base /home/pidog/pidog-ros2/build/brain/build install --record /home/pidog/pidog-ros2/build/brain/install.log --single-version-externally-managed
+[3.805s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/pidog/pidog-ros2/src/vision': PYTHONPATH=/home/pidog/pidog-ros2/build/vision/prefix_override:/home/pidog/pidog-ros2/install/vision/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/vision build --build-base /home/pidog/pidog-ros2/build/vision/build install --record /home/pidog/pidog-ros2/build/vision/install.log --single-version-externally-managed
+[4.668s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/pidog/pidog-ros2/src/legs' returned '0': PYTHONPATH=/home/pidog/pidog-ros2/build/legs/prefix_override:/home/pidog/pidog-ros2/install/legs/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/legs build --build-base /home/pidog/pidog-ros2/build/legs/build install --record /home/pidog/pidog-ros2/build/legs/install.log --single-version-externally-managed
+[4.702s] Level 1:colcon.colcon_core.environment:checking '/home/pidog/pidog-ros2/install/legs' for CMake module files
+[4.722s] Level 1:colcon.colcon_core.environment:checking '/home/pidog/pidog-ros2/install/legs' for CMake config files
+[4.729s] Level 1:colcon.colcon_core.environment:checking '/home/pidog/pidog-ros2/install/legs/lib'
+[4.730s] Level 1:colcon.colcon_core.environment:checking '/home/pidog/pidog-ros2/install/legs/bin'
+[4.731s] Level 1:colcon.colcon_core.environment:checking '/home/pidog/pidog-ros2/install/legs/lib/pkgconfig/legs.pc'
+[4.731s] Level 1:colcon.colcon_core.environment:checking '/home/pidog/pidog-ros2/install/legs/lib/python3.10/site-packages'
+[4.732s] Level 1:colcon.colcon_core.shell:create_environment_hook('legs', 'pythonpath')
+[4.735s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pidog/pidog-ros2/install/legs/share/legs/hook/pythonpath.ps1'
+[4.740s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pidog/pidog-ros2/install/legs/share/legs/hook/pythonpath.dsv'
+[4.741s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pidog/pidog-ros2/install/legs/share/legs/hook/pythonpath.sh'
+[4.742s] Level 1:colcon.colcon_core.environment:checking '/home/pidog/pidog-ros2/install/legs/bin'
+[4.743s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(legs)
+[4.749s] INFO:colcon.colcon_core.shell:Creating package script '/home/pidog/pidog-ros2/install/legs/share/legs/package.ps1'
+[4.752s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/pidog/pidog-ros2/install/legs/share/legs/package.dsv'
+[4.753s] INFO:colcon.colcon_core.shell:Creating package script '/home/pidog/pidog-ros2/install/legs/share/legs/package.sh'
+[4.755s] INFO:colcon.colcon_core.shell:Creating package script '/home/pidog/pidog-ros2/install/legs/share/legs/package.bash'
+[4.757s] INFO:colcon.colcon_core.shell:Creating package script '/home/pidog/pidog-ros2/install/legs/share/legs/package.zsh'
+[4.758s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/pidog/pidog-ros2/install/legs/share/colcon-core/packages/legs)
+[4.773s] Level 1:colcon.colcon_core.environment:checking '/home/pidog/pidog-ros2/install/vision' for CMake module files
+[4.774s] Level 1:colcon.colcon_core.environment:checking '/home/pidog/pidog-ros2/install/vision' for CMake config files
+[4.776s] Level 1:colcon.colcon_core.environment:checking '/home/pidog/pidog-ros2/install/vision/lib'
+[4.776s] Level 1:colcon.colcon_core.environment:checking '/home/pidog/pidog-ros2/install/vision/bin'
+[4.777s] Level 1:colcon.colcon_core.environment:checking '/home/pidog/pidog-ros2/install/vision/lib/pkgconfig/vision.pc'
+[4.778s] Level 1:colcon.colcon_core.environment:checking '/home/pidog/pidog-ros2/install/vision/lib/python3.10/site-packages'
+[4.778s] Level 1:colcon.colcon_core.shell:create_environment_hook('vision', 'pythonpath')
+[4.782s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pidog/pidog-ros2/install/vision/share/vision/hook/pythonpath.ps1'
+[4.783s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pidog/pidog-ros2/install/vision/share/vision/hook/pythonpath.dsv'
+[4.785s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/pidog/pidog-ros2/src/vision' returned '0': PYTHONPATH=/home/pidog/pidog-ros2/build/vision/prefix_override:/home/pidog/pidog-ros2/install/vision/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/vision build --build-base /home/pidog/pidog-ros2/build/vision/build install --record /home/pidog/pidog-ros2/build/vision/install.log --single-version-externally-managed
+[4.799s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pidog/pidog-ros2/install/vision/share/vision/hook/pythonpath.sh'
+[4.802s] Level 1:colcon.colcon_core.environment:checking '/home/pidog/pidog-ros2/install/vision/bin'
+[4.804s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(vision)
+[4.811s] INFO:colcon.colcon_core.shell:Creating package script '/home/pidog/pidog-ros2/install/vision/share/vision/package.ps1'
+[4.815s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/pidog/pidog-ros2/install/vision/share/vision/package.dsv'
+[4.817s] INFO:colcon.colcon_core.shell:Creating package script '/home/pidog/pidog-ros2/install/vision/share/vision/package.sh'
+[4.819s] INFO:colcon.colcon_core.shell:Creating package script '/home/pidog/pidog-ros2/install/vision/share/vision/package.bash'
+[4.822s] INFO:colcon.colcon_core.shell:Creating package script '/home/pidog/pidog-ros2/install/vision/share/vision/package.zsh'
+[4.824s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/pidog/pidog-ros2/install/vision/share/colcon-core/packages/vision)
+[4.884s] Level 1:colcon.colcon_core.environment:checking '/home/pidog/pidog-ros2/install/brain' for CMake module files
+[4.885s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/pidog/pidog-ros2/src/brain' returned '0': PYTHONPATH=/home/pidog/pidog-ros2/build/brain/prefix_override:/home/pidog/pidog-ros2/install/brain/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/brain build --build-base /home/pidog/pidog-ros2/build/brain/build install --record /home/pidog/pidog-ros2/build/brain/install.log --single-version-externally-managed
+[4.886s] Level 1:colcon.colcon_core.environment:checking '/home/pidog/pidog-ros2/install/brain' for CMake config files
+[4.887s] Level 1:colcon.colcon_core.environment:checking '/home/pidog/pidog-ros2/install/brain/lib'
+[4.887s] Level 1:colcon.colcon_core.environment:checking '/home/pidog/pidog-ros2/install/brain/bin'
+[4.887s] Level 1:colcon.colcon_core.environment:checking '/home/pidog/pidog-ros2/install/brain/lib/pkgconfig/brain.pc'
+[4.888s] Level 1:colcon.colcon_core.environment:checking '/home/pidog/pidog-ros2/install/brain/lib/python3.10/site-packages'
+[4.888s] Level 1:colcon.colcon_core.shell:create_environment_hook('brain', 'pythonpath')
+[4.890s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pidog/pidog-ros2/install/brain/share/brain/hook/pythonpath.ps1'
+[4.891s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pidog/pidog-ros2/install/brain/share/brain/hook/pythonpath.dsv'
+[4.891s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pidog/pidog-ros2/install/brain/share/brain/hook/pythonpath.sh'
+[4.892s] Level 1:colcon.colcon_core.environment:checking '/home/pidog/pidog-ros2/install/brain/bin'
+[4.892s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(brain)
+[4.900s] INFO:colcon.colcon_core.shell:Creating package script '/home/pidog/pidog-ros2/install/brain/share/brain/package.ps1'
+[4.901s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/pidog/pidog-ros2/install/brain/share/brain/package.dsv'
+[4.901s] INFO:colcon.colcon_core.shell:Creating package script '/home/pidog/pidog-ros2/install/brain/share/brain/package.sh'
+[4.902s] INFO:colcon.colcon_core.shell:Creating package script '/home/pidog/pidog-ros2/install/brain/share/brain/package.bash'
+[4.902s] INFO:colcon.colcon_core.shell:Creating package script '/home/pidog/pidog-ros2/install/brain/share/brain/package.zsh'
+[4.903s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/pidog/pidog-ros2/install/brain/share/colcon-core/packages/brain)
+[7.393s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/pidog/pidog-ros2/build/interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pidog/pidog-ros2/install/vision:/home/pidog/pidog-ros2/install/legs:/home/pidog/pidog-ros2/install/brain:/opt/ros/humble /usr/bin/cmake /home/pidog/pidog-ros2/src/interfaces -DCMAKE_INSTALL_PREFIX=/home/pidog/pidog-ros2/install/interfaces
+[7.397s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/pidog/pidog-ros2/build/interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pidog/pidog-ros2/install/vision:/home/pidog/pidog-ros2/install/legs:/home/pidog/pidog-ros2/install/brain:/opt/ros/humble /usr/bin/cmake --build /home/pidog/pidog-ros2/build/interfaces -- -j4 -l4
+[19.348s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/pidog/pidog-ros2/build/interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pidog/pidog-ros2/install/vision:/home/pidog/pidog-ros2/install/legs:/home/pidog/pidog-ros2/install/brain:/opt/ros/humble /usr/bin/cmake --build /home/pidog/pidog-ros2/build/interfaces -- -j4 -l4
+[19.620s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/pidog/pidog-ros2/build/interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pidog/pidog-ros2/install/vision:/home/pidog/pidog-ros2/install/legs:/home/pidog/pidog-ros2/install/brain:/opt/ros/humble /usr/bin/cmake --install /home/pidog/pidog-ros2/build/interfaces
+[19.770s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(interfaces)
+[19.775s] Level 1:colcon.colcon_core.environment:checking '/home/pidog/pidog-ros2/install/interfaces' for CMake module files
+[19.776s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/pidog/pidog-ros2/build/interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pidog/pidog-ros2/install/vision:/home/pidog/pidog-ros2/install/legs:/home/pidog/pidog-ros2/install/brain:/opt/ros/humble /usr/bin/cmake --install /home/pidog/pidog-ros2/build/interfaces
+[19.777s] Level 1:colcon.colcon_core.environment:checking '/home/pidog/pidog-ros2/install/interfaces' for CMake config files
+[19.778s] Level 1:colcon.colcon_core.shell:create_environment_hook('interfaces', 'cmake_prefix_path')
+[19.780s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pidog/pidog-ros2/install/interfaces/share/interfaces/hook/cmake_prefix_path.ps1'
+[19.781s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pidog/pidog-ros2/install/interfaces/share/interfaces/hook/cmake_prefix_path.dsv'
+[19.782s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pidog/pidog-ros2/install/interfaces/share/interfaces/hook/cmake_prefix_path.sh'
+[19.783s] Level 1:colcon.colcon_core.environment:checking '/home/pidog/pidog-ros2/install/interfaces/lib'
+[19.783s] Level 1:colcon.colcon_core.shell:create_environment_hook('interfaces', 'ld_library_path_lib')
+[19.785s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pidog/pidog-ros2/install/interfaces/share/interfaces/hook/ld_library_path_lib.ps1'
+[19.786s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pidog/pidog-ros2/install/interfaces/share/interfaces/hook/ld_library_path_lib.dsv'
+[19.786s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pidog/pidog-ros2/install/interfaces/share/interfaces/hook/ld_library_path_lib.sh'
+[19.786s] Level 1:colcon.colcon_core.environment:checking '/home/pidog/pidog-ros2/install/interfaces/bin'
+[19.786s] Level 1:colcon.colcon_core.environment:checking '/home/pidog/pidog-ros2/install/interfaces/lib/pkgconfig/interfaces.pc'
+[19.787s] Level 1:colcon.colcon_core.environment:checking '/home/pidog/pidog-ros2/install/interfaces/lib/python3.10/site-packages'
+[19.787s] Level 1:colcon.colcon_core.environment:checking '/home/pidog/pidog-ros2/install/interfaces/bin'
+[19.789s] INFO:colcon.colcon_core.shell:Creating package script '/home/pidog/pidog-ros2/install/interfaces/share/interfaces/package.ps1'
+[19.791s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/pidog/pidog-ros2/install/interfaces/share/interfaces/package.dsv'
+[19.792s] INFO:colcon.colcon_core.shell:Creating package script '/home/pidog/pidog-ros2/install/interfaces/share/interfaces/package.sh'
+[19.793s] INFO:colcon.colcon_core.shell:Creating package script '/home/pidog/pidog-ros2/install/interfaces/share/interfaces/package.bash'
+[19.793s] INFO:colcon.colcon_core.shell:Creating package script '/home/pidog/pidog-ros2/install/interfaces/share/interfaces/package.zsh'
+[19.794s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/pidog/pidog-ros2/install/interfaces/share/colcon-core/packages/interfaces)
+[20.067s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(interfaces)
+[20.069s] Level 1:colcon.colcon_core.environment:checking '/home/pidog/pidog-ros2/install/interfaces' for CMake module files
+[20.070s] Level 1:colcon.colcon_core.environment:checking '/home/pidog/pidog-ros2/install/interfaces' for CMake config files
+[20.071s] Level 1:colcon.colcon_core.shell:create_environment_hook('interfaces', 'cmake_prefix_path')
+[20.073s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pidog/pidog-ros2/install/interfaces/share/interfaces/hook/cmake_prefix_path.ps1'
+[20.074s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pidog/pidog-ros2/install/interfaces/share/interfaces/hook/cmake_prefix_path.dsv'
+[20.074s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pidog/pidog-ros2/install/interfaces/share/interfaces/hook/cmake_prefix_path.sh'
+[20.077s] Level 1:colcon.colcon_core.environment:checking '/home/pidog/pidog-ros2/install/interfaces/lib'
+[20.077s] Level 1:colcon.colcon_core.shell:create_environment_hook('interfaces', 'ld_library_path_lib')
+[20.079s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pidog/pidog-ros2/install/interfaces/share/interfaces/hook/ld_library_path_lib.ps1'
+[20.079s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pidog/pidog-ros2/install/interfaces/share/interfaces/hook/ld_library_path_lib.dsv'
+[20.080s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pidog/pidog-ros2/install/interfaces/share/interfaces/hook/ld_library_path_lib.sh'
+[20.081s] Level 1:colcon.colcon_core.environment:checking '/home/pidog/pidog-ros2/install/interfaces/bin'
+[20.081s] Level 1:colcon.colcon_core.environment:checking '/home/pidog/pidog-ros2/install/interfaces/lib/pkgconfig/interfaces.pc'
+[20.081s] Level 1:colcon.colcon_core.environment:checking '/home/pidog/pidog-ros2/install/interfaces/lib/python3.10/site-packages'
+[20.082s] Level 1:colcon.colcon_core.environment:checking '/home/pidog/pidog-ros2/install/interfaces/bin'
+[20.084s] INFO:colcon.colcon_core.shell:Creating package script '/home/pidog/pidog-ros2/install/interfaces/share/interfaces/package.ps1'
+[20.085s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/pidog/pidog-ros2/install/interfaces/share/interfaces/package.dsv'
+[20.086s] INFO:colcon.colcon_core.shell:Creating package script '/home/pidog/pidog-ros2/install/interfaces/share/interfaces/package.sh'
+[20.087s] INFO:colcon.colcon_core.shell:Creating package script '/home/pidog/pidog-ros2/install/interfaces/share/interfaces/package.bash'
+[20.088s] INFO:colcon.colcon_core.shell:Creating package script '/home/pidog/pidog-ros2/install/interfaces/share/interfaces/package.zsh'
+[20.089s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/pidog/pidog-ros2/install/interfaces/share/colcon-core/packages/interfaces)
+[20.089s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[20.090s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[20.092s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[20.093s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[20.100s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[20.100s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[20.100s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[20.122s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[20.125s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/pidog/pidog-ros2/install/local_setup.ps1'
+[20.127s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/pidog/pidog-ros2/install/_local_setup_util_ps1.py'
+[20.131s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/pidog/pidog-ros2/install/setup.ps1'
+[20.134s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/pidog/pidog-ros2/install/local_setup.sh'
+[20.136s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/pidog/pidog-ros2/install/_local_setup_util_sh.py'
+[20.138s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/pidog/pidog-ros2/install/setup.sh'
+[20.142s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/pidog/pidog-ros2/install/local_setup.bash'
+[20.144s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/pidog/pidog-ros2/install/setup.bash'
+[20.150s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/pidog/pidog-ros2/install/local_setup.zsh'
+[20.152s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/pidog/pidog-ros2/install/setup.zsh'

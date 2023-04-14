@@ -1,0 +1,23 @@
+[3.035s] Invoking command in '/home/pidog/pidog-ros2/src/brain': PYTHONPATH=/home/pidog/pidog-ros2/build/brain/prefix_override:/home/pidog/pidog-ros2/install/brain/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/brain build --build-base /home/pidog/pidog-ros2/build/brain/build install --record /home/pidog/pidog-ros2/build/brain/install.log --single-version-externally-managed
+[3.834s] running egg_info
+[3.837s] writing ../../build/brain/brain.egg-info/PKG-INFO
+[3.839s] writing dependency_links to ../../build/brain/brain.egg-info/dependency_links.txt
+[3.840s] writing entry points to ../../build/brain/brain.egg-info/entry_points.txt
+[3.840s] writing requirements to ../../build/brain/brain.egg-info/requires.txt
+[3.841s] writing top-level names to ../../build/brain/brain.egg-info/top_level.txt
+[3.846s] reading manifest file '../../build/brain/brain.egg-info/SOURCES.txt'
+[3.846s] writing manifest file '../../build/brain/brain.egg-info/SOURCES.txt'
+[3.847s] running build
+[3.850s] running build_py
+[3.850s] running install
+[3.851s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[3.851s]   warnings.warn(
+[3.851s] running install_lib
+[3.851s] running install_data
+[3.852s] running install_egg_info
+[3.858s] removing '/home/pidog/pidog-ros2/install/brain/lib/python3.10/site-packages/brain-0.0.0-py3.10.egg-info' (and everything under it)
+[3.858s] Copying ../../build/brain/brain.egg-info to /home/pidog/pidog-ros2/install/brain/lib/python3.10/site-packages/brain-0.0.0-py3.10.egg-info
+[3.860s] running install_scripts
+[3.939s] Installing brain script to /home/pidog/pidog-ros2/install/brain/lib/brain
+[3.939s] writing list of installed files to '/home/pidog/pidog-ros2/build/brain/install.log'
+[4.026s] Invoked command in '/home/pidog/pidog-ros2/src/brain' returned '0': PYTHONPATH=/home/pidog/pidog-ros2/build/brain/prefix_override:/home/pidog/pidog-ros2/install/brain/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/brain build --build-base /home/pidog/pidog-ros2/build/brain/build install --record /home/pidog/pidog-ros2/build/brain/install.log --single-version-externally-managed
