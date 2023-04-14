@@ -20,7 +20,7 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-            'legs = legs.legs_node:main',
+            'legs = legs.legs_action_server:main',
         ],
     },
 )
