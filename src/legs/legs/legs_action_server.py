@@ -10,6 +10,7 @@ class LegsActionServer(Node):
 
     def __init__(self):
         super().__init__('legs_action_server')
+        self.get_logger().info('initializing action server')
         self._action_server = ActionServer(
             self,
             Movement,

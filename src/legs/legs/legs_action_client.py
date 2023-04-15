@@ -9,6 +9,7 @@ class LegsActionClient(Node):
 
     def __init__(self):
         super().__init__('legs_action_client')
+        self.get_logger().info('initializing action client')
         self._action_client = ActionClient(
             self,
             Movement,
@@ -19,7 +20,8 @@ class LegsActionClient(Node):
         goal_msg = Movement.Goal()
         goal_msg.command = command
 
-        self._action_client.wait_for_server()
+        while not self._action_client.wait_for_server():
+            self.get_logger().info('action server not available, waiting...')
 
         return self._action_client.send_goal_async(goal_msg)
 
