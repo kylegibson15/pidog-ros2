@@ -1,0 +1,321 @@
+[0.000000] (-) TimerEvent: {}
+[0.000768] (brain) JobQueued: {'identifier': 'brain', 'dependencies': OrderedDict()}
+[0.000966] (interfaces) JobQueued: {'identifier': 'interfaces', 'dependencies': OrderedDict()}
+[0.001080] (vision) JobQueued: {'identifier': 'vision', 'dependencies': OrderedDict()}
+[0.001275] (legs) JobQueued: {'identifier': 'legs', 'dependencies': OrderedDict([('interfaces', '/home/pidog/pidog-ros2/install/interfaces')])}
+[0.001379] (interfaces) JobStarted: {'identifier': 'interfaces'}
+[0.019194] (brain) JobStarted: {'identifier': 'brain'}
+[0.033822] (vision) JobStarted: {'identifier': 'vision'}
+[0.073099] (interfaces) JobProgress: {'identifier': 'interfaces', 'progress': 'cmake'}
+[0.074469] (interfaces) JobProgress: {'identifier': 'interfaces', 'progress': 'build'}
+[0.088577] (interfaces) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/pidog/pidog-ros2/build/interfaces', '--', '-j4', '-l4'], 'cwd': '/home/pidog/pidog-ros2/build/interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('TMUX', '/tmp/tmux-1000/default,4142,0'), ('USER', 'pidog'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/pidog'), ('OLDPWD', '/home/pidog/pidog-ros2/src'), ('TERM_PROGRAM_VERSION', '3.2a'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1757'), ('IM_CONFIG_CHECK_ENV', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/opt/ros/humble/'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'pidog'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'pidog'), ('TERM', 'screen'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/Ubuntu22:@/tmp/.ICE-unix/1726,unix/Ubuntu22:/tmp/.ICE-unix/1726'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/e5131359_f206_4f50_969d_60562b55f997'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.DWUI31'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.103'), ('TERM_PROGRAM', 'tmux'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '1'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/pidog/pidog-ros2/build/interfaces'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('TMUX_PANE', '%0'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.101278] (-) TimerEvent: {}
+[0.202723] (-) TimerEvent: {}
+[0.312395] (-) TimerEvent: {}
+[0.414270] (-) TimerEvent: {}
+[0.525028] (-) TimerEvent: {}
+[0.628562] (-) TimerEvent: {}
+[0.731034] (-) TimerEvent: {}
+[0.833642] (-) TimerEvent: {}
+[0.937422] (-) TimerEvent: {}
+[0.993149] (interfaces) StdoutLine: {'line': b'[  2%] Built target interfaces__cpp\n'}
+[0.993765] (interfaces) StdoutLine: {'line': b'[ 12%] Built target interfaces__rosidl_generator_c\n'}
+[0.993965] (interfaces) StdoutLine: {'line': b'[ 12%] Built target ament_cmake_python_copy_interfaces\n'}
+[0.994182] (interfaces) StdoutLine: {'line': b'[ 30%] Built target interfaces__rosidl_typesupport_fastrtps_cpp\n'}
+[0.994400] (interfaces) StdoutLine: {'line': b'[ 33%] Built target interfaces__rosidl_typesupport_cpp\n'}
+[0.994569] (interfaces) StdoutLine: {'line': b'[ 48%] Built target interfaces__rosidl_typesupport_fastrtps_c\n'}
+[0.994910] (interfaces) StdoutLine: {'line': b'[ 53%] Built target interfaces__rosidl_typesupport_introspection_cpp\n'}
+[0.996003] (interfaces) StdoutLine: {'line': b'[ 64%] Built target interfaces__rosidl_typesupport_c\n'}
+[0.996197] (interfaces) StdoutLine: {'line': b'[ 74%] Built target interfaces__rosidl_typesupport_introspection_c\n'}
+[0.996339] (interfaces) StdoutLine: {'line': b'[ 74%] Built target interfaces\n'}
+[0.996475] (interfaces) StdoutLine: {'line': b'[ 76%] Built target interfaces__py\n'}
+[0.996604] (interfaces) StdoutLine: {'line': b'[ 84%] Built target interfaces__rosidl_generator_py\n'}
+[0.996735] (interfaces) StdoutLine: {'line': b'[ 89%] Built target interfaces__rosidl_typesupport_introspection_c__pyext\n'}
+[0.996875] (interfaces) StdoutLine: {'line': b'[ 94%] Built target interfaces__rosidl_typesupport_fastrtps_c__pyext\n'}
+[0.997085] (interfaces) StdoutLine: {'line': b'[100%] Built target interfaces__rosidl_typesupport_c__pyext\n'}
+[1.039812] (-) TimerEvent: {}
+[1.142367] (-) TimerEvent: {}
+[1.148178] (interfaces) StdoutLine: {'line': b'running egg_info\n'}
+[1.148599] (interfaces) StdoutLine: {'line': b'writing interfaces.egg-info/PKG-INFO\n'}
+[1.148724] (interfaces) StdoutLine: {'line': b'writing dependency_links to interfaces.egg-info/dependency_links.txt\n'}
+[1.148829] (interfaces) StdoutLine: {'line': b'writing top-level names to interfaces.egg-info/top_level.txt\n'}
+[1.153822] (interfaces) StdoutLine: {'line': b"reading manifest file 'interfaces.egg-info/SOURCES.txt'\n"}
+[1.155668] (interfaces) StdoutLine: {'line': b"writing manifest file 'interfaces.egg-info/SOURCES.txt'\n"}
+[1.304656] (-) TimerEvent: {}
+[1.427888] (-) TimerEvent: {}
+[1.460618] (interfaces) StdoutLine: {'line': b'[100%] Built target ament_cmake_python_build_interfaces_egg\n'}
+[1.528175] (-) TimerEvent: {}
+[1.629144] (-) TimerEvent: {}
+[1.730251] (-) TimerEvent: {}
+[1.830934] (-) TimerEvent: {}
+[1.839775] (interfaces) CommandEnded: {'returncode': 0}
+[1.931498] (-) TimerEvent: {}
+[2.033531] (-) TimerEvent: {}
+[2.140987] (-) TimerEvent: {}
+[2.253193] (-) TimerEvent: {}
+[2.265280] (interfaces) JobProgress: {'identifier': 'interfaces', 'progress': 'install'}
+[2.316844] (interfaces) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/pidog/pidog-ros2/build/interfaces'], 'cwd': '/home/pidog/pidog-ros2/build/interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('TMUX', '/tmp/tmux-1000/default,4142,0'), ('USER', 'pidog'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/pidog'), ('OLDPWD', '/home/pidog/pidog-ros2/src'), ('TERM_PROGRAM_VERSION', '3.2a'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1757'), ('IM_CONFIG_CHECK_ENV', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/opt/ros/humble/'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'pidog'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'pidog'), ('TERM', 'screen'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/Ubuntu22:@/tmp/.ICE-unix/1726,unix/Ubuntu22:/tmp/.ICE-unix/1726'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/e5131359_f206_4f50_969d_60562b55f997'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.DWUI31'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.103'), ('TERM_PROGRAM', 'tmux'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '1'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/pidog/pidog-ros2/build/interfaces'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('TMUX_PANE', '%0'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[2.341950] (interfaces) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[2.342759] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pidog/pidog-ros2/install/interfaces/share/ament_index/resource_index/rosidl_interfaces/interfaces\n'}
+[2.343114] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pidog/pidog-ros2/install/interfaces/include/interfaces/interfaces\n'}
+[2.343341] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pidog/pidog-ros2/install/interfaces/include/interfaces/interfaces/msg\n'}
+[2.343546] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pidog/pidog-ros2/install/interfaces/include/interfaces/interfaces/msg/rosidl_generator_c__visibility_control.h\n'}
+[2.343753] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pidog/pidog-ros2/install/interfaces/include/interfaces/interfaces/srv\n'}
+[2.343941] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pidog/pidog-ros2/install/interfaces/include/interfaces/interfaces/srv/component_status.h\n'}
+[2.344116] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pidog/pidog-ros2/install/interfaces/include/interfaces/interfaces/srv/detail\n'}
+[2.344284] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pidog/pidog-ros2/install/interfaces/include/interfaces/interfaces/srv/detail/component_status__functions.h\n'}
+[2.344448] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pidog/pidog-ros2/install/interfaces/include/interfaces/interfaces/srv/detail/component_status__type_support.h\n'}
+[2.344610] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pidog/pidog-ros2/install/interfaces/include/interfaces/interfaces/srv/detail/component_status__struct.h\n'}
+[2.344775] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pidog/pidog-ros2/install/interfaces/include/interfaces/interfaces/srv/detail/component_status__functions.c\n'}
+[2.344935] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pidog/pidog-ros2/install/interfaces/include/interfaces/interfaces/action\n'}
+[2.345097] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pidog/pidog-ros2/install/interfaces/include/interfaces/interfaces/action/detail\n'}
+[2.345257] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pidog/pidog-ros2/install/interfaces/include/interfaces/interfaces/action/detail/movement__type_support.h\n'}
+[2.345418] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pidog/pidog-ros2/install/interfaces/include/interfaces/interfaces/action/detail/movement__functions.c\n'}
+[2.345577] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pidog/pidog-ros2/install/interfaces/include/interfaces/interfaces/action/detail/movement__functions.h\n'}
+[2.345740] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pidog/pidog-ros2/install/interfaces/include/interfaces/interfaces/action/detail/movement__struct.h\n'}
+[2.345900] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pidog/pidog-ros2/install/interfaces/include/interfaces/interfaces/action/movement.h\n'}
+[2.346078] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pidog/pidog-ros2/install/interfaces/share/interfaces/environment/library_path.sh\n'}
+[2.346243] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pidog/pidog-ros2/install/interfaces/share/interfaces/environment/library_path.dsv\n'}
+[2.346404] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pidog/pidog-ros2/install/interfaces/lib/libinterfaces__rosidl_generator_c.so\n'}
+[2.347154] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pidog/pidog-ros2/install/interfaces/include/interfaces/interfaces\n'}
+[2.347639] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pidog/pidog-ros2/install/interfaces/include/interfaces/interfaces/msg\n'}
+[2.348145] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pidog/pidog-ros2/install/interfaces/include/interfaces/interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[2.348641] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pidog/pidog-ros2/install/interfaces/include/interfaces/interfaces/srv\n'}
+[2.349185] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pidog/pidog-ros2/install/interfaces/include/interfaces/interfaces/srv/detail\n'}
+[2.349668] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pidog/pidog-ros2/install/interfaces/include/interfaces/interfaces/srv/detail/component_status__rosidl_typesupport_fastrtps_c.h\n'}
+[2.350706] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pidog/pidog-ros2/install/interfaces/include/interfaces/interfaces/action\n'}
+[2.351554] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pidog/pidog-ros2/install/interfaces/include/interfaces/interfaces/action/detail\n'}
+[2.353256] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pidog/pidog-ros2/install/interfaces/include/interfaces/interfaces/action/detail/movement__rosidl_typesupport_fastrtps_c.h\n'}
+[2.353764] (-) TimerEvent: {}
+[2.355998] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pidog/pidog-ros2/install/interfaces/lib/libinterfaces__rosidl_typesupport_fastrtps_c.so\n'}
+[2.356970] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pidog/pidog-ros2/install/interfaces/include/interfaces/interfaces\n'}
+[2.357426] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pidog/pidog-ros2/install/interfaces/include/interfaces/interfaces/msg\n'}
+[2.357892] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pidog/pidog-ros2/install/interfaces/include/interfaces/interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[2.358026] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pidog/pidog-ros2/install/interfaces/include/interfaces/interfaces/srv\n'}
+[2.358352] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pidog/pidog-ros2/install/interfaces/include/interfaces/interfaces/srv/detail\n'}
+[2.358759] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pidog/pidog-ros2/install/interfaces/include/interfaces/interfaces/srv/detail/component_status__rosidl_typesupport_introspection_c.h\n'}
+[2.359100] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pidog/pidog-ros2/install/interfaces/include/interfaces/interfaces/srv/detail/component_status__type_support.c\n'}
+[2.359209] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pidog/pidog-ros2/install/interfaces/include/interfaces/interfaces/action\n'}
+[2.359581] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pidog/pidog-ros2/install/interfaces/include/interfaces/interfaces/action/detail\n'}
+[2.360018] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pidog/pidog-ros2/install/interfaces/include/interfaces/interfaces/action/detail/movement__rosidl_typesupport_introspection_c.h\n'}
+[2.360682] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pidog/pidog-ros2/install/interfaces/include/interfaces/interfaces/action/detail/movement__type_support.c\n'}
+[2.361588] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pidog/pidog-ros2/install/interfaces/lib/libinterfaces__rosidl_typesupport_introspection_c.so\n'}
+[2.362701] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pidog/pidog-ros2/install/interfaces/lib/libinterfaces__rosidl_typesupport_c.so\n'}
+[2.363574] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pidog/pidog-ros2/install/interfaces/include/interfaces/interfaces\n'}
+[2.364095] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pidog/pidog-ros2/install/interfaces/include/interfaces/interfaces/srv\n'}
+[2.364597] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pidog/pidog-ros2/install/interfaces/include/interfaces/interfaces/srv/component_status.hpp\n'}
+[2.365031] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pidog/pidog-ros2/install/interfaces/include/interfaces/interfaces/srv/detail\n'}
+[2.365514] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pidog/pidog-ros2/install/interfaces/include/interfaces/interfaces/srv/detail/component_status__builder.hpp\n'}
+[2.365955] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pidog/pidog-ros2/install/interfaces/include/interfaces/interfaces/srv/detail/component_status__struct.hpp\n'}
+[2.367310] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pidog/pidog-ros2/install/interfaces/include/interfaces/interfaces/srv/detail/component_status__traits.hpp\n'}
+[2.368744] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pidog/pidog-ros2/install/interfaces/include/interfaces/interfaces/action\n'}
+[2.369166] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pidog/pidog-ros2/install/interfaces/include/interfaces/interfaces/action/movement.hpp\n'}
+[2.369369] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pidog/pidog-ros2/install/interfaces/include/interfaces/interfaces/action/detail\n'}
+[2.370490] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pidog/pidog-ros2/install/interfaces/include/interfaces/interfaces/action/detail/movement__builder.hpp\n'}
+[2.371363] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pidog/pidog-ros2/install/interfaces/include/interfaces/interfaces/action/detail/movement__traits.hpp\n'}
+[2.371646] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pidog/pidog-ros2/install/interfaces/include/interfaces/interfaces/action/detail/movement__struct.hpp\n'}
+[2.372731] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pidog/pidog-ros2/install/interfaces/include/interfaces/interfaces\n'}
+[2.373376] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pidog/pidog-ros2/install/interfaces/include/interfaces/interfaces/msg\n'}
+[2.373947] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pidog/pidog-ros2/install/interfaces/include/interfaces/interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[2.374721] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pidog/pidog-ros2/install/interfaces/include/interfaces/interfaces/srv\n'}
+[2.376526] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pidog/pidog-ros2/install/interfaces/include/interfaces/interfaces/srv/detail\n'}
+[2.377442] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pidog/pidog-ros2/install/interfaces/include/interfaces/interfaces/srv/detail/dds_fastrtps\n'}
+[2.378147] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pidog/pidog-ros2/install/interfaces/include/interfaces/interfaces/srv/detail/component_status__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[2.378768] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pidog/pidog-ros2/install/interfaces/include/interfaces/interfaces/action\n'}
+[2.379323] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pidog/pidog-ros2/install/interfaces/include/interfaces/interfaces/action/detail\n'}
+[2.380080] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pidog/pidog-ros2/install/interfaces/include/interfaces/interfaces/action/detail/dds_fastrtps\n'}
+[2.380426] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pidog/pidog-ros2/install/interfaces/include/interfaces/interfaces/action/detail/movement__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[2.383724] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pidog/pidog-ros2/install/interfaces/lib/libinterfaces__rosidl_typesupport_fastrtps_cpp.so\n'}
+[2.384401] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pidog/pidog-ros2/install/interfaces/include/interfaces/interfaces\n'}
+[2.384924] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pidog/pidog-ros2/install/interfaces/include/interfaces/interfaces/srv\n'}
+[2.386269] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pidog/pidog-ros2/install/interfaces/include/interfaces/interfaces/srv/detail\n'}
+[2.388398] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pidog/pidog-ros2/install/interfaces/include/interfaces/interfaces/srv/detail/component_status__type_support.cpp\n'}
+[2.388996] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pidog/pidog-ros2/install/interfaces/include/interfaces/interfaces/srv/detail/component_status__rosidl_typesupport_introspection_cpp.hpp\n'}
+[2.389459] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pidog/pidog-ros2/install/interfaces/include/interfaces/interfaces/action\n'}
+[2.389937] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pidog/pidog-ros2/install/interfaces/include/interfaces/interfaces/action/detail\n'}
+[2.390351] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pidog/pidog-ros2/install/interfaces/include/interfaces/interfaces/action/detail/movement__type_support.cpp\n'}
+[2.390853] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pidog/pidog-ros2/install/interfaces/include/interfaces/interfaces/action/detail/movement__rosidl_typesupport_introspection_cpp.hpp\n'}
+[2.391355] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pidog/pidog-ros2/install/interfaces/lib/libinterfaces__rosidl_typesupport_introspection_cpp.so\n'}
+[2.391781] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pidog/pidog-ros2/install/interfaces/lib/libinterfaces__rosidl_typesupport_cpp.so\n'}
+[2.392201] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pidog/pidog-ros2/install/interfaces/share/interfaces/environment/pythonpath.sh\n'}
+[2.392624] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pidog/pidog-ros2/install/interfaces/share/interfaces/environment/pythonpath.dsv\n'}
+[2.393066] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pidog/pidog-ros2/install/interfaces/local/lib/python3.10/dist-packages/interfaces-0.0.0-py3.10.egg-info\n'}
+[2.393518] (interfaces) StdoutLine: {'line': b'-- Installing: /home/pidog/pidog-ros2/install/interfaces/local/lib/python3.10/dist-packages/interfaces-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[2.394898] (interfaces) StdoutLine: {'line': b'-- Installing: /home/pidog/pidog-ros2/install/interfaces/local/lib/python3.10/dist-packages/interfaces-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[2.395451] (interfaces) StdoutLine: {'line': b'-- Installing: /home/pidog/pidog-ros2/install/interfaces/local/lib/python3.10/dist-packages/interfaces-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[2.395750] (interfaces) StdoutLine: {'line': b'-- Installing: /home/pidog/pidog-ros2/install/interfaces/local/lib/python3.10/dist-packages/interfaces-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[2.395935] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pidog/pidog-ros2/install/interfaces/local/lib/python3.10/dist-packages/interfaces\n'}
+[2.396117] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pidog/pidog-ros2/install/interfaces/local/lib/python3.10/dist-packages/interfaces/__init__.py\n'}
+[2.396298] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pidog/pidog-ros2/install/interfaces/local/lib/python3.10/dist-packages/interfaces/_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[2.396502] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pidog/pidog-ros2/install/interfaces/local/lib/python3.10/dist-packages/interfaces/interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[2.396687] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pidog/pidog-ros2/install/interfaces/local/lib/python3.10/dist-packages/interfaces/_interfaces_s.ep.rosidl_typesupport_c.c\n'}
+[2.396866] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pidog/pidog-ros2/install/interfaces/local/lib/python3.10/dist-packages/interfaces/interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[2.397046] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pidog/pidog-ros2/install/interfaces/local/lib/python3.10/dist-packages/interfaces/srv\n'}
+[2.397226] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pidog/pidog-ros2/install/interfaces/local/lib/python3.10/dist-packages/interfaces/srv/_component_status_s.c\n'}
+[2.397405] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pidog/pidog-ros2/install/interfaces/local/lib/python3.10/dist-packages/interfaces/srv/__init__.py\n'}
+[2.397574] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pidog/pidog-ros2/install/interfaces/local/lib/python3.10/dist-packages/interfaces/srv/_component_status.py\n'}
+[2.397777] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pidog/pidog-ros2/install/interfaces/local/lib/python3.10/dist-packages/interfaces/_interfaces_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[2.397966] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pidog/pidog-ros2/install/interfaces/local/lib/python3.10/dist-packages/interfaces/interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[2.398145] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pidog/pidog-ros2/install/interfaces/local/lib/python3.10/dist-packages/interfaces/action\n'}
+[2.398320] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pidog/pidog-ros2/install/interfaces/local/lib/python3.10/dist-packages/interfaces/action/__init__.py\n'}
+[2.398497] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pidog/pidog-ros2/install/interfaces/local/lib/python3.10/dist-packages/interfaces/action/_movement_s.c\n'}
+[2.398675] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pidog/pidog-ros2/install/interfaces/local/lib/python3.10/dist-packages/interfaces/action/_movement.py\n'}
+[2.398900] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pidog/pidog-ros2/install/interfaces/local/lib/python3.10/dist-packages/interfaces/libinterfaces__rosidl_generator_py.so\n'}
+[2.457310] (-) TimerEvent: {}
+[2.488550] (interfaces) StdoutLine: {'line': b"Listing '/home/pidog/pidog-ros2/install/interfaces/local/lib/python3.10/dist-packages/interfaces'...\n"}
+[2.488852] (interfaces) StdoutLine: {'line': b"Listing '/home/pidog/pidog-ros2/install/interfaces/local/lib/python3.10/dist-packages/interfaces/action'...\n"}
+[2.489039] (interfaces) StdoutLine: {'line': b"Listing '/home/pidog/pidog-ros2/install/interfaces/local/lib/python3.10/dist-packages/interfaces/srv'...\n"}
+[2.524413] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pidog/pidog-ros2/install/interfaces/local/lib/python3.10/dist-packages/interfaces/interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[2.524773] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pidog/pidog-ros2/install/interfaces/local/lib/python3.10/dist-packages/interfaces/interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[2.525244] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pidog/pidog-ros2/install/interfaces/local/lib/python3.10/dist-packages/interfaces/interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[2.525954] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pidog/pidog-ros2/install/interfaces/lib/libinterfaces__rosidl_generator_py.so\n'}
+[2.527788] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pidog/pidog-ros2/install/interfaces/share/interfaces/action/Movement.idl\n'}
+[2.528159] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pidog/pidog-ros2/install/interfaces/share/interfaces/srv/ComponentStatus.idl\n'}
+[2.528381] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pidog/pidog-ros2/install/interfaces/share/interfaces/action/Movement.action\n'}
+[2.530499] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pidog/pidog-ros2/install/interfaces/share/interfaces/srv/ComponentStatus.srv\n'}
+[2.532312] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pidog/pidog-ros2/install/interfaces/share/interfaces/srv/ComponentStatus_Request.msg\n'}
+[2.532796] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pidog/pidog-ros2/install/interfaces/share/interfaces/srv/ComponentStatus_Response.msg\n'}
+[2.533237] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pidog/pidog-ros2/install/interfaces/share/ament_index/resource_index/package_run_dependencies/interfaces\n'}
+[2.533708] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pidog/pidog-ros2/install/interfaces/share/ament_index/resource_index/parent_prefix_path/interfaces\n'}
+[2.534182] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pidog/pidog-ros2/install/interfaces/share/interfaces/environment/ament_prefix_path.sh\n'}
+[2.534892] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pidog/pidog-ros2/install/interfaces/share/interfaces/environment/ament_prefix_path.dsv\n'}
+[2.539704] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pidog/pidog-ros2/install/interfaces/share/interfaces/environment/path.sh\n'}
+[2.540658] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pidog/pidog-ros2/install/interfaces/share/interfaces/environment/path.dsv\n'}
+[2.541733] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pidog/pidog-ros2/install/interfaces/share/interfaces/local_setup.bash\n'}
+[2.542317] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pidog/pidog-ros2/install/interfaces/share/interfaces/local_setup.sh\n'}
+[2.542596] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pidog/pidog-ros2/install/interfaces/share/interfaces/local_setup.zsh\n'}
+[2.542781] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pidog/pidog-ros2/install/interfaces/share/interfaces/local_setup.dsv\n'}
+[2.543270] (interfaces) StdoutLine: {'line': b'-- Installing: /home/pidog/pidog-ros2/install/interfaces/share/interfaces/package.dsv\n'}
+[2.543703] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pidog/pidog-ros2/install/interfaces/share/ament_index/resource_index/packages/interfaces\n'}
+[2.544440] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pidog/pidog-ros2/install/interfaces/share/interfaces/cmake/export_interfaces__rosidl_generator_cExport.cmake\n'}
+[2.544655] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pidog/pidog-ros2/install/interfaces/share/interfaces/cmake/export_interfaces__rosidl_generator_cExport-noconfig.cmake\n'}
+[2.545071] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pidog/pidog-ros2/install/interfaces/share/interfaces/cmake/export_interfaces__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[2.545599] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pidog/pidog-ros2/install/interfaces/share/interfaces/cmake/export_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[2.546047] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pidog/pidog-ros2/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_introspection_cExport.cmake\n'}
+[2.546577] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pidog/pidog-ros2/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[2.547032] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pidog/pidog-ros2/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_cExport.cmake\n'}
+[2.547464] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pidog/pidog-ros2/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[2.547886] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pidog/pidog-ros2/install/interfaces/share/interfaces/cmake/export_interfaces__rosidl_generator_cppExport.cmake\n'}
+[2.551447] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pidog/pidog-ros2/install/interfaces/share/interfaces/cmake/export_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[2.551812] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pidog/pidog-ros2/install/interfaces/share/interfaces/cmake/export_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[2.553846] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pidog/pidog-ros2/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[2.554282] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pidog/pidog-ros2/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[2.554708] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pidog/pidog-ros2/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_cppExport.cmake\n'}
+[2.555131] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pidog/pidog-ros2/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[2.555553] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pidog/pidog-ros2/install/interfaces/share/interfaces/cmake/export_interfaces__rosidl_generator_pyExport.cmake\n'}
+[2.587829] (-) TimerEvent: {}
+[2.588027] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pidog/pidog-ros2/install/interfaces/share/interfaces/cmake/export_interfaces__rosidl_generator_pyExport-noconfig.cmake\n'}
+[2.588171] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pidog/pidog-ros2/install/interfaces/share/interfaces/cmake/rosidl_cmake-extras.cmake\n'}
+[2.588274] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pidog/pidog-ros2/install/interfaces/share/interfaces/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[2.588372] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pidog/pidog-ros2/install/interfaces/share/interfaces/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[2.588468] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pidog/pidog-ros2/install/interfaces/share/interfaces/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[2.588564] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pidog/pidog-ros2/install/interfaces/share/interfaces/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[2.588660] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pidog/pidog-ros2/install/interfaces/share/interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[2.588755] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pidog/pidog-ros2/install/interfaces/share/interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[2.588849] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pidog/pidog-ros2/install/interfaces/share/interfaces/cmake/interfacesConfig.cmake\n'}
+[2.588944] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pidog/pidog-ros2/install/interfaces/share/interfaces/cmake/interfacesConfig-version.cmake\n'}
+[2.589038] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pidog/pidog-ros2/install/interfaces/share/interfaces/package.xml\n'}
+[2.589134] (interfaces) CommandEnded: {'returncode': 0}
+[2.690365] (-) TimerEvent: {}
+[2.794350] (-) TimerEvent: {}
+[2.896232] (-) TimerEvent: {}
+[2.998028] (-) TimerEvent: {}
+[3.105224] (vision) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/vision', 'build', '--build-base', '/home/pidog/pidog-ros2/build/vision/build', 'install', '--record', '/home/pidog/pidog-ros2/build/vision/install.log', '--single-version-externally-managed'], 'cwd': '/home/pidog/pidog-ros2/src/vision', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'TMUX': '/tmp/tmux-1000/default,4142,0', 'USER': 'pidog', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/pidog', 'OLDPWD': '/home/pidog/pidog-ros2/src', 'TERM_PROGRAM_VERSION': '3.2a', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '1757', 'IM_CONFIG_CHECK_ENV': '1', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', '_colcon_cd_root': '/opt/ros/humble/', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'humble', 'LOGNAME': 'pidog', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'pidog', 'TERM': 'screen', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '1', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/Ubuntu22:@/tmp/.ICE-unix/1726,unix/Ubuntu22:/tmp/.ICE-unix/1726', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/e5131359_f206_4f50_969d_60562b55f997', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.DWUI31', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.103', 'TERM_PROGRAM': 'tmux', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'ROS_DOMAIN_ID': '1', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/pidog/pidog-ros2/build/vision', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/pidog/pidog-ros2/build/vision/prefix_override:/home/pidog/pidog-ros2/install/vision/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800', 'TMUX_PANE': '%0'}, 'shell': False}
+[3.107116] (-) TimerEvent: {}
+[3.153913] (interfaces) JobEnded: {'identifier': 'interfaces', 'rc': 0}
+[3.165482] (legs) JobStarted: {'identifier': 'legs'}
+[3.181304] (brain) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/brain', 'build', '--build-base', '/home/pidog/pidog-ros2/build/brain/build', 'install', '--record', '/home/pidog/pidog-ros2/build/brain/install.log', '--single-version-externally-managed'], 'cwd': '/home/pidog/pidog-ros2/src/brain', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'TMUX': '/tmp/tmux-1000/default,4142,0', 'USER': 'pidog', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/pidog', 'OLDPWD': '/home/pidog/pidog-ros2/src', 'TERM_PROGRAM_VERSION': '3.2a', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '1757', 'IM_CONFIG_CHECK_ENV': '1', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', '_colcon_cd_root': '/opt/ros/humble/', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'humble', 'LOGNAME': 'pidog', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'pidog', 'TERM': 'screen', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '1', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/Ubuntu22:@/tmp/.ICE-unix/1726,unix/Ubuntu22:/tmp/.ICE-unix/1726', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/e5131359_f206_4f50_969d_60562b55f997', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.DWUI31', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.103', 'TERM_PROGRAM': 'tmux', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'ROS_DOMAIN_ID': '1', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/pidog/pidog-ros2/build/brain', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/pidog/pidog-ros2/build/brain/prefix_override:/home/pidog/pidog-ros2/install/brain/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800', 'TMUX_PANE': '%0'}, 'shell': False}
+[3.212820] (-) TimerEvent: {}
+[3.314386] (-) TimerEvent: {}
+[3.418282] (-) TimerEvent: {}
+[3.527513] (-) TimerEvent: {}
+[3.634606] (-) TimerEvent: {}
+[3.744132] (-) TimerEvent: {}
+[3.851208] (-) TimerEvent: {}
+[3.867259] (vision) StdoutLine: {'line': b'running egg_info\n'}
+[3.868136] (vision) StdoutLine: {'line': b'writing ../../build/vision/vision.egg-info/PKG-INFO\n'}
+[3.869108] (vision) StdoutLine: {'line': b'writing dependency_links to ../../build/vision/vision.egg-info/dependency_links.txt\n'}
+[3.870503] (vision) StdoutLine: {'line': b'writing entry points to ../../build/vision/vision.egg-info/entry_points.txt\n'}
+[3.871684] (vision) StdoutLine: {'line': b'writing requirements to ../../build/vision/vision.egg-info/requires.txt\n'}
+[3.873480] (vision) StdoutLine: {'line': b'writing top-level names to ../../build/vision/vision.egg-info/top_level.txt\n'}
+[3.879734] (vision) StdoutLine: {'line': b"reading manifest file '../../build/vision/vision.egg-info/SOURCES.txt'\n"}
+[3.897690] (vision) StdoutLine: {'line': b"writing manifest file '../../build/vision/vision.egg-info/SOURCES.txt'\n"}
+[3.909806] (vision) StdoutLine: {'line': b'running build\n'}
+[3.910588] (vision) StdoutLine: {'line': b'running build_py\n'}
+[3.910930] (vision) StdoutLine: {'line': b'running install\n'}
+[3.911200] (vision) StdoutLine: {'line': b'running install_lib\n'}
+[3.911485] (vision) StdoutLine: {'line': b'running install_data\n'}
+[3.911754] (vision) StdoutLine: {'line': b'running install_egg_info\n'}
+[3.911935] (vision) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.\n'}
+[3.912132] (vision) StderrLine: {'line': b'  warnings.warn(\n'}
+[3.912288] (vision) StdoutLine: {'line': b"removing '/home/pidog/pidog-ros2/install/vision/lib/python3.10/site-packages/vision-0.0.1-py3.10.egg-info' (and everything under it)\n"}
+[3.912452] (vision) StdoutLine: {'line': b'Copying ../../build/vision/vision.egg-info to /home/pidog/pidog-ros2/install/vision/lib/python3.10/site-packages/vision-0.0.1-py3.10.egg-info\n'}
+[3.912612] (vision) StdoutLine: {'line': b'running install_scripts\n'}
+[3.956208] (-) TimerEvent: {}
+[3.967089] (vision) StdoutLine: {'line': b'Installing vision script to /home/pidog/pidog-ros2/install/vision/lib/vision\n'}
+[3.967937] (vision) StdoutLine: {'line': b"writing list of installed files to '/home/pidog/pidog-ros2/build/vision/install.log'\n"}
+[3.986622] (brain) StdoutLine: {'line': b'running egg_info\n'}
+[4.006401] (brain) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.\n'}
+[4.006722] (brain) StderrLine: {'line': b'  warnings.warn(\n'}
+[4.006884] (brain) StdoutLine: {'line': b'writing ../../build/brain/brain.egg-info/PKG-INFO\n'}
+[4.007042] (brain) StdoutLine: {'line': b'writing dependency_links to ../../build/brain/brain.egg-info/dependency_links.txt\n'}
+[4.007206] (brain) StdoutLine: {'line': b'writing entry points to ../../build/brain/brain.egg-info/entry_points.txt\n'}
+[4.007412] (brain) StdoutLine: {'line': b'writing requirements to ../../build/brain/brain.egg-info/requires.txt\n'}
+[4.007572] (brain) StdoutLine: {'line': b'writing top-level names to ../../build/brain/brain.egg-info/top_level.txt\n'}
+[4.007724] (brain) StdoutLine: {'line': b"reading manifest file '../../build/brain/brain.egg-info/SOURCES.txt'\n"}
+[4.007894] (brain) StdoutLine: {'line': b"writing manifest file '../../build/brain/brain.egg-info/SOURCES.txt'\n"}
+[4.008083] (brain) StdoutLine: {'line': b'running build\n'}
+[4.008257] (brain) StdoutLine: {'line': b'running build_py\n'}
+[4.008723] (brain) StdoutLine: {'line': b'running install\n'}
+[4.009221] (brain) StdoutLine: {'line': b'running install_lib\n'}
+[4.021581] (brain) StdoutLine: {'line': b'running install_data\n'}
+[4.021810] (brain) StdoutLine: {'line': b'running install_egg_info\n'}
+[4.021978] (brain) StdoutLine: {'line': b"removing '/home/pidog/pidog-ros2/install/brain/lib/python3.10/site-packages/brain-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[4.022415] (brain) StdoutLine: {'line': b'Copying ../../build/brain/brain.egg-info to /home/pidog/pidog-ros2/install/brain/lib/python3.10/site-packages/brain-0.0.0-py3.10.egg-info\n'}
+[4.023218] (brain) StdoutLine: {'line': b'running install_scripts\n'}
+[4.072576] (-) TimerEvent: {}
+[4.086232] (vision) CommandEnded: {'returncode': 0}
+[4.089579] (brain) StdoutLine: {'line': b'Installing brain script to /home/pidog/pidog-ros2/install/brain/lib/brain\n'}
+[4.091243] (brain) StdoutLine: {'line': b"writing list of installed files to '/home/pidog/pidog-ros2/build/brain/install.log'\n"}
+[4.128599] (vision) JobEnded: {'identifier': 'vision', 'rc': 0}
+[4.182029] (brain) CommandEnded: {'returncode': 0}
+[4.182585] (-) TimerEvent: {}
+[4.203017] (brain) JobEnded: {'identifier': 'brain', 'rc': 0}
+[4.283718] (-) TimerEvent: {}
+[4.387623] (-) TimerEvent: {}
+[4.488570] (-) TimerEvent: {}
+[4.589207] (-) TimerEvent: {}
+[4.691097] (-) TimerEvent: {}
+[4.792505] (-) TimerEvent: {}
+[4.811713] (legs) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/legs', 'build', '--build-base', '/home/pidog/pidog-ros2/build/legs/build', 'install', '--record', '/home/pidog/pidog-ros2/build/legs/install.log', '--single-version-externally-managed'], 'cwd': '/home/pidog/pidog-ros2/src/legs', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'TMUX': '/tmp/tmux-1000/default,4142,0', 'USER': 'pidog', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/home/pidog/pidog-ros2/install/interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/pidog', 'OLDPWD': '/home/pidog/pidog-ros2/src', 'TERM_PROGRAM_VERSION': '3.2a', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '1757', 'IM_CONFIG_CHECK_ENV': '1', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', '_colcon_cd_root': '/opt/ros/humble/', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'humble', 'LOGNAME': 'pidog', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'pidog', 'TERM': 'screen', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '1', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/Ubuntu22:@/tmp/.ICE-unix/1726,unix/Ubuntu22:/tmp/.ICE-unix/1726', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/e5131359_f206_4f50_969d_60562b55f997', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.DWUI31', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.103', 'TERM_PROGRAM': 'tmux', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'ROS_DOMAIN_ID': '1', 'AMENT_PREFIX_PATH': '/home/pidog/pidog-ros2/install/interfaces:/opt/ros/humble', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/pidog/pidog-ros2/build/legs', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/pidog/pidog-ros2/build/legs/prefix_override:/home/pidog/pidog-ros2/install/legs/lib/python3.10/site-packages:/home/pidog/pidog-ros2/install/interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800', 'TMUX_PANE': '%0', 'CMAKE_PREFIX_PATH': '/home/pidog/pidog-ros2/install/interfaces'}, 'shell': False}
+[4.892632] (-) TimerEvent: {}
+[4.995612] (-) TimerEvent: {}
+[5.096428] (-) TimerEvent: {}
+[5.197290] (-) TimerEvent: {}
+[5.295347] (legs) StdoutLine: {'line': b'running egg_info\n'}
+[5.297549] (-) TimerEvent: {}
+[5.306190] (legs) StdoutLine: {'line': b'writing ../../build/legs/legs.egg-info/PKG-INFO\n'}
+[5.306917] (legs) StdoutLine: {'line': b'writing dependency_links to ../../build/legs/legs.egg-info/dependency_links.txt\n'}
+[5.307628] (legs) StdoutLine: {'line': b'writing entry points to ../../build/legs/legs.egg-info/entry_points.txt\n'}
+[5.308043] (legs) StdoutLine: {'line': b'writing requirements to ../../build/legs/legs.egg-info/requires.txt\n'}
+[5.308985] (legs) StdoutLine: {'line': b'writing top-level names to ../../build/legs/legs.egg-info/top_level.txt\n'}
+[5.314578] (legs) StdoutLine: {'line': b"reading manifest file '../../build/legs/legs.egg-info/SOURCES.txt'\n"}
+[5.316223] (legs) StdoutLine: {'line': b"writing manifest file '../../build/legs/legs.egg-info/SOURCES.txt'\n"}
+[5.316762] (legs) StdoutLine: {'line': b'running build\n'}
+[5.316947] (legs) StdoutLine: {'line': b'running build_py\n'}
+[5.317318] (legs) StdoutLine: {'line': b'running install\n'}
+[5.317800] (legs) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.\n'}
+[5.318048] (legs) StderrLine: {'line': b'  warnings.warn(\n'}
+[5.318202] (legs) StdoutLine: {'line': b'running install_lib\n'}
+[5.319877] (legs) StdoutLine: {'line': b'running install_data\n'}
+[5.320710] (legs) StdoutLine: {'line': b'running install_egg_info\n'}
+[5.322800] (legs) StdoutLine: {'line': b"removing '/home/pidog/pidog-ros2/install/legs/lib/python3.10/site-packages/legs-0.0.1-py3.10.egg-info' (and everything under it)\n"}
+[5.323560] (legs) StdoutLine: {'line': b'Copying ../../build/legs/legs.egg-info to /home/pidog/pidog-ros2/install/legs/lib/python3.10/site-packages/legs-0.0.1-py3.10.egg-info\n'}
+[5.324735] (legs) StdoutLine: {'line': b'running install_scripts\n'}
+[5.367823] (legs) StdoutLine: {'line': b'Installing legs_client script to /home/pidog/pidog-ros2/install/legs/lib/legs\n'}
+[5.368453] (legs) StdoutLine: {'line': b'Installing legs_server script to /home/pidog/pidog-ros2/install/legs/lib/legs\n'}
+[5.369264] (legs) StdoutLine: {'line': b"writing list of installed files to '/home/pidog/pidog-ros2/build/legs/install.log'\n"}
+[5.400475] (-) TimerEvent: {}
+[5.421603] (legs) CommandEnded: {'returncode': 0}
+[5.436162] (legs) JobEnded: {'identifier': 'legs', 'rc': 0}
+[5.439241] (-) EventReactorShutdown: {}
