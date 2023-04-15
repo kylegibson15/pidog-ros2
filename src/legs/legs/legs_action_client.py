@@ -9,7 +9,7 @@ class LegsActionClient(Node):
 
     def __init__(self):
         super().__init__('legs_action_client')
-        self.action_client = ActionClient(
+        self._action_client = ActionClient(
             self,
             Movement,
             'movement'

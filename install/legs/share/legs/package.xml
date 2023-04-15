@@ -5,7 +5,7 @@
   <version>0.0.1</version>
   <description>legs action server pkg</description>
   <maintainer email="kylegibson15@gmail.com">Kyle Gibson</maintainer>
-  <license>Kyle Gibson</license>
+  <license>MIT</license>
 
   <depend>interfaces</depend>
 
