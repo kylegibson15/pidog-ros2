@@ -13,7 +13,10 @@ setup(
             ['resource/' + package_name]),
         ('share/' + package_name, ['package.xml']),
         (os.path.join('share', package_name),
-         glob('launch/*launch.[pxy][yma]*'))
+         glob('launch/*launch.[pxy][yma]*')),
+        ('lib/' + package_name, [package_name+'/constants/*.py']),
+        ('lib/' + package_name, [package_name+'/control/*.py']),
+        ('lib/' + package_name, [package_name+'/pwm/*.py']),
     ],
     install_requires=['setuptools'],
     zip_safe=True,
