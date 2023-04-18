@@ -83,13 +83,14 @@ class LegsActionServer(Node):
         )
 
     def execute_callback(self, goal_handle):
+        self.get_logger().info(f'goal_handle.request {goal_handle.request}')
         self.get_logger().info(f'Executing goal...{goal_handle.goal_id}')
 
         feedback_msg = Movement.Feedback()
         feedback_msg.feedback = 'standing at 50% complete'
         goal_handle.publish_feedback(feedback_msg)
 
-        if goal_handle == 'stand':
+        if goal_handle.request.command == 'stand':
             self.control.stand()
         else:
             self.control.set_to_neutral_position()
