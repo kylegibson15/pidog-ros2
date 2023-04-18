@@ -1,7 +1,24 @@
 from adafruit_servokit import ServoKit
+from enum import IntEnum
 
-from constants.constants import MAX_PULSE_WIDTH, MIN_PULSE_WIDTH, SERVO_CHANNELS
-from pwm.pwn_pin import PWMPin
+SERVO_CHANNELS = 16
+MIN_PULSE_WIDTH = 500
+MAX_PULSE_WIDTH = 2500
+
+
+class PWMPin(IntEnum):
+    """Maps Joints to PWM Pins"""
+
+    FR_HUMERUS = 14
+    FR_RADIUS = 15
+    FR_SHOULDER = 13
+    FL_HUMERUS = 10
+    FL_RADIUS = 11
+    FL_SHOULDER = 9
+    BR_FEMUR = 7
+    BR_TIBIA = 6
+    BL_FEMUR = 3
+    BL_TIBIA = 2
 
 
 class Control:
