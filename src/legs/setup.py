@@ -16,7 +16,7 @@ setup(
          glob('launch/*launch.[pxy][yma]*')),
         ('lib/' + package_name, [package_name+'/constants/constants.py']),
         ('lib/' + package_name, [package_name+'/control/control.py']),
-        ('lib/' + package_name, [package_name+'/pwm/pwm_pin.py']),
+        #('lib/' + package_name, [package_name+'/pwm/pwm_pin.py']),
     ],
     install_requires=['setuptools'],
     zip_safe=True,
