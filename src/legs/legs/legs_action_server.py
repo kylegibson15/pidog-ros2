@@ -55,6 +55,18 @@ class Control:
         self.set_angle(PWMPin.BL_FEMUR, 100)  # - (taller)
         self.set_angle(PWMPin.BL_TIBIA, 110)  # + (taller)
 
+    def set_to_neutral_position(self):
+        self.set_angle(PWMPin.FR_HUMERUS, 90)
+        self.set_angle(PWMPin.FR_RADIUS, 60)
+        self.set_angle(PWMPin.FR_SHOULDER, 90)
+        self.set_angle(PWMPin.FL_HUMERUS, 90)
+        self.set_angle(PWMPin.FL_RADIUS, 120)
+        self.set_angle(PWMPin.FL_SHOULDER, 95)
+        self.set_angle(PWMPin.BR_FEMUR, 65)  # + (taller)
+        self.set_angle(PWMPin.BR_TIBIA, 90)
+        self.set_angle(PWMPin.BL_FEMUR, 110)  # - (taller)
+        self.set_angle(PWMPin.BL_TIBIA, 90)
+
 
 class LegsActionServer(Node):
 
@@ -76,7 +88,11 @@ class LegsActionServer(Node):
         feedback_msg = Movement.Feedback()
         feedback_msg.feedback = 'standing at 50% complete'
         goal_handle.publish_feedback(feedback_msg)
-        self.control.stand()
+
+        if goal_handle == 'stand':
+            self.control.stand()
+        else:
+            self.control.set_to_neutral_position()
 
         feedback_msg.feedback = 'pidog is 100% standing - action complete'
         time.sleep(1)
