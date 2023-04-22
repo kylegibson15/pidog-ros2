@@ -2,25 +2,25 @@
 <?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
 <package format="3">
   <name>model</name>
-  <version>0.0.0</version>
-  <description>TODO: Package description</description>
-  <maintainer email="kylegibson15@gmail.com">pidog</maintainer>
-  <license>TODO: License declaration</license>
+  <version>1.0.0</version>
 
-  <depend>rclpy</depend>
+  <description>URDF Model for PiDog</description>
+  <author email="kylegibson15@gmail.com">Kyle Gibson</author>
 
+  <maintainer email="kylegibson15@gmail.com">Kyle Gibson</maintainer>
+
+  <license>BSD</license>
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
   <exec_depend>joint_state_publisher</exec_depend>
   <exec_depend>joint_state_publisher_gui</exec_depend>
   <exec_depend>robot_state_publisher</exec_depend>
   <exec_depend>rviz2</exec_depend>
   <exec_depend>xacro</exec_depend>
 
-  <test_depend>ament_copyright</test_depend>
-  <test_depend>ament_flake8</test_depend>
-  <test_depend>ament_pep257</test_depend>
-  <test_depend>python3-pytest</test_depend>
+  <test_depend>ament_lint_auto</test_depend>
 
   <export>
-    <build_type>ament_python</build_type>
+    <build_type>ament_cmake</build_type>
   </export>
 </package>
