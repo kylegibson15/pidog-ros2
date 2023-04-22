@@ -1,0 +1,49 @@
+<?xml version="1.0"?>
+<robot name="pidog">
+  <material name="blue">
+    <color rgba="0 0 0.8 1"/>
+  </material>
+
+  <material name="white">
+    <color rgba="1 1 1 1"/>
+  </material>
+
+  <link name="body">
+    <visual>
+      <geometry>
+        <box size="0.28575 0.1397 0.05588"/>
+      </geometry>
+    </visual>
+  </link>
+
+  <link name="left_front_leg">
+    <visual>
+      <geometry>
+        <box size="0.12065 0.0254 0.02032"/>
+      </geometry>
+      <origin rpy="0 1.57075 0" xyz="0 0.001 -0.05"/>
+    </visual>
+    <material name="blue"/>
+  </link>
+
+  <link name="left_back_leg">
+    <visual>
+      <geometry>
+        <box size="0.12065 0.0254 0.02032"/>
+      </geometry>
+      <origin rpy="0 1.57075 0" xyz="0 0.001 -0.05"/>
+    </visual>
+  </link>
+
+  <joint name="body_to_left_front_leg" type="fixed">
+    <parent link="body"/>
+    <child link="left_front_leg"/>
+    <origin xyz="0.092 0.082 0"/>
+  </joint>
+
+  <joint name="body_to_left_back_leg" type="fixed">
+    <parent link="body"/>
+    <child link="left_back_leg"/>
+    <origin xyz="-0.092 0.082 0"/>
+  </joint>
+</robot>
