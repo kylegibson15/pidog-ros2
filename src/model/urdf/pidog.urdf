@@ -51,7 +51,7 @@
   <link name="left_front_leg">
     <visual>
        <geometry>
-        <mesh filename="package://model/meshes/l_finger.dae"/>
+        <mesh filename="package://model/meshes/femur.dae"/>
       </geometry>
       <origin rpy="0 0 1.6" xyz="0.092 -0.082 0"/>
     </visual>
