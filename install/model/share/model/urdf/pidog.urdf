@@ -8,7 +8,7 @@
     <color rgba="1 1 1 1"/>
   </material>
 
-  <link name="body">
+  <link name="base_link">
     <visual>
       <geometry>
         <box size="0.28575 0.1397 0.05588"/>
@@ -22,8 +22,8 @@
         <box size="0.12065 0.0254 0.02032"/>
       </geometry>
       <origin rpy="0 1.57075 0" xyz="0 0.001 -0.05"/>
+      <material name="blue"/>
     </visual>
-    <material name="blue"/>
   </link>
 
   <link name="left_back_leg">
@@ -32,17 +32,18 @@
         <box size="0.12065 0.0254 0.02032"/>
       </geometry>
       <origin rpy="0 1.57075 0" xyz="0 0.001 -0.05"/>
+      <material name="blue"/>
     </visual>
   </link>
 
   <joint name="body_to_left_front_leg" type="fixed">
-    <parent link="body"/>
+    <parent link="base_link"/>
     <child link="left_front_leg"/>
     <origin xyz="0.092 0.082 0"/>
   </joint>
 
   <joint name="body_to_left_back_leg" type="fixed">
-    <parent link="body"/>
+    <parent link="base_link"/>
     <child link="left_back_leg"/>
     <origin xyz="-0.092 0.082 0"/>
   </joint>

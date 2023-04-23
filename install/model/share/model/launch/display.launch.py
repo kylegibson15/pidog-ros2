@@ -8,10 +8,11 @@ from launch.substitutions import Command, LaunchConfiguration
 from launch_ros.actions import Node
 from launch_ros.parameter_descriptions import ParameterValue
 
+
 def generate_launch_description():
-    urdf_path = get_package_share_path('urdf')
-    default_model_path = urdf_path / 'urdf/pidog.urdf'
-    default_rviz_config_path = urdf_path / 'rviz/urdf.rviz'
+    urdf_model_path = get_package_share_path('model')
+    default_model_path = urdf_model_path / 'urdf/pidog.urdf'
+    default_rviz_config_path = urdf_model_path / 'rviz/urdf.rviz'
 
     gui_arg = DeclareLaunchArgument(name='gui', default_value='true', choices=['true', 'false'],
                                     description='Flag to enable joint_state_publisher_gui')
