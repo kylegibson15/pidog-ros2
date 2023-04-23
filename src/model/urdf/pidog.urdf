@@ -19,10 +19,9 @@
   <link name="left_front_leg">
     <visual>
        <geometry>
-        <mesh filename="package://model/meshes/femur.dae"/>
+        <mesh filename="package://model/meshes/l_finger.dae"/>
       </geometry>
       <origin rpy="0 1.57075 0" xyz="0 0.001 -0.05"/>
-      <material name="blue"/>
     </visual>
   </link>
 
@@ -32,7 +31,6 @@
         <mesh filename="package://model/meshes/femur.dae"/>
       </geometry>
       <origin rpy="0 1.57075 0" xyz="0 0.001 -0.05"/>
-      <material name="blue"/>
     </visual>
   </link>
 
