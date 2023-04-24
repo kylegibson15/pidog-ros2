@@ -34,13 +34,13 @@
       <geometry>
         <mesh filename="package://model/meshes/tibia_R.dae"/>
       </geometry>
-      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <origin rpy="0.75 0 -1.6" xyz="0.079 0.08 0.175"/>
     </visual>
   </link>
   <joint name="right_front_femur_to_tibia" type="fixed">
 	  <parent link="right_front_femur"/>
 	  <child link="right_front_tibia"/>
-	  <origin rpy="0 0 0" xyz="0 0 0"/>
+	  <origin rpy="0 0 0" xyz="0 0 -0.1"/>
   </joint>
   <!--RIGHT FRONT LEG :: END-->
 
