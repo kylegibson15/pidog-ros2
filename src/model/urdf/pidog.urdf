@@ -39,7 +39,7 @@
   </link>
   <joint name="right_front_femur_to_tibia" type="fixed">
 	  <parent link="right_front_femur"/>
-	  <child link="fright_front_tibia"/>
+	  <child link="right_front_tibia"/>
 	  <origin rpy="0 0 0" xyz="0 0 0"/>
   </joint>
   <!--RIGHT FRONT LEG :: END-->
