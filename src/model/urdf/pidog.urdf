@@ -14,7 +14,7 @@
        <geometry>
         <mesh filename="package://model/meshes/femur.dae"/>
       </geometry>
-      <origin rpy="0.75 0 -1.6" xyz="-0.085 0.082 0"/>
+      <origin rpy="0.75 0 -1.6" xyz="-0.063 0.085 -0.062"/>
     </visual>
   </link>
   <joint name="body_to_right_front_leg" type="fixed">
