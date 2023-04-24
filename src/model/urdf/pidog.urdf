@@ -29,7 +29,7 @@
     <origin rpy="0 1 0" xyz="0.092 -0.082 0"/>
   </joint>
 
-  <!-- <link name="right_front_tibia">
+  <link name="right_front_tibia">
     <visual>
       <geometry>
         <mesh filename="package://model/meshes/tibia_R.dae"/>
@@ -41,7 +41,7 @@
 	  <parent link="right_front_femur"/>
 	  <child link="fright_front_tibia"/>
 	  <origin rpy="0 0 0" xyz="0 0 0"/>
-  </joint> -->
+  </joint>
   <!--RIGHT FRONT LEG :: END-->
 
 
