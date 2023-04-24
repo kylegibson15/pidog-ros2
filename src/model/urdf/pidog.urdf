@@ -1,6 +1,7 @@
 <?xml version="1.0"?>
 <robot name="pidog">
 
+  <!--CORE / BODY :: START-->
   <link name="base_link">
     <visual>
       <geometry>
@@ -8,8 +9,13 @@
       </geometry>
     </visual>
   </link>
-  
-  <link name="right_front_leg">
+  <!--CORE / BODY :: END-->
+
+
+
+
+  <!--RIGHT FRONT LEG :: START--> 
+  <link name="right_front_femur">
     <visual>
        <geometry>
         <mesh filename="package://model/meshes/femur.dae"/>
@@ -17,12 +23,31 @@
       <origin rpy="0.75 0 -1.6" xyz="-0.063 0.085 -0.062"/>
     </visual>
   </link>
-  <joint name="body_to_right_front_leg" type="fixed">
+  <joint name="body_to_right_front_femur" type="fixed">
     <parent link="base_link"/>
-    <child link="right_front_leg"/>
+    <child link="right_front_femur"/>
     <origin rpy="0 1 0" xyz="0.092 -0.082 0"/>
   </joint>
 
+  <link name="right_front_tibia">
+    <visual>
+      <geometry>
+        <mesh filename="package://model/meshes/tibia_R.dae"/>
+</geometry>
+<origin rpy="0 0 0" xyz="0 0 0"/>
+    </visual>
+  </link>
+  <joint name="right_front_femur_to_tibia" type="fixed">
+	  <parent link="right_front_femur"/>
+	  <child link="fright_front_tibia"/>
+	  <origin rpy="0 0 0" xyz="0 0 0"/>
+  </joint>
+  <!--RIGHT FRONT LEG :: END-->
+
+
+
+
+  <!--LEFT FRONT LEG :: START-->
   <link name="left_front_leg">
     <visual>
        <geometry>
@@ -36,7 +61,11 @@
     <child link="left_front_leg"/>
     <origin rpy="0 1.8 0" xyz="0.092 0.082 0"/>
   </joint>
+  <!--LEFT FRONT LEG :: END-->
 
+
+
+  <!--RIGHT BACK LEG :: START-->
   <link name="right_back_leg">
     <visual>
        <geometry>
@@ -50,7 +79,11 @@
     <child link="right_back_leg"/>
     <origin rpy="0 1 0" xyz="-0.092 -0.082 0"/>
   </joint>
+  <!--RIGHT BACK LEG :: END-->
 
+
+
+  <!--LEFT BACK LEG :: START-->
   <link name="left_back_leg">
     <visual>
       <geometry>
@@ -64,4 +97,5 @@
     <child link="left_back_leg"/>
     <origin rpy="0 1.8 0" xyz="-0.092 0.082 0"/>
   </joint>
+  <!--LEFT BACK LEG :: END-->
 </robot>
