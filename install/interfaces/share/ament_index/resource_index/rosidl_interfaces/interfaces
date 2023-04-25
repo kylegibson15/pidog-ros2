@@ -1,6 +1,0 @@
-action/Movement.action
-action/Movement.idl
-srv/ComponentStatus.idl
-srv/ComponentStatus.srv
-srv/ComponentStatus_Request.msg
-srv/ComponentStatus_Response.msg
