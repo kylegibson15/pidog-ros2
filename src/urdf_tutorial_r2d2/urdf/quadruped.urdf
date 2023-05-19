@@ -18,14 +18,14 @@
   </link>
 
   <!-- Leg 1 -->
-  <link name="leg1_femur">
+  <!-- <link name="leg1_femur">
     <visual>
       <geometry>
         <box size="0.12065 0.01905 0.02032"/>
       </geometry>
       <material name="green"/>
     </visual>
-  </link>
+  </link> -->
 
   <!-- <link name="leg1_lower_leg">
     <visual>
@@ -36,12 +36,12 @@
     </visual>
   </link> -->
 
-  <joint name="base_to_leg1_femur" type="revolute">
+  <!-- <joint name="base_to_leg1_femur" type="revolute">
     <origin xyz="0.0508 0.073025 0"/>
     <parent link="base_link"/>
     <child link="leg1_femur"/>
     <axis xyz="0 0 1"/>
-  </joint>
+  </joint> -->
 
   <!-- <joint name="leg1_femur_to_lower_leg" type="revolute">
     <origin xyz="0 0 -0.061"/>
