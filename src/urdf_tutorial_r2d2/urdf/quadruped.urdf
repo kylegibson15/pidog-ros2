@@ -1,0 +1,63 @@
+<?xml version="1.0"?>
+<robot name="quadruped_robot">
+
+  <material name="green">
+    <color rgba="0 1 0 1"/>
+  </material>
+
+  <material name="white">
+    <color rgba="1 1 1 1"/>
+  </material>
+
+  <link name="base_link">
+    <visual>
+      <geometry>
+        <box size="0.3 0.127 0.0762"/>
+      </geometry>
+    </visual>
+  </link>
+
+  <!-- Leg 1 -->
+  <link name="leg1_femur">
+    <visual>
+      <geometry>
+        <box size="0.12065 0.01905 0.02032"/>
+      </geometry>
+      <material name="green"/>
+    </visual>
+  </link>
+
+  <link name="leg1_lower_leg">
+    <visual>
+      <geometry>
+        <box size="0.127 0.01905 0.0127"/>
+      </geometry>
+      <material name="white"/>
+    </visual>
+  </link>
+
+  <joint name="base_to_leg1_femur" type="revolute">
+    <origin xyz="0.0508 0.073025 0"/>
+    <parent link="base_link"/>
+    <child link="leg1_femur"/>
+    <axis xyz="0 0 1"/>
+  </joint>
+
+  <joint name="leg1_femur_to_lower_leg" type="revolute">
+    <origin xyz="0 0 -0.061"/>
+    <parent link="leg1_femur"/>
+    <child link="leg1_lower_leg"/>
+    <axis xyz="0 1 0"/>
+    <limit effort="10" lower="-1.57" upper="1.57" velocity="1"/>
+  </joint>
+  
+  <joint name="base_to_leg2" type="fixed">
+    <origin xyz="0 0 0"/>
+    <parent link="base_link"/>
+    <child link="leg2_link"/>
+  </joint>
+  <link name="leg2_link"/>
+
+  <!-- Define the remaining legs (leg3, leg4) in a similar manner -->
+
+</robot>
