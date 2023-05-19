@@ -1,13 +1,13 @@
 <?xml version="1.0"?>
 <robot name="quadruped_robot">
 
-  <material name="green">
+  <!-- <material name="green">
     <color rgba="0 1 0 1"/>
   </material>
 
   <material name="white">
     <color rgba="1 1 1 1"/>
-  </material>
+  </material> -->
 
   <link name="base_link">
     <visual>
