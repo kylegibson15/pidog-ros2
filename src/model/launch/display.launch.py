@@ -11,7 +11,7 @@ from launch_ros.parameter_descriptions import ParameterValue
 
 def generate_launch_description():
     urdf_model_path = get_package_share_path('model')
-    default_model_path = urdf_model_path / 'urdf/pidog.urdf'
+    default_model_path = urdf_model_path / 'urdf/pidog-2.urdf'
     default_rviz_config_path = urdf_model_path / 'rviz/urdf.rviz'
 
     gui_arg = DeclareLaunchArgument(name='gui', default_value='true', choices=['true', 'false'],
