@@ -20,7 +20,7 @@
     </collision>
   </link>
 
-  <link name="leg1">
+  <!-- <link name="leg1">
     <inertial>
       <mass value="1"/>
       <inertia ixx="1e-3" ixy="0" ixz="0" iyy="1e-3" iyz="0" izz="1e-3" />
@@ -44,15 +44,15 @@
       </geometry>
       <contact_coefficients mu="0" kp="1000.0" kd="1.0"/>
     </collision>
-  </link>
+  </link> -->
 
-  <joint name="leg1connect" type="fixed">
+  <!-- <joint name="leg1connect" type="fixed">
     <origin xyz="0 .30 0" />
     <parent link="axis"/>
     <child link="leg1"/>
-  </joint>
+  </joint> -->
 
-  <link name="leg2">
+  <!-- <link name="leg2">
     <inertial>
       <mass value="1"/>
       <inertia ixx="1e-3" ixy="0" ixz="0" iyy="1e-3" iyz="0" izz="1e-3" />
@@ -76,15 +76,15 @@
       </geometry>
       <contact_coefficients mu="0" kp="1000.0" kd="1.0"/>
     </collision>
-  </link>
+  </link> -->
 
-  <joint name="leg2connect" type="fixed">
+  <!-- <joint name="leg2connect" type="fixed">
     <origin xyz="0 -.30 0" />
     <parent link="axis"/>
     <child link="leg2"/>
-  </joint>
+  </joint> -->
 
-  <link name="body">
+  <!-- <link name="body">
     <inertial>
       <mass value="1"/>
       <inertia ixx="1e-3" ixy="0" ixz="0" iyy="1e-3" iyz="0" izz="1e-3" />
@@ -106,17 +106,17 @@
       </geometry>
       <contact_coefficients mu="0" kp="1000.0" kd="1.0"/>
     </collision>
-  </link>
+  </link> -->
 
-  <joint name="tilt" type="revolute">
+  <!-- <joint name="tilt" type="revolute">
     <parent link="axis"/>
     <child link="body"/>
     <origin xyz="0 0 0" rpy="0 0 0" />
     <axis xyz="0 1 0" />
     <limit upper="0" lower="-.5" effort="10" velocity="10" />
-  </joint>
+  </joint> -->
 
-  <link name="head">
+  <!-- <link name="head">
     <inertial>
       <mass value="1"/>
       <inertia ixx="1e-3" ixy="0" ixz="0" iyy="1e-3" iyz="0" izz="1e-3" />
@@ -137,16 +137,16 @@
       </geometry>
       <contact_coefficients mu="0" kp="1000.0" kd="1.0"/>
     </collision>
-  </link>
+  </link> -->
 
-  <joint name="swivel" type="continuous">
+  <!-- <joint name="swivel" type="continuous">
     <origin xyz="0 0 0.1" />
     <axis xyz="0 0 1" />
     <parent link="body"/>
     <child link="head"/>
-  </joint>
+  </joint> -->
 
-  <link name="rod">
+  <!-- <link name="rod">
     <inertial>
       <mass value="1"/>
       <inertia ixx="1e-3" ixy="0" ixz="0" iyy="1e-3" iyz="0" izz="1e-3" />
@@ -169,17 +169,17 @@
       </geometry>
       <contact_coefficients mu="0" kp="1000.0" kd="1.0"/>
     </collision>
-  </link>
+  </link> -->
 
-  <joint name="periscope" type="prismatic">
+  <!-- <joint name="periscope" type="prismatic">
     <origin xyz=".12 0 .15" />
     <axis xyz="0 0 1" />
     <limit upper="0" lower="-.5" effort="10" velocity="10" />
     <parent link="head"/>
     <child link="rod"/>
-  </joint>
+  </joint> -->
 
-  <link name="box">
+  <!-- <link name="box">
     <inertial>
       <mass value="1"/>
       <inertia ixx="1e-3" ixy="0" ixz="0" iyy="1e-3" iyz="0" izz="1e-3" />
@@ -202,12 +202,12 @@
       </geometry>
       <contact_coefficients mu="0" kp="1000.0" kd="1.0"/>
     </collision>
-  </link>
+  </link> -->
 
-  <joint name="boxconnect" type="fixed">
+  <!-- <joint name="boxconnect" type="fixed">
     <origin xyz="0 0 0" />
     <parent link="rod"/>
     <child link="box"/>
-  </joint>
+  </joint> -->
 
 </robot>

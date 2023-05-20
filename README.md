@@ -17,3 +17,18 @@ if adding the linkage to the 'pure' URDF and want things to visualize correctly 
 - for the simulated robot you can add a `JointStateBroadcaster` plugin to your simulator that publishes the joint state of the upper long tibia link. (shoulder - long tibia link connection).
 - in hardware, will need to either have an encoder or to write a node that solves the kinematics and publishes the joint state.
 
+## Running the model in RViz
+> [RViz User Guide](http://wiki.ros.org/rviz/UserGuide) 
+1. From pidog-ros2 directory
+```shell
+$ colcon build --symlink-install --packages-select model
+$ source install/setup.bash
+$ ros2 launch model demo.launch.py
+```
+
+2. From a separate terminal run rviz
+```shell
+$ rviz2 -d ~/pidog-ros2/install/model/share/modle/quadruped.rviz
+```
+
+
