@@ -1,6 +1,14 @@
 <?xml version="1.0"?>
 <robot xmlns:xacro="http://www.ros.org/wiki/xacro" name="pidog">
 
+  <material name="white">
+    <color rgba="1 1 1 1" />
+  </material>
+
+  <material name="red">
+    <color rgba="1 0 0 1" />
+  </material>
+
   <xacro:property name="bodylength" value="0.3048" />
   <xacro:property name="bodywidth" value="0.127" />
   <xacro:property name="bodyheight" value="0.0762" />
@@ -9,20 +17,19 @@
   <xacro:property name="femurwidth" value="0.12065" />
 
   <xacro:macro name="femur" params="prefix reflect">
-    <!-- This is only an example. This needs to be updated to correctly represent the quadruped -->
     <link name="${prefix}_femur">
         <visual>
             <geometry>
                 <box size="${femurlength} 0.1 0.2"/>
             </geometry>
-            <origin xyz="0 0 -${femurlength/2}" rpy="0 ${pi/2} 0"/>
+            <origin xyz="0 0 0" rpy="0 0 0"/>
             <material name="white"/>
         </visual>
         <collision>
             <geometry>
                 <box size="${femurlength} 0.1 0.2"/>
             </geometry>
-            <origin xyz="0 0 -${femurlength/2}" rpy="0 ${pi/2} 0"/>
+            <origin xyz="0 0 0" rpy="0 0 0"/>
         </collision>
         <xacro:default_inertial mass="10"/>
     </link>
@@ -40,21 +47,19 @@
       <geometry>
         <box size="${bodylength} ${bodywidth} ${bodyheight}" />
       </geometry>
-      <material name="gray">
-        <color rgba=".2 .2 .2 1" />
-      </material>
+      <material name="red"/>
     </visual>
 
     <collision>
-      <origin xyz="0 0 0" rpy="1.57 0 0" />
+      <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <box size="0.3048 0.127 0.762" />
+        <box size="${bodylength} ${bodywidth} ${bodyheight}" />
       </geometry>
       <contact_coefficients mu="0" kp="1000.0" kd="1.0"/>
     </collision>
   </link>
 
-  <xacro:leg prefix="right" reflect="1" />
-  <xacro:leg prefix="left" reflect="-1" />
+  <xacro:femur prefix="front_right" reflect="1" />
+  <!-- <xacro:femur prefix="left" reflect="-1" /> -->
 
 </robot>
