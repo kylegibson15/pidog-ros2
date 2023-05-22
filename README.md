@@ -19,16 +19,24 @@ if adding the linkage to the 'pure' URDF and want things to visualize correctly 
 
 ## Running the model in RViz
 > [RViz User Guide](http://wiki.ros.org/rviz/UserGuide) 
-1. From pidog-ros2 directory
+### From pidog-ros2 directory
+1. build the model pkg
 ```shell
 $ colcon build --symlink-install --packages-select model
+```
+2. source the install
+```shell
 $ source install/setup.bash
+```
+3. launch the model in rviz
+```shell
 $ ros2 launch model demo.launch.py
 ```
 
-2. From a separate terminal run rviz
+### From a separate terminal run rviz
+1. launch rviz
 ```shell
-$ rviz2 -d ~/pidog-ros2/install/model/share/modle/quadruped.rviz
+$ rviz2 -d ~/pidog-ros2/install/model/share/model/quadruped.rviz
 ```
 
 
