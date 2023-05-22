@@ -1,4 +1,7 @@
 <robot name="pidog">
+  <material name="white">
+    <color rgba="1 1 1 1"/>
+  </material>
 
   <link name="base_link">
     <visual>
@@ -16,6 +19,28 @@
       <contact_coefficients mu="0" kp="1000.0" kd="1.0"/>
     </collision>
   </link>
+
+  <link name="front_right_femur">
+    <visual>
+      <geometry>
+        <box size="0.12065 0.01905 0.02032"/>
+      </geometry>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <material name="white"/>
+    </visual>
+    <collision>
+      <geometry>
+        <box size="0.12065 0.01905 0.02032"/>
+      </geometry>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+    </collision>
+  </link>
+
+  <joint name="base_to_front_right_femur" type="revolute">
+    <parent link="base_link"/>
+    <child link="front_right_femur"/>
+    <origin xyz="0 0 0" />
+  </joint>
 
   <!-- <link name="leg1">
     <inertial>
@@ -187,7 +212,7 @@
       <geometry>
         <box size=".05 .05 .05" />
       </geometry>
-      <material name="blue" >
+      <material name="blue">
         <color rgba="0 0 1 1" />
       </material>
     </visual>

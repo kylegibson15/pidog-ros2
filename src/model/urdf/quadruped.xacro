@@ -18,26 +18,26 @@
 
   <xacro:macro name="femur" params="prefix reflect">
     <link name="${prefix}_femur">
-        <visual>
-            <geometry>
-                <box size="${femurlength} 0.1 0.2"/>
-            </geometry>
-            <origin xyz="0 0 0" rpy="0 0 0"/>
-            <material name="white"/>
-        </visual>
-        <collision>
-            <geometry>
-                <box size="${femurlength} 0.1 0.2"/>
-            </geometry>
-            <origin xyz="0 0 0" rpy="0 0 0"/>
-        </collision>
-        <xacro:default_inertial mass="10"/>
+      <visual>
+        <geometry>
+          <box size="${femurlength} 0.1 0.2"/>
+        </geometry>
+        <origin xyz="0 0 0" rpy="0 0 0"/>
+        <material name="white"/>
+      </visual>
+      <collision>
+        <geometry>
+          <box size="${femurlength} 0.1 0.2"/>
+        </geometry>
+        <origin xyz="0 0 0" rpy="0 0 0"/>
+      </collision>
+      <xacro:default_inertial mass="10"/>
     </link>
 
     <joint name="base_to_${prefix}_femur" type="fixed">
-        <parent link="base_link"/>
-        <child link="${prefix}_femur"/>
-        <origin xyz="0 ${reflect*(width+.02)} 0.25" />
+      <parent link="base_link"/>
+      <child link="${prefix}_femur"/>
+      <origin xyz="0 ${reflect*(width+.02)} 0.25" />
     </joint>
   </xacro:macro>
 
