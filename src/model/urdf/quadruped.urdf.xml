@@ -21,6 +21,12 @@
   </link>
 
   <link name="front_right_femur">
+    <inertial>
+      <mass value="1"/>
+      <inertia ixx="1e-3" ixy="0" ixz="0" iyy="1e-3" iyz="0" izz="1e-3" />
+      <origin/>
+    </inertial>
+
     <visual>
       <geometry>
         <box size="0.12065 0.01905 0.02032"/>
@@ -28,11 +34,13 @@
       <origin xyz="0 0 0" rpy="0 0 0"/>
       <material name="white"/>
     </visual>
+
     <collision>
       <geometry>
         <box size="0.12065 0.01905 0.02032"/>
       </geometry>
       <origin xyz="0 0 0" rpy="0 0 0"/>
+      <contact_coefficients mu="0" kp="1000.0" kd="1.0"/>
     </collision>
   </link>
 

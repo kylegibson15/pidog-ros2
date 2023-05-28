@@ -52,8 +52,8 @@ Visualization Manager:
         All Enabled: true
         base_link:
           Value: true
-        # axis:
-        #   Value: true
+        axis:
+          Value: true
         # body:
         #   Value: true
         # box:
@@ -64,8 +64,8 @@ Visualization Manager:
         #   Value: true
         # leg2:
         #   Value: true
-        # odom:
-        #   Value: true
+        odom:
+          Value: true
         # rod:
         #   Value: true
       Marker Scale: 1
@@ -74,9 +74,11 @@ Visualization Manager:
       Show Axes: true
       Show Names: false
       Tree:
-        base_link:
-          {}
-        # odom:
+        odom:
+          axis:
+            base_link:
+              front_right_femur:
+                {}
         #   axis:
         #     body:
         #       head:
@@ -112,36 +114,41 @@ Visualization Manager:
           Show Axes: false
           Show Trail: false
           Value: true
-        body:
+        base_link:
           Alpha: 1
           Show Axes: false
           Show Trail: false
           Value: true
-        box:
+        front_right_femur:
           Alpha: 1
           Show Axes: false
           Show Trail: false
           Value: true
-        head:
-          Alpha: 1
-          Show Axes: false
-          Show Trail: false
-          Value: true
-        leg1:
-          Alpha: 1
-          Show Axes: false
-          Show Trail: false
-          Value: true
-        leg2:
-          Alpha: 1
-          Show Axes: false
-          Show Trail: false
-          Value: true
-        rod:
-          Alpha: 1
-          Show Axes: false
-          Show Trail: false
-          Value: true
+        # box:
+        #   Alpha: 1
+        #   Show Axes: false
+        #   Show Trail: false
+        #   Value: true
+        # head:
+        #   Alpha: 1
+        #   Show Axes: false
+        #   Show Trail: false
+        #   Value: true
+        # leg1:
+        #   Alpha: 1
+        #   Show Axes: false
+        #   Show Trail: false
+        #   Value: true
+        # leg2:
+        #   Alpha: 1
+        #   Show Axes: false
+        #   Show Trail: false
+        #   Value: true
+        # rod:
+        #   Alpha: 1
+        #   Show Axes: false
+        #   Show Trail: false
+        #   Value: true
       Name: RobotModel
       TF Prefix: ""
       Update Interval: 0
@@ -150,7 +157,7 @@ Visualization Manager:
   Enabled: true
   Global Options:
     Background Color: 48; 48; 48
-    # Fixed Frame: odom
+    Fixed Frame: odom
     Frame Rate: 30
   Name: root
   Tools:
