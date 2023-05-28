@@ -20,7 +20,7 @@ class StatePublisher(Node):
         self.nodeName = self.get_name()
         self.get_logger().info("{0} started".format(self.nodeName))
 
-        degree = pi / 180.0
+        # degree = pi / 180.0
         loop_rate = self.create_rate(30)
 
         # robot state
@@ -68,7 +68,7 @@ class StatePublisher(Node):
                 # if height > 0.2 or height < 0.0:
                 #     hinc *= -1
                 # swivel += degree
-                angle += degree/4
+                # angle += degree/4
 
                 # This will adjust as needed per iteration
                 loop_rate.sleep()
