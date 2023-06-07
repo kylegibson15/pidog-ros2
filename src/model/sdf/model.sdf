@@ -1,4 +1,4 @@
-<?xml version="1.0" ?>
+<?xml version="1.0"?>
 <sdf version="1.8">
   <model name="test">
     <link name="testlink">
@@ -15,7 +15,7 @@
           <diffuse>1.0 1.0 1.0 1.0</diffuse>
           <specular>0.0 0.0 0.0 1.0</specular>
           <pbr>
-            <metal/>
+            <metal />
           </pbr>
         </material>
       </visual>
@@ -32,7 +32,7 @@
           <diffuse>1.0 1.0 1.0 1.0</diffuse>
           <specular>0.0 0.0 0.0 1.0</specular>
           <pbr>
-            <metal/>
+            <metal />
           </pbr>
         </material>
       </visual>
@@ -49,7 +49,7 @@
           <diffuse>1.0 1.0 1.0 1.0</diffuse>
           <specular>0.0 0.0 0.0 1.0</specular>
           <pbr>
-            <metal/>
+            <metal />
           </pbr>
         </material>
       </visual>
@@ -66,7 +66,7 @@
           <diffuse>1.0 1.0 1.0 1.0</diffuse>
           <specular>0.0 0.0 0.0 1.0</specular>
           <pbr>
-            <metal/>
+            <metal />
           </pbr>
         </material>
       </visual>
@@ -83,7 +83,7 @@
           <diffuse>1.0 1.0 1.0 1.0</diffuse>
           <specular>0.0 0.0 0.0 1.0</specular>
           <pbr>
-            <metal/>
+            <metal />
           </pbr>
         </material>
       </visual>
@@ -100,7 +100,7 @@
           <diffuse>1.0 1.0 1.0 1.0</diffuse>
           <specular>0.0 0.0 0.0 1.0</specular>
           <pbr>
-            <metal/>
+            <metal />
           </pbr>
         </material>
       </visual>
@@ -117,7 +117,7 @@
           <diffuse>1.0 1.0 1.0 1.0</diffuse>
           <specular>0.0 0.0 0.0 1.0</specular>
           <pbr>
-            <metal/>
+            <metal />
           </pbr>
         </material>
       </visual>
@@ -134,7 +134,7 @@
           <diffuse>1.0 1.0 1.0 1.0</diffuse>
           <specular>0.0 0.0 0.0 1.0</specular>
           <pbr>
-            <metal/>
+            <metal />
           </pbr>
         </material>
       </visual>
@@ -151,7 +151,7 @@
           <diffuse>1.0 1.0 1.0 1.0</diffuse>
           <specular>0.0 0.0 0.0 1.0</specular>
           <pbr>
-            <metal/>
+            <metal />
           </pbr>
         </material>
       </visual>
@@ -168,7 +168,7 @@
           <diffuse>1.0 1.0 1.0 1.0</diffuse>
           <specular>0.0 0.0 0.0 1.0</specular>
           <pbr>
-            <metal/>
+            <metal />
           </pbr>
         </material>
       </visual>
@@ -185,7 +185,7 @@
           <diffuse>1.0 1.0 1.0 1.0</diffuse>
           <specular>0.0 0.0 0.0 1.0</specular>
           <pbr>
-            <metal/>
+            <metal />
           </pbr>
         </material>
       </visual>
@@ -202,7 +202,7 @@
           <diffuse>1.0 1.0 1.0 1.0</diffuse>
           <specular>0.0 0.0 0.0 1.0</specular>
           <pbr>
-            <metal/>
+            <metal />
           </pbr>
         </material>
       </visual>
@@ -219,7 +219,7 @@
           <diffuse>1.0 1.0 1.0 1.0</diffuse>
           <specular>0.0 0.0 0.0 1.0</specular>
           <pbr>
-            <metal/>
+            <metal />
           </pbr>
         </material>
       </visual>
@@ -236,7 +236,7 @@
           <diffuse>1.0 1.0 1.0 1.0</diffuse>
           <specular>0.0 0.0 0.0 1.0</specular>
           <pbr>
-            <metal/>
+            <metal />
           </pbr>
         </material>
       </visual>
@@ -253,7 +253,7 @@
           <diffuse>1.0 1.0 1.0 1.0</diffuse>
           <specular>0.0 0.0 0.0 1.0</specular>
           <pbr>
-            <metal/>
+            <metal />
           </pbr>
         </material>
       </visual>
@@ -270,7 +270,7 @@
           <diffuse>1.0 1.0 1.0 1.0</diffuse>
           <specular>0.0 0.0 0.0 1.0</specular>
           <pbr>
-            <metal/>
+            <metal />
           </pbr>
         </material>
       </visual>
@@ -287,7 +287,7 @@
           <diffuse>1.0 1.0 1.0 1.0</diffuse>
           <specular>0.0 0.0 0.0 1.0</specular>
           <pbr>
-            <metal/>
+            <metal />
           </pbr>
         </material>
       </visual>
@@ -304,7 +304,7 @@
           <diffuse>1.0 1.0 1.0 1.0</diffuse>
           <specular>0.0 0.0 0.0 1.0</specular>
           <pbr>
-            <metal/>
+            <metal />
           </pbr>
         </material>
       </visual>
@@ -321,7 +321,7 @@
           <diffuse>1.0 1.0 1.0 1.0</diffuse>
           <specular>0.0 0.0 0.0 1.0</specular>
           <pbr>
-            <metal/>
+            <metal />
           </pbr>
         </material>
       </visual>
@@ -338,7 +338,7 @@
           <diffuse>1.0 1.0 1.0 1.0</diffuse>
           <specular>0.0 0.0 0.0 1.0</specular>
           <pbr>
-            <metal/>
+            <metal />
           </pbr>
         </material>
       </visual>
@@ -355,7 +355,7 @@
           <diffuse>1.0 1.0 1.0 1.0</diffuse>
           <specular>0.0 0.0 0.0 1.0</specular>
           <pbr>
-            <metal/>
+            <metal />
           </pbr>
         </material>
       </visual>
@@ -372,7 +372,7 @@
           <diffuse>1.0 1.0 1.0 1.0</diffuse>
           <specular>0.0 0.0 0.0 1.0</specular>
           <pbr>
-            <metal/>
+            <metal />
           </pbr>
         </material>
       </visual>
@@ -389,7 +389,7 @@
           <diffuse>1.0 1.0 1.0 1.0</diffuse>
           <specular>0.0 0.0 0.0 1.0</specular>
           <pbr>
-            <metal/>
+            <metal />
           </pbr>
         </material>
       </visual>
@@ -406,7 +406,7 @@
           <diffuse>1.0 1.0 1.0 1.0</diffuse>
           <specular>0.0 0.0 0.0 1.0</specular>
           <pbr>
-            <metal/>
+            <metal />
           </pbr>
         </material>
       </visual>
@@ -423,7 +423,7 @@
           <diffuse>1.0 1.0 1.0 1.0</diffuse>
           <specular>0.0 0.0 0.0 1.0</specular>
           <pbr>
-            <metal/>
+            <metal />
           </pbr>
         </material>
       </visual>
@@ -440,7 +440,7 @@
           <diffuse>1.0 1.0 1.0 1.0</diffuse>
           <specular>0.0 0.0 0.0 1.0</specular>
           <pbr>
-            <metal/>
+            <metal />
           </pbr>
         </material>
       </visual>
@@ -457,7 +457,7 @@
           <diffuse>1.0 1.0 1.0 1.0</diffuse>
           <specular>0.0 0.0 0.0 1.0</specular>
           <pbr>
-            <metal/>
+            <metal />
           </pbr>
         </material>
       </visual>
@@ -474,7 +474,7 @@
           <diffuse>1.0 1.0 1.0 1.0</diffuse>
           <specular>0.0 0.0 0.0 1.0</specular>
           <pbr>
-            <metal/>
+            <metal />
           </pbr>
         </material>
       </visual>
@@ -491,7 +491,7 @@
           <diffuse>1.0 1.0 1.0 1.0</diffuse>
           <specular>0.0 0.0 0.0 1.0</specular>
           <pbr>
-            <metal/>
+            <metal />
           </pbr>
         </material>
       </visual>
@@ -508,7 +508,7 @@
           <diffuse>1.0 1.0 1.0 1.0</diffuse>
           <specular>0.0 0.0 0.0 1.0</specular>
           <pbr>
-            <metal/>
+            <metal />
           </pbr>
         </material>
       </visual>
@@ -525,7 +525,7 @@
           <diffuse>1.0 1.0 1.0 1.0</diffuse>
           <specular>0.0 0.0 0.0 1.0</specular>
           <pbr>
-            <metal/>
+            <metal />
           </pbr>
         </material>
       </visual>
@@ -542,7 +542,7 @@
           <diffuse>1.0 1.0 1.0 1.0</diffuse>
           <specular>0.0 0.0 0.0 1.0</specular>
           <pbr>
-            <metal/>
+            <metal />
           </pbr>
         </material>
       </visual>
@@ -559,7 +559,7 @@
           <diffuse>1.0 1.0 1.0 1.0</diffuse>
           <specular>0.0 0.0 0.0 1.0</specular>
           <pbr>
-            <metal/>
+            <metal />
           </pbr>
         </material>
       </visual>
@@ -576,7 +576,7 @@
           <diffuse>1.0 1.0 1.0 1.0</diffuse>
           <specular>0.0 0.0 0.0 1.0</specular>
           <pbr>
-            <metal/>
+            <metal />
           </pbr>
         </material>
       </visual>
@@ -593,7 +593,7 @@
           <diffuse>1.0 1.0 1.0 1.0</diffuse>
           <specular>0.0 0.0 0.0 1.0</specular>
           <pbr>
-            <metal/>
+            <metal />
           </pbr>
         </material>
       </visual>
@@ -610,7 +610,7 @@
           <diffuse>1.0 1.0 1.0 1.0</diffuse>
           <specular>0.0 0.0 0.0 1.0</specular>
           <pbr>
-            <metal/>
+            <metal />
           </pbr>
         </material>
       </visual>
@@ -627,7 +627,7 @@
           <diffuse>1.0 1.0 1.0 1.0</diffuse>
           <specular>0.0 0.0 0.0 1.0</specular>
           <pbr>
-            <metal/>
+            <metal />
           </pbr>
         </material>
       </visual>
@@ -644,7 +644,7 @@
           <diffuse>1.0 1.0 1.0 1.0</diffuse>
           <specular>0.0 0.0 0.0 1.0</specular>
           <pbr>
-            <metal/>
+            <metal />
           </pbr>
         </material>
       </visual>
@@ -661,7 +661,7 @@
           <diffuse>1.0 1.0 1.0 1.0</diffuse>
           <specular>0.0 0.0 0.0 1.0</specular>
           <pbr>
-            <metal/>
+            <metal />
           </pbr>
         </material>
       </visual>
@@ -678,7 +678,7 @@
           <diffuse>1.0 1.0 1.0 1.0</diffuse>
           <specular>0.0 0.0 0.0 1.0</specular>
           <pbr>
-            <metal/>
+            <metal />
           </pbr>
         </material>
       </visual>
@@ -695,7 +695,7 @@
           <diffuse>1.0 1.0 1.0 1.0</diffuse>
           <specular>0.0 0.0 0.0 1.0</specular>
           <pbr>
-            <metal/>
+            <metal />
           </pbr>
         </material>
       </visual>
@@ -712,7 +712,7 @@
           <diffuse>1.0 1.0 1.0 1.0</diffuse>
           <specular>0.0 0.0 0.0 1.0</specular>
           <pbr>
-            <metal/>
+            <metal />
           </pbr>
         </material>
       </visual>
@@ -729,7 +729,7 @@
           <diffuse>1.0 1.0 1.0 1.0</diffuse>
           <specular>0.0 0.0 0.0 1.0</specular>
           <pbr>
-            <metal/>
+            <metal />
           </pbr>
         </material>
       </visual>
@@ -746,7 +746,7 @@
           <diffuse>1.0 1.0 1.0 1.0</diffuse>
           <specular>0.0 0.0 0.0 1.0</specular>
           <pbr>
-            <metal/>
+            <metal />
           </pbr>
         </material>
       </visual>
@@ -763,7 +763,7 @@
           <diffuse>1.0 1.0 1.0 1.0</diffuse>
           <specular>0.0 0.0 0.0 1.0</specular>
           <pbr>
-            <metal/>
+            <metal />
           </pbr>
         </material>
       </visual>
@@ -780,7 +780,7 @@
           <diffuse>1.0 1.0 1.0 1.0</diffuse>
           <specular>0.0 0.0 0.0 1.0</specular>
           <pbr>
-            <metal/>
+            <metal />
           </pbr>
         </material>
       </visual>
@@ -797,7 +797,7 @@
           <diffuse>1.0 1.0 1.0 1.0</diffuse>
           <specular>0.0 0.0 0.0 1.0</specular>
           <pbr>
-            <metal/>
+            <metal />
           </pbr>
         </material>
       </visual>
@@ -814,7 +814,7 @@
           <diffuse>1.0 1.0 1.0 1.0</diffuse>
           <specular>0.0 0.0 0.0 1.0</specular>
           <pbr>
-            <metal/>
+            <metal />
           </pbr>
         </material>
       </visual>
@@ -831,7 +831,7 @@
           <diffuse>1.0 1.0 1.0 1.0</diffuse>
           <specular>0.0 0.0 0.0 1.0</specular>
           <pbr>
-            <metal/>
+            <metal />
           </pbr>
         </material>
       </visual>
@@ -848,7 +848,7 @@
           <diffuse>1.0 1.0 1.0 1.0</diffuse>
           <specular>0.0 0.0 0.0 1.0</specular>
           <pbr>
-            <metal/>
+            <metal />
           </pbr>
         </material>
       </visual>
@@ -865,7 +865,7 @@
           <diffuse>1.0 1.0 1.0 1.0</diffuse>
           <specular>0.0 0.0 0.0 1.0</specular>
           <pbr>
-            <metal/>
+            <metal />
           </pbr>
         </material>
       </visual>
@@ -882,7 +882,7 @@
           <diffuse>1.0 1.0 1.0 1.0</diffuse>
           <specular>0.0 0.0 0.0 1.0</specular>
           <pbr>
-            <metal/>
+            <metal />
           </pbr>
         </material>
       </visual>
@@ -899,7 +899,7 @@
           <diffuse>1.0 1.0 1.0 1.0</diffuse>
           <specular>0.0 0.0 0.0 1.0</specular>
           <pbr>
-            <metal/>
+            <metal />
           </pbr>
         </material>
       </visual>
@@ -916,7 +916,7 @@
           <diffuse>1.0 1.0 1.0 1.0</diffuse>
           <specular>0.0 0.0 0.0 1.0</specular>
           <pbr>
-            <metal/>
+            <metal />
           </pbr>
         </material>
       </visual>
@@ -933,7 +933,7 @@
           <diffuse>1.0 1.0 1.0 1.0</diffuse>
           <specular>0.0 0.0 0.0 1.0</specular>
           <pbr>
-            <metal/>
+            <metal />
           </pbr>
         </material>
       </visual>
@@ -950,7 +950,7 @@
           <diffuse>1.0 1.0 1.0 1.0</diffuse>
           <specular>0.0 0.0 0.0 1.0</specular>
           <pbr>
-            <metal/>
+            <metal />
           </pbr>
         </material>
       </visual>
@@ -967,7 +967,7 @@
           <diffuse>1.0 1.0 1.0 1.0</diffuse>
           <specular>0.0 0.0 0.0 1.0</specular>
           <pbr>
-            <metal/>
+            <metal />
           </pbr>
         </material>
       </visual>
@@ -984,7 +984,7 @@
           <diffuse>1.0 1.0 1.0 1.0</diffuse>
           <specular>0.0 0.0 0.0 1.0</specular>
           <pbr>
-            <metal/>
+            <metal />
           </pbr>
         </material>
       </visual>
@@ -1001,7 +1001,7 @@
           <diffuse>1.0 1.0 1.0 1.0</diffuse>
           <specular>0.0 0.0 0.0 1.0</specular>
           <pbr>
-            <metal/>
+            <metal />
           </pbr>
         </material>
       </visual>
@@ -1018,7 +1018,7 @@
           <diffuse>1.0 1.0 1.0 1.0</diffuse>
           <specular>0.0 0.0 0.0 1.0</specular>
           <pbr>
-            <metal/>
+            <metal />
           </pbr>
         </material>
       </visual>
@@ -1035,7 +1035,7 @@
           <diffuse>1.0 1.0 1.0 1.0</diffuse>
           <specular>0.0 0.0 0.0 1.0</specular>
           <pbr>
-            <metal/>
+            <metal />
           </pbr>
         </material>
       </visual>
@@ -1052,7 +1052,7 @@
           <diffuse>1.0 1.0 1.0 1.0</diffuse>
           <specular>0.0 0.0 0.0 1.0</specular>
           <pbr>
-            <metal/>
+            <metal />
           </pbr>
         </material>
       </visual>
@@ -1069,7 +1069,7 @@
           <diffuse>1.0 1.0 1.0 1.0</diffuse>
           <specular>0.0 0.0 0.0 1.0</specular>
           <pbr>
-            <metal/>
+            <metal />
           </pbr>
         </material>
       </visual>
@@ -1086,7 +1086,7 @@
           <diffuse>1.0 1.0 1.0 1.0</diffuse>
           <specular>0.0 0.0 0.0 1.0</specular>
           <pbr>
-            <metal/>
+            <metal />
           </pbr>
         </material>
       </visual>
@@ -1103,7 +1103,7 @@
           <diffuse>1.0 1.0 1.0 1.0</diffuse>
           <specular>0.0 0.0 0.0 1.0</specular>
           <pbr>
-            <metal/>
+            <metal />
           </pbr>
         </material>
       </visual>
@@ -1120,7 +1120,7 @@
           <diffuse>1.0 1.0 1.0 1.0</diffuse>
           <specular>0.0 0.0 0.0 1.0</specular>
           <pbr>
-            <metal/>
+            <metal />
           </pbr>
         </material>
       </visual>
@@ -1137,7 +1137,7 @@
           <diffuse>1.0 1.0 1.0 1.0</diffuse>
           <specular>0.0 0.0 0.0 1.0</specular>
           <pbr>
-            <metal/>
+            <metal />
           </pbr>
         </material>
       </visual>
@@ -1154,7 +1154,7 @@
           <diffuse>1.0 1.0 1.0 1.0</diffuse>
           <specular>0.0 0.0 0.0 1.0</specular>
           <pbr>
-            <metal/>
+            <metal />
           </pbr>
         </material>
       </visual>
@@ -1171,7 +1171,7 @@
           <diffuse>1.0 1.0 1.0 1.0</diffuse>
           <specular>0.0 0.0 0.0 1.0</specular>
           <pbr>
-            <metal/>
+            <metal />
           </pbr>
         </material>
       </visual>
@@ -1188,7 +1188,7 @@
           <diffuse>1.0 1.0 1.0 1.0</diffuse>
           <specular>0.0 0.0 0.0 1.0</specular>
           <pbr>
-            <metal/>
+            <metal />
           </pbr>
         </material>
       </visual>
@@ -1205,7 +1205,7 @@
           <diffuse>1.0 1.0 1.0 1.0</diffuse>
           <specular>0.0 0.0 0.0 1.0</specular>
           <pbr>
-            <metal/>
+            <metal />
           </pbr>
         </material>
       </visual>
@@ -1222,7 +1222,7 @@
           <diffuse>1.0 1.0 1.0 1.0</diffuse>
           <specular>0.0 0.0 0.0 1.0</specular>
           <pbr>
-            <metal/>
+            <metal />
           </pbr>
         </material>
       </visual>
@@ -1239,7 +1239,7 @@
           <diffuse>1.0 1.0 1.0 1.0</diffuse>
           <specular>0.0 0.0 0.0 1.0</specular>
           <pbr>
-            <metal/>
+            <metal />
           </pbr>
         </material>
       </visual>
@@ -1256,7 +1256,7 @@
           <diffuse>1.0 1.0 1.0 1.0</diffuse>
           <specular>0.0 0.0 0.0 1.0</specular>
           <pbr>
-            <metal/>
+            <metal />
           </pbr>
         </material>
       </visual>
@@ -1273,7 +1273,7 @@
           <diffuse>1.0 1.0 1.0 1.0</diffuse>
           <specular>0.0 0.0 0.0 1.0</specular>
           <pbr>
-            <metal/>
+            <metal />
           </pbr>
         </material>
       </visual>
@@ -1290,7 +1290,7 @@
           <diffuse>1.0 1.0 1.0 1.0</diffuse>
           <specular>0.0 0.0 0.0 1.0</specular>
           <pbr>
-            <metal/>
+            <metal />
           </pbr>
         </material>
       </visual>
@@ -1307,7 +1307,7 @@
           <diffuse>1.0 1.0 1.0 1.0</diffuse>
           <specular>0.0 0.0 0.0 1.0</specular>
           <pbr>
-            <metal/>
+            <metal />
           </pbr>
         </material>
       </visual>
@@ -1324,7 +1324,7 @@
           <diffuse>1.0 1.0 1.0 1.0</diffuse>
           <specular>0.0 0.0 0.0 1.0</specular>
           <pbr>
-            <metal/>
+            <metal />
           </pbr>
         </material>
       </visual>
@@ -1341,7 +1341,7 @@
           <diffuse>1.0 1.0 1.0 1.0</diffuse>
           <specular>0.0 0.0 0.0 1.0</specular>
           <pbr>
-            <metal/>
+            <metal />
           </pbr>
         </material>
       </visual>
@@ -1358,7 +1358,7 @@
           <diffuse>1.0 1.0 1.0 1.0</diffuse>
           <specular>0.0 0.0 0.0 1.0</specular>
           <pbr>
-            <metal/>
+            <metal />
           </pbr>
         </material>
       </visual>
@@ -1375,7 +1375,7 @@
           <diffuse>1.0 1.0 1.0 1.0</diffuse>
           <specular>0.0 0.0 0.0 1.0</specular>
           <pbr>
-            <metal/>
+            <metal />
           </pbr>
         </material>
       </visual>
@@ -1392,7 +1392,7 @@
           <diffuse>1.0 1.0 1.0 1.0</diffuse>
           <specular>0.0 0.0 0.0 1.0</specular>
           <pbr>
-            <metal/>
+            <metal />
           </pbr>
         </material>
       </visual>
@@ -1409,7 +1409,7 @@
           <diffuse>1.0 1.0 1.0 1.0</diffuse>
           <specular>0.0 0.0 0.0 1.0</specular>
           <pbr>
-            <metal/>
+            <metal />
           </pbr>
         </material>
       </visual>
@@ -1426,7 +1426,7 @@
           <diffuse>1.0 1.0 1.0 1.0</diffuse>
           <specular>0.0 0.0 0.0 1.0</specular>
           <pbr>
-            <metal/>
+            <metal />
           </pbr>
         </material>
       </visual>
@@ -1443,7 +1443,7 @@
           <diffuse>1.0 1.0 1.0 1.0</diffuse>
           <specular>0.0 0.0 0.0 1.0</specular>
           <pbr>
-            <metal/>
+            <metal />
           </pbr>
         </material>
       </visual>
@@ -1460,7 +1460,7 @@
           <diffuse>1.0 1.0 1.0 1.0</diffuse>
           <specular>0.0 0.0 0.0 1.0</specular>
           <pbr>
-            <metal/>
+            <metal />
           </pbr>
         </material>
       </visual>
@@ -1477,7 +1477,7 @@
           <diffuse>1.0 1.0 1.0 1.0</diffuse>
           <specular>0.0 0.0 0.0 1.0</specular>
           <pbr>
-            <metal/>
+            <metal />
           </pbr>
         </material>
       </visual>
@@ -1494,7 +1494,7 @@
           <diffuse>1.0 1.0 1.0 1.0</diffuse>
           <specular>0.0 0.0 0.0 1.0</specular>
           <pbr>
-            <metal/>
+            <metal />
           </pbr>
         </material>
       </visual>
@@ -1511,7 +1511,7 @@
           <diffuse>1.0 1.0 1.0 1.0</diffuse>
           <specular>0.0 0.0 0.0 1.0</specular>
           <pbr>
-            <metal/>
+            <metal />
           </pbr>
         </material>
       </visual>
@@ -1528,7 +1528,7 @@
           <diffuse>1.0 1.0 1.0 1.0</diffuse>
           <specular>0.0 0.0 0.0 1.0</specular>
           <pbr>
-            <metal/>
+            <metal />
           </pbr>
         </material>
       </visual>
@@ -1545,7 +1545,7 @@
           <diffuse>1.0 1.0 1.0 1.0</diffuse>
           <specular>0.0 0.0 0.0 1.0</specular>
           <pbr>
-            <metal/>
+            <metal />
           </pbr>
         </material>
       </visual>
@@ -1562,7 +1562,7 @@
           <diffuse>1.0 1.0 1.0 1.0</diffuse>
           <specular>0.0 0.0 0.0 1.0</specular>
           <pbr>
-            <metal/>
+            <metal />
           </pbr>
         </material>
       </visual>
@@ -1579,7 +1579,7 @@
           <diffuse>1.0 1.0 1.0 1.0</diffuse>
           <specular>0.0 0.0 0.0 1.0</specular>
           <pbr>
-            <metal/>
+            <metal />
           </pbr>
         </material>
       </visual>
@@ -1596,7 +1596,7 @@
           <diffuse>1.0 1.0 1.0 1.0</diffuse>
           <specular>0.0 0.0 0.0 1.0</specular>
           <pbr>
-            <metal/>
+            <metal />
           </pbr>
         </material>
       </visual>
@@ -1613,7 +1613,7 @@
           <diffuse>1.0 1.0 1.0 1.0</diffuse>
           <specular>0.0 0.0 0.0 1.0</specular>
           <pbr>
-            <metal/>
+            <metal />
           </pbr>
         </material>
       </visual>
@@ -1630,7 +1630,7 @@
           <diffuse>1.0 1.0 1.0 1.0</diffuse>
           <specular>0.0 0.0 0.0 1.0</specular>
           <pbr>
-            <metal/>
+            <metal />
           </pbr>
         </material>
       </visual>
@@ -1647,7 +1647,7 @@
           <diffuse>1.0 1.0 1.0 1.0</diffuse>
           <specular>0.0 0.0 0.0 1.0</specular>
           <pbr>
-            <metal/>
+            <metal />
           </pbr>
         </material>
       </visual>
@@ -1664,7 +1664,7 @@
           <diffuse>1.0 1.0 1.0 1.0</diffuse>
           <specular>0.0 0.0 0.0 1.0</specular>
           <pbr>
-            <metal/>
+            <metal />
           </pbr>
         </material>
       </visual>
@@ -1681,7 +1681,7 @@
           <diffuse>1.0 1.0 1.0 1.0</diffuse>
           <specular>0.0 0.0 0.0 1.0</specular>
           <pbr>
-            <metal/>
+            <metal />
           </pbr>
         </material>
       </visual>
@@ -1698,7 +1698,7 @@
           <diffuse>1.0 1.0 1.0 1.0</diffuse>
           <specular>0.0 0.0 0.0 1.0</specular>
           <pbr>
-            <metal/>
+            <metal />
           </pbr>
         </material>
       </visual>
@@ -1715,7 +1715,7 @@
           <diffuse>1.0 1.0 1.0 1.0</diffuse>
           <specular>0.0 0.0 0.0 1.0</specular>
           <pbr>
-            <metal/>
+            <metal />
           </pbr>
         </material>
       </visual>
@@ -1732,7 +1732,7 @@
           <diffuse>1.0 1.0 1.0 1.0</diffuse>
           <specular>0.0 0.0 0.0 1.0</specular>
           <pbr>
-            <metal/>
+            <metal />
           </pbr>
         </material>
       </visual>
@@ -1749,7 +1749,7 @@
           <diffuse>1.0 1.0 1.0 1.0</diffuse>
           <specular>0.0 0.0 0.0 1.0</specular>
           <pbr>
-            <metal/>
+            <metal />
           </pbr>
         </material>
       </visual>
@@ -1766,7 +1766,7 @@
           <diffuse>1.0 1.0 1.0 1.0</diffuse>
           <specular>0.0 0.0 0.0 1.0</specular>
           <pbr>
-            <metal/>
+            <metal />
           </pbr>
         </material>
       </visual>
@@ -1783,7 +1783,7 @@
           <diffuse>1.0 1.0 1.0 1.0</diffuse>
           <specular>0.0 0.0 0.0 1.0</specular>
           <pbr>
-            <metal/>
+            <metal />
           </pbr>
         </material>
       </visual>
@@ -1800,7 +1800,7 @@
           <diffuse>1.0 1.0 1.0 1.0</diffuse>
           <specular>0.0 0.0 0.0 1.0</specular>
           <pbr>
-            <metal/>
+            <metal />
           </pbr>
         </material>
       </visual>
@@ -1817,7 +1817,7 @@
           <diffuse>1.0 1.0 1.0 1.0</diffuse>
           <specular>0.0 0.0 0.0 1.0</specular>
           <pbr>
-            <metal/>
+            <metal />
           </pbr>
         </material>
       </visual>
@@ -1834,7 +1834,7 @@
           <diffuse>1.0 1.0 1.0 1.0</diffuse>
           <specular>0.0 0.0 0.0 1.0</specular>
           <pbr>
-            <metal/>
+            <metal />
           </pbr>
         </material>
       </visual>
@@ -1851,7 +1851,7 @@
           <diffuse>1.0 1.0 1.0 1.0</diffuse>
           <specular>0.0 0.0 0.0 1.0</specular>
           <pbr>
-            <metal/>
+            <metal />
           </pbr>
         </material>
       </visual>
@@ -1868,7 +1868,7 @@
           <diffuse>1.0 1.0 1.0 1.0</diffuse>
           <specular>0.0 0.0 0.0 1.0</specular>
           <pbr>
-            <metal/>
+            <metal />
           </pbr>
         </material>
       </visual>
@@ -1885,7 +1885,7 @@
           <diffuse>1.0 1.0 1.0 1.0</diffuse>
           <specular>0.0 0.0 0.0 1.0</specular>
           <pbr>
-            <metal/>
+            <metal />
           </pbr>
         </material>
       </visual>
@@ -1902,7 +1902,7 @@
           <diffuse>1.0 1.0 1.0 1.0</diffuse>
           <specular>0.0 0.0 0.0 1.0</specular>
           <pbr>
-            <metal/>
+            <metal />
           </pbr>
         </material>
       </visual>
@@ -1919,7 +1919,7 @@
           <diffuse>1.0 1.0 1.0 1.0</diffuse>
           <specular>0.0 0.0 0.0 1.0</specular>
           <pbr>
-            <metal/>
+            <metal />
           </pbr>
         </material>
       </visual>
@@ -1936,7 +1936,7 @@
           <diffuse>1.0 1.0 1.0 1.0</diffuse>
           <specular>0.0 0.0 0.0 1.0</specular>
           <pbr>
-            <metal/>
+            <metal />
           </pbr>
         </material>
       </visual>
@@ -1953,7 +1953,7 @@
           <diffuse>1.0 1.0 1.0 1.0</diffuse>
           <specular>0.0 0.0 0.0 1.0</specular>
           <pbr>
-            <metal/>
+            <metal />
           </pbr>
         </material>
       </visual>
@@ -1970,7 +1970,7 @@
           <diffuse>1.0 1.0 1.0 1.0</diffuse>
           <specular>0.0 0.0 0.0 1.0</specular>
           <pbr>
-            <metal/>
+            <metal />
           </pbr>
         </material>
       </visual>
@@ -1987,7 +1987,7 @@
           <diffuse>1.0 1.0 1.0 1.0</diffuse>
           <specular>0.0 0.0 0.0 1.0</specular>
           <pbr>
-            <metal/>
+            <metal />
           </pbr>
         </material>
       </visual>
@@ -2004,7 +2004,7 @@
           <diffuse>1.0 1.0 1.0 1.0</diffuse>
           <specular>0.0 0.0 0.0 1.0</specular>
           <pbr>
-            <metal/>
+            <metal />
           </pbr>
         </material>
       </visual>
@@ -2021,7 +2021,7 @@
           <diffuse>1.0 1.0 1.0 1.0</diffuse>
           <specular>0.0 0.0 0.0 1.0</specular>
           <pbr>
-            <metal/>
+            <metal />
           </pbr>
         </material>
       </visual>
@@ -2038,7 +2038,7 @@
           <diffuse>1.0 1.0 1.0 1.0</diffuse>
           <specular>0.0 0.0 0.0 1.0</specular>
           <pbr>
-            <metal/>
+            <metal />
           </pbr>
         </material>
       </visual>
@@ -2055,7 +2055,7 @@
           <diffuse>1.0 1.0 1.0 1.0</diffuse>
           <specular>0.0 0.0 0.0 1.0</specular>
           <pbr>
-            <metal/>
+            <metal />
           </pbr>
         </material>
       </visual>
@@ -2072,7 +2072,7 @@
           <diffuse>1.0 1.0 1.0 1.0</diffuse>
           <specular>0.0 0.0 0.0 1.0</specular>
           <pbr>
-            <metal/>
+            <metal />
           </pbr>
         </material>
       </visual>
@@ -2089,7 +2089,7 @@
           <diffuse>1.0 1.0 1.0 1.0</diffuse>
           <specular>0.0 0.0 0.0 1.0</specular>
           <pbr>
-            <metal/>
+            <metal />
           </pbr>
         </material>
       </visual>
@@ -2106,7 +2106,7 @@
           <diffuse>1.0 1.0 1.0 1.0</diffuse>
           <specular>0.0 0.0 0.0 1.0</specular>
           <pbr>
-            <metal/>
+            <metal />
           </pbr>
         </material>
       </visual>
@@ -2123,7 +2123,7 @@
           <diffuse>1.0 1.0 1.0 1.0</diffuse>
           <specular>0.0 0.0 0.0 1.0</specular>
           <pbr>
-            <metal/>
+            <metal />
           </pbr>
         </material>
       </visual>
@@ -2140,7 +2140,7 @@
           <diffuse>1.0 1.0 1.0 1.0</diffuse>
           <specular>0.0 0.0 0.0 1.0</specular>
           <pbr>
-            <metal/>
+            <metal />
           </pbr>
         </material>
       </visual>
@@ -2157,7 +2157,7 @@
           <diffuse>1.0 1.0 1.0 1.0</diffuse>
           <specular>0.0 0.0 0.0 1.0</specular>
           <pbr>
-            <metal/>
+            <metal />
           </pbr>
         </material>
       </visual>
@@ -2174,7 +2174,7 @@
           <diffuse>1.0 1.0 1.0 1.0</diffuse>
           <specular>0.0 0.0 0.0 1.0</specular>
           <pbr>
-            <metal/>
+            <metal />
           </pbr>
         </material>
       </visual>
@@ -2191,7 +2191,7 @@
           <diffuse>1.0 1.0 1.0 1.0</diffuse>
           <specular>0.0 0.0 0.0 1.0</specular>
           <pbr>
-            <metal/>
+            <metal />
           </pbr>
         </material>
       </visual>
@@ -2208,7 +2208,7 @@
           <diffuse>1.0 1.0 1.0 1.0</diffuse>
           <specular>0.0 0.0 0.0 1.0</specular>
           <pbr>
-            <metal/>
+            <metal />
           </pbr>
         </material>
       </visual>
@@ -2225,7 +2225,7 @@
           <diffuse>1.0 1.0 1.0 1.0</diffuse>
           <specular>0.0 0.0 0.0 1.0</specular>
           <pbr>
-            <metal/>
+            <metal />
           </pbr>
         </material>
       </visual>
@@ -2242,7 +2242,7 @@
           <diffuse>1.0 1.0 1.0 1.0</diffuse>
           <specular>0.0 0.0 0.0 1.0</specular>
           <pbr>
-            <metal/>
+            <metal />
           </pbr>
         </material>
       </visual>
@@ -2259,7 +2259,7 @@
           <diffuse>1.0 1.0 1.0 1.0</diffuse>
           <specular>0.0 0.0 0.0 1.0</specular>
           <pbr>
-            <metal/>
+            <metal />
           </pbr>
         </material>
       </visual>
@@ -2276,7 +2276,7 @@
           <diffuse>1.0 1.0 1.0 1.0</diffuse>
           <specular>0.0 0.0 0.0 1.0</specular>
           <pbr>
-            <metal/>
+            <metal />
           </pbr>
         </material>
       </visual>
@@ -2293,7 +2293,7 @@
           <diffuse>1.0 1.0 1.0 1.0</diffuse>
           <specular>0.0 0.0 0.0 1.0</specular>
           <pbr>
-            <metal/>
+            <metal />
           </pbr>
         </material>
       </visual>
@@ -2310,7 +2310,7 @@
           <diffuse>1.0 1.0 1.0 1.0</diffuse>
           <specular>0.0 0.0 0.0 1.0</specular>
           <pbr>
-            <metal/>
+            <metal />
           </pbr>
         </material>
       </visual>
@@ -2327,7 +2327,7 @@
           <diffuse>1.0 1.0 1.0 1.0</diffuse>
           <specular>0.0 0.0 0.0 1.0</specular>
           <pbr>
-            <metal/>
+            <metal />
           </pbr>
         </material>
       </visual>
@@ -2344,7 +2344,7 @@
           <diffuse>1.0 1.0 1.0 1.0</diffuse>
           <specular>0.0 0.0 0.0 1.0</specular>
           <pbr>
-            <metal/>
+            <metal />
           </pbr>
         </material>
       </visual>
@@ -2361,7 +2361,7 @@
           <diffuse>1.0 1.0 1.0 1.0</diffuse>
           <specular>0.0 0.0 0.0 1.0</specular>
           <pbr>
-            <metal/>
+            <metal />
           </pbr>
         </material>
       </visual>
@@ -2378,7 +2378,7 @@
           <diffuse>1.0 1.0 1.0 1.0</diffuse>
           <specular>0.0 0.0 0.0 1.0</specular>
           <pbr>
-            <metal/>
+            <metal />
           </pbr>
         </material>
       </visual>
@@ -2395,7 +2395,7 @@
           <diffuse>1.0 1.0 1.0 1.0</diffuse>
           <specular>0.0 0.0 0.0 1.0</specular>
           <pbr>
-            <metal/>
+            <metal />
           </pbr>
         </material>
       </visual>
@@ -2412,7 +2412,7 @@
           <diffuse>1.0 1.0 1.0 1.0</diffuse>
           <specular>0.0 0.0 0.0 1.0</specular>
           <pbr>
-            <metal/>
+            <metal />
           </pbr>
         </material>
       </visual>
@@ -2429,7 +2429,7 @@
           <diffuse>1.0 1.0 1.0 1.0</diffuse>
           <specular>0.0 0.0 0.0 1.0</specular>
           <pbr>
-            <metal/>
+            <metal />
           </pbr>
         </material>
       </visual>
@@ -2446,7 +2446,7 @@
           <diffuse>1.0 1.0 1.0 1.0</diffuse>
           <specular>0.0 0.0 0.0 1.0</specular>
           <pbr>
-            <metal/>
+            <metal />
           </pbr>
         </material>
       </visual>
@@ -2463,7 +2463,7 @@
           <diffuse>1.0 1.0 1.0 1.0</diffuse>
           <specular>0.0 0.0 0.0 1.0</specular>
           <pbr>
-            <metal/>
+            <metal />
           </pbr>
         </material>
       </visual>
@@ -2480,7 +2480,7 @@
           <diffuse>1.0 1.0 1.0 1.0</diffuse>
           <specular>0.0 0.0 0.0 1.0</specular>
           <pbr>
-            <metal/>
+            <metal />
           </pbr>
         </material>
       </visual>
@@ -2497,7 +2497,7 @@
           <diffuse>1.0 1.0 1.0 1.0</diffuse>
           <specular>0.0 0.0 0.0 1.0</specular>
           <pbr>
-            <metal/>
+            <metal />
           </pbr>
         </material>
       </visual>
@@ -2514,7 +2514,7 @@
           <diffuse>1.0 1.0 1.0 1.0</diffuse>
           <specular>0.0 0.0 0.0 1.0</specular>
           <pbr>
-            <metal/>
+            <metal />
           </pbr>
         </material>
       </visual>
@@ -2531,7 +2531,7 @@
           <diffuse>1.0 1.0 1.0 1.0</diffuse>
           <specular>0.0 0.0 0.0 1.0</specular>
           <pbr>
-            <metal/>
+            <metal />
           </pbr>
         </material>
       </visual>
@@ -2548,7 +2548,7 @@
           <diffuse>1.0 1.0 1.0 1.0</diffuse>
           <specular>0.0 0.0 0.0 1.0</specular>
           <pbr>
-            <metal/>
+            <metal />
           </pbr>
         </material>
       </visual>
@@ -2565,7 +2565,7 @@
           <diffuse>1.0 1.0 1.0 1.0</diffuse>
           <specular>0.0 0.0 0.0 1.0</specular>
           <pbr>
-            <metal/>
+            <metal />
           </pbr>
         </material>
       </visual>
@@ -2582,7 +2582,7 @@
           <diffuse>1.0 1.0 1.0 1.0</diffuse>
           <specular>0.0 0.0 0.0 1.0</specular>
           <pbr>
-            <metal/>
+            <metal />
           </pbr>
         </material>
       </visual>
@@ -2599,7 +2599,7 @@
           <diffuse>1.0 1.0 1.0 1.0</diffuse>
           <specular>0.0 0.0 0.0 1.0</specular>
           <pbr>
-            <metal/>
+            <metal />
           </pbr>
         </material>
       </visual>
@@ -2616,7 +2616,7 @@
           <diffuse>1.0 1.0 1.0 1.0</diffuse>
           <specular>0.0 0.0 0.0 1.0</specular>
           <pbr>
-            <metal/>
+            <metal />
           </pbr>
         </material>
       </visual>
@@ -2633,7 +2633,7 @@
           <diffuse>1.0 1.0 1.0 1.0</diffuse>
           <specular>0.0 0.0 0.0 1.0</specular>
           <pbr>
-            <metal/>
+            <metal />
           </pbr>
         </material>
       </visual>
@@ -2650,7 +2650,7 @@
           <diffuse>1.0 1.0 1.0 1.0</diffuse>
           <specular>0.0 0.0 0.0 1.0</specular>
           <pbr>
-            <metal/>
+            <metal />
           </pbr>
         </material>
       </visual>
@@ -2667,7 +2667,7 @@
           <diffuse>1.0 1.0 1.0 1.0</diffuse>
           <specular>0.0 0.0 0.0 1.0</specular>
           <pbr>
-            <metal/>
+            <metal />
           </pbr>
         </material>
       </visual>
@@ -2684,7 +2684,7 @@
           <diffuse>1.0 1.0 1.0 1.0</diffuse>
           <specular>0.0 0.0 0.0 1.0</specular>
           <pbr>
-            <metal/>
+            <metal />
           </pbr>
         </material>
       </visual>
@@ -2701,7 +2701,7 @@
           <diffuse>1.0 1.0 1.0 1.0</diffuse>
           <specular>0.0 0.0 0.0 1.0</specular>
           <pbr>
-            <metal/>
+            <metal />
           </pbr>
         </material>
       </visual>
@@ -2718,7 +2718,7 @@
           <diffuse>1.0 1.0 1.0 1.0</diffuse>
           <specular>0.0 0.0 0.0 1.0</specular>
           <pbr>
-            <metal/>
+            <metal />
           </pbr>
         </material>
       </visual>
@@ -2735,7 +2735,7 @@
           <diffuse>1.0 1.0 1.0 1.0</diffuse>
           <specular>0.0 0.0 0.0 1.0</specular>
           <pbr>
-            <metal/>
+            <metal />
           </pbr>
         </material>
       </visual>
@@ -2752,7 +2752,7 @@
           <diffuse>1.0 1.0 1.0 1.0</diffuse>
           <specular>0.0 0.0 0.0 1.0</specular>
           <pbr>
-            <metal/>
+            <metal />
           </pbr>
         </material>
       </visual>
@@ -2769,7 +2769,7 @@
           <diffuse>1.0 1.0 1.0 1.0</diffuse>
           <specular>0.0 0.0 0.0 1.0</specular>
           <pbr>
-            <metal/>
+            <metal />
           </pbr>
         </material>
       </visual>
@@ -2786,7 +2786,7 @@
           <diffuse>1.0 1.0 1.0 1.0</diffuse>
           <specular>0.0 0.0 0.0 1.0</specular>
           <pbr>
-            <metal/>
+            <metal />
           </pbr>
         </material>
       </visual>
@@ -2803,7 +2803,7 @@
           <diffuse>1.0 1.0 1.0 1.0</diffuse>
           <specular>0.0 0.0 0.0 1.0</specular>
           <pbr>
-            <metal/>
+            <metal />
           </pbr>
         </material>
       </visual>
@@ -2820,7 +2820,7 @@
           <diffuse>1.0 1.0 1.0 1.0</diffuse>
           <specular>0.0 0.0 0.0 1.0</specular>
           <pbr>
-            <metal/>
+            <metal />
           </pbr>
         </material>
       </visual>
@@ -2830,9 +2830,9 @@
             <uri>model.dae</uri>
           </mesh>
         </geometry>
-        <surface/>
+        <surface />
       </collision>
     </link>
+    <static>true</static>
   </model>
-  <static>true</static>
 </sdf>
