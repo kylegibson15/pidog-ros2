@@ -2831,8 +2831,9 @@
           </mesh>
         </geometry>
         <surface/>
-        <contact/>
-        <collide_bitmask>0x01</collide_bitmask>
+        <contact>
+          <collide_bitmask>0x01</collide_bitmask>
+        </contact>
       </collision>
     </link>
   </model>
